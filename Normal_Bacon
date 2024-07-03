@@ -1,0 +1,33 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Mega Princess Tycoon [ðŸŒŸ]", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Inf Money"
+})
+
+OrionLib:MakeNotification({
+	Name = "Script By Normal_Bacon",
+	Content = "Enjoy My Script",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+Tab:AddButton({
+	Name = "Give Money[ðŸ’µ]",
+	Callback = function()
+      		local args = {
+    [1] = 99e99
+}
+
+game:GetService("ReplicatedStorage").Honeypot.Internal.RemoteStorage:FindFirstChild("GiveLuckyBlockReward - RemoteEvent"):FireServer(unpack(args))
+
+  	end    
+})
+
+OrionLib:Init()
