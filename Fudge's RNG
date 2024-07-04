@@ -13,6 +13,18 @@ while wait(2) do
 end
 end)
 
+tab1:CreateButton("Inf Omega Box", function()
+while wait() do
+   game:GetService("ReplicatedStorage").remotes.shop_Purchase:FireServer("Omega")
+end
+end)
+
+tab1:CreateButton("Auto Open Omega", function()
+while wait() do
+   game:GetService("ReplicatedStorage").remotes.shop_Use:FireServer("Omega")
+end
+end)
+
 tab1:CreateWarning("Script Free!!")
 tab1:CreateButton("Infinity Yield", function()
  loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
