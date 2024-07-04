@@ -1,0 +1,19 @@
+local PabloLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/PabloLibV3/main/PabloLibV3"))()
+local window = PabloLib:Create(
+"Fudge's RNG [🔥EQUIPPING🌀]", -- Name here.
+"Enabled", -- If you want draggable set here to "Enabled" if you dont want set to "Disabled".
+"p" -- You can put any keybind here to open close.
+)
+
+local tab1 = window:CreateTab("Main")
+tab1:CreateWarning("Owner By Normal_Bacon")
+tab1:CreateButton("Auto Random", function()
+while wait(2) do
+   game:GetService("ReplicatedStorage").remotes.spin:FireServer()
+end
+end)
+
+tab1:CreateWarning("Script Free!!")
+tab1:CreateButton("Infinity Yield", function()
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
