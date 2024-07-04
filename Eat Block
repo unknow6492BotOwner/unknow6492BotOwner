@@ -8,7 +8,7 @@ local window = PabloLib:Create(
 ---Tabs---
 
 local tab1 = window:CreateTab("Owner")
-tab1:CreateWarning("Script By Normal_Bacon")
+tab1:CreateWarning("Script By Normal_Bacon#9172")
 tab1:CreateInfo("Version 1")
 tab1:CreateInfo("Enjoy My Script")
 
