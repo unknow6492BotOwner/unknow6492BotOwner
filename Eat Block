@@ -1,0 +1,45 @@
+local PabloLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/PabloLibV3/main/PabloLibV3"))()
+local window = PabloLib:Create(
+"Block Eaters [OP]", -- Name here.
+"Enabled", -- If you want draggable set here to "Enabled" if you dont want set to "Disabled".
+"p" -- You can put any keybind here to open close.
+)
+
+---Tabs---
+
+local tab1 = window:CreateTab("Owner")
+tab1:CreateWarning("Script By Normal_Bacon")
+tab1:CreateInfo("Version 1")
+tab1:CreateInfo("Enjoy My Script")
+
+local tab1 = window:CreateTab("Main")
+tab1:CreateInfo("OP")
+tab1:CreateTextbox("Give Size", function(a)
+game:GetService("ReplicatedStorage").Honeypot.Internal.RemoteStorage["AwardSpinSize - RemoteEvent"]:FireServer(a)
+end)
+
+tab1:CreateButton("Equip [Skin Perm]", function()
+game:GetService("ReplicatedStorage").Honeypot.Internal.RemoteStorage["EquipSkin - RemoteEvent"]:FireServer(46)
+end)
+
+local tab1 = window:CreateTab("Speed")
+tab1:CreateTextbox("Speed Set", function(a)
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = a
+end)
+
+tab1:CreateTextbox("Jumppower Set", function(a)
+game.Players.LocalPlayer.Character.Humanoid.JumpPower= a
+end)
+
+tab1:CreateLabel("Admin Cmds")
+
+tab1:CreateButton("Infinity Yield", function()
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+ end)
+ 
+ tab1:CreateButton("Nameless Admin", function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Nameless-Admin-no-byfron-ui-11288"))()
+end)
+
+local tab1 = window:CreateTab("Settings")
+tab1:CreateInfo("There's nothing here.")
