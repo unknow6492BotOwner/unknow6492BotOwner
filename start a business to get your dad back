@@ -6,7 +6,7 @@ local window = PabloLib:Create(
 )
 
 local tab1 = window:CreateTab("Main")
-tab1:CreateWarning("Owner By Normal_Bacon")
+tab1:CreateWarning("Owner By Normal_Bacon#9172")
 
 tab1:CreateTextbox("Give Money!!", function(a)
 game:GetService("ReplicatedStorage").Events.ChangeStat:FireServer("leaderstats","Cash",a)
