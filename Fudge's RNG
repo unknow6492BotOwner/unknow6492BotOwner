@@ -15,8 +15,11 @@ end)
 
 tab1:CreateButton("Inf Omega Box", function()
 while wait() do
-   game:GetService("ReplicatedStorage").remotes.shop_Purchase:FireServer("Omega")
-end
+   local args = {
+    [1] = "Omega"
+}
+
+game:GetService("ReplicatedStorage").remotes.shop_Purchase:FireServer(unpack(args))
 end)
 
 tab1:CreateButton("Auto Open Omega", function()
