@@ -1,0 +1,47 @@
+local PabloLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/PabloLibV3/main/PabloLibV3"))()
+local window = PabloLib:Create(
+"[⏳]RNG Fights", -- Name here.
+"Enabled", -- If you want draggable set here to "Enabled" if you dont want set to "Disabled".
+"p" -- You can put any keybind here to open close.
+) 
+
+--Tabs--
+local tab1 = window:CreateTab("Main Menu[⏳]")
+tab1:CreateLabel("Owner By Normal_Bacon")
+tab1:CreateWarning("[ Version 1.0.0 ]")
+tab1:CreateButton("Auto Random", function()
+while wait() do
+   game:GetService("ReplicatedStorage").EventsFolder.GenerateAttack:FireServer("Players","Random")
+end
+end)
+
+tab1:CreateButton("No Cooldown", function()
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local GameFolder = ReplicatedStorage:WaitForChild("GameFolder")
+local RollCooldown = GameFolder:WaitForChild("RollCooldown")
+RollCooldown.Value = 0.00000000001
+end)
+
+tab1:CreateWarning("LocalPlayer")
+
+tab1:CreateTextbox("WalkSpeed", function(a)
+while wait() do
+   game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = a
+end
+end)
+
+tab1:CreateTextbox("JumpPower", function(a)
+while wait() do
+   game.Players.LocalPlayer.Character.Humanoid.JumpPower = a
+end
+end)
+
+tab1:CreateWarning("!!Script Free!!")
+
+tab1:CreateButton("Main Menu", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SkibidiCen/MainMenu/main/Code"))()
+end)
+
+tab1:CreateButton("Script RNG Fights", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Cajshisjs/Scripts/main/yes"))()
+end)
