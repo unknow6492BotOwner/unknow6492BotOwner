@@ -12,7 +12,7 @@ local Section = Tab:AddSection({
 })
 
 OrionLib:MakeNotification({
-	Name = "Script By Normal_Bacon",
+	Name = "Script By Normal_Bacon#9172",
 	Content = "Enjoy My Script",
 	Image = "rbxassetid://4483345998",
 	Time = 5
