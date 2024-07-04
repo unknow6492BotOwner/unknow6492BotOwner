@@ -1,0 +1,74 @@
+local PabloLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/PabloLibV3/main/PabloLibV3"))()
+local window = PabloLib:Create(
+"🐔King of The Hill 👑🏝️💀", -- Name here.
+"Enabled", -- If you want draggable set here to "Enabled" if you dont want set to "Disabled".
+"p" -- You can put any keybind here to open close.
+)
+
+local tab1 = window:CreateTab("Main")
+tab1:CreateWarning("Owner By Normal_Bacon#9127")
+tab1:CreateButton("ForceField ( Use in safe zone for Work )", function()
+Oldnamecall = hookmetamethod(game, "__namecall", function(self, ...)
+	local args = {...}
+
+	if getnamecallmethod() == "FireServer" and self.Name == "I111IlI111l1" then
+		args[1] = "create"
+	end
+	return Oldnamecall(self, unpack(args))
+end)
+end)
+
+tab1:CreateButton("God Sword and Inf Chicken", function()
+local args = {
+   [1] = "God Sword",
+   [2] = -9e9
+}
+
+game:GetService("ReplicatedStorage").Events.purchaseWeapon:InvokeServer(unpack(args))
+end)
+
+tab1:CreateButton("Free Buy All", function()
+Oldnamecall = hookmetamethod(game, "__namecall", function(self, ...)
+	local args = {...}
+
+	if getnamecallmethod() == "InvokeServer" and self.Name == "purchaseWeapon" or self.Name == "purchaseArmor" or self.Name == "purchaseBoats" then
+		args[2] = 0
+	end
+	return Oldnamecall(self, unpack(args))
+end)
+end)
+
+tab1:CreateButton("invisible armor (Permanent)", function()
+game:GetService("ReplicatedStorage").Events.purchaseArmor:InvokeServer("nil",0)
+end)
+
+tab1:CreateButton("Kill All", function()
+game:GetService("ReplicatedStorage").Events.purchaseWeapon:InvokeServer("Magicka Crossbow", 0)
+
+while wait (0) do local plrs = game:GetService("Players")
+local rs = game:GetService("ReplicatedStorage")
+
+local function applyActionToPlayer(plr)
+    local args = {
+        [1] = plr.Character.Humanoid,
+        [2] = 111,
+        [3] = 300
+    }
+    
+    rs:WaitForChild("Events"):WaitForChild("Ill1IlI111l1"):FireServer(unpack(args))
+end
+local lp = plrs.LocalPlayer
+for _, plr in ipairs(plrs:GetPlayers()) do
+    if plr ~= lp then
+        applyActionToPlayer(plr)
+    end
+end
+end
+
+
+end)
+
+tab1:CreateWarning("Script Free!!")
+tab1:CreateButton("Infinity Yield", function()
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
