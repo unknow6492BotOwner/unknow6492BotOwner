@@ -42,6 +42,10 @@ tab1:CreateButton("Main Menu", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SkibidiCen/MainMenu/main/Code"))()
 end)
 
+tab1:CreateButton("Infinity yield", function()
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
 tab1:CreateButton("Script RNG Fights", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Cajshisjs/Scripts/main/yes"))()
 end)
