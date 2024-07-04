@@ -20,6 +20,7 @@ while wait() do
 }
 
 game:GetService("ReplicatedStorage").remotes.shop_Purchase:FireServer(unpack(args))
+end
 end)
 
 tab1:CreateButton("Auto Open Omega", function()
