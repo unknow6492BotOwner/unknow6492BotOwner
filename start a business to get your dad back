@@ -1,0 +1,30 @@
+local PabloLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/PabloLibV3/main/PabloLibV3"))()
+local window = PabloLib:Create(
+"start a business to get your dad back", -- Name here.
+"Enabled", -- If you want draggable set here to "Enabled" if you dont want set to "Disabled".
+"p" -- You can put any keybind here to open close.
+)
+
+local tab1 = window:CreateTab("Main")
+tab1:CreateWarning("Owner By Normal_Bacon")
+
+tab1:CreateTextbox("Give Money!!", function(a)
+game:GetService("ReplicatedStorage").Events.ChangeStat:FireServer("leaderstats","Cash",a)
+end)
+
+tab1:CreateTextbox("WalkSpeed", function(a)
+while wait() do
+   game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = a
+end
+end)
+
+tab1:CreateTextbox("JumpPower", function(a)
+while wait() do
+   game.Players.LocalPlayer.Character.Humanoid.JumpPower = a
+end
+end)
+
+tab1:CreateInfo("Script Free!!")
+tab1:CreateButton("Infinity yield", function()
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
