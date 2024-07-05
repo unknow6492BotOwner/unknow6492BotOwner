@@ -1,0 +1,61 @@
+local PabloLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/PabloLibV3/main/PabloLibV3"))()
+local window = PabloLib:Create(
+"[⏳] Script Main [Beta] [⏳]", -- Name here.
+"Enabled", -- If you want draggable set here to "Enabled" if you dont want set to "Disabled".
+"p" -- You can put any keybind here to open close.
+)
+
+local tab1 = window:CreateTab("My Script#0005")
+tab1:CreateWarning("Owner By Normal_Bacon#9172")
+tab1:CreateInfo("Beta[Version 1.0.0]")
+tab1:CreateLabel("↓↓↓ Update Log ↓↓↓")
+tab1:CreateLabel("-Fudge's RNG Script")
+
+tab1:CreateButton("RNG Fights", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/RNG%20Fights"))()
+end)
+
+tab1:CreateButton("King Of The Hill", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/King%20of%20The%20Hill"))()
+end)
+
+tab1:CreateButton("start a business to get your dad back", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/start%20a%20business%20to%20get%20your%20dad%20back"))()
+end)
+
+tab1:CreateButton("Block Eaters", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Eat%20Block"))()
+end)
+
+tab1:CreateButton("Fudge's RNG [NEW]", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Fudge's%20RNG"))()
+end)
+
+local tab1 = window:CreateTab("Others Script#0006")
+tab1:CreateWarning("Beta Script?!")
+
+tab1:CreateButton("Infinity yield", function()
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+tab1:CreateButton("Dex [Key]", function()
+local __function = loadstring(game:HttpGet("https://github.com/Hosvile/DEX-Explorer/releases/latest/download/main.lua", true))
+
+__function(__function)
+end)
+
+tab1:CreateButton("Blox Fruit [Find Fruit]", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Aquoupi/BloxFruits/main/FruitFinder"))()
+end)
+
+tab1:CreateButton("Fling Player", function()
+loadstring(game:HttpGet("https://paste.ee/r/NTtmf", true))()
+end)
+
+tab1:CreateButton("Slap battles", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Slap_Battles/main/Slap_Battles.lua"))()
+end)
+
+tab1:CreateButton("Fram Bob [Slap Battles]", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Aquoupi/DestroyerX/main/UltraBobFarm.lua"))()
+end)
