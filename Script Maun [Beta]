@@ -1,6 +1,6 @@
 local PabloLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/PabloLibV3/main/PabloLibV3"))()
 local window = PabloLib:Create(
-"[⏳] Script Main [Beta] [⏳]", -- Name here.
+"[⏳] Script Main [⏳]", -- Name here.
 "Enabled", -- If you want draggable set here to "Enabled" if you dont want set to "Disabled".
 "p" -- You can put any keybind here to open close.
 )
@@ -58,4 +58,15 @@ end)
 
 tab1:CreateButton("Fram Bob [Slap Battles]", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Aquoupi/DestroyerX/main/UltraBobFarm.lua"))()
+end)
+
+local tab1 = window:CreateTab("Special")
+tab1:CreateWarning("Beta [Ver 1]")
+
+tab1:CreateButton("Spy GUI", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Spy"))()
+end)
+
+tab1:CreateButton("SimpleSpy[Version Mobile]", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RS/main/SimpleSpyMobile"))()
 end)
