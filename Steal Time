@@ -294,4 +294,10 @@ end)
 
 end)
 
+Tab:CreateTextbox("WalkSpeed", function(text)
+
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = text
+
+end)
+
 local Tab = Window:NewSection("Script By Normal_Bacon#9172")
