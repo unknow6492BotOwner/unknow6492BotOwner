@@ -19,7 +19,7 @@ local window = PabloLib:Create(
 
 local tab1 = window:CreateTab("My Script#0009")
 tab1:CreateWarning("Owner By Normal_Bacon#9172")
-tab1:CreateInfo("Beta[Version 1.0.3]")
+tab1:CreateInfo("Beta[Version 1.0.5)")
 tab1:CreateLabel("↓↓↓ Update Log ↓↓↓")
 tab1:CreateLabel("-Horror RNG Script -Punch Suff Tycoon")
 
