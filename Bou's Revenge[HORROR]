@@ -201,7 +201,7 @@ game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolde
 wait(0.2)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.TurkeyLeg.Part,true)
 wait(0.1)
-game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.gamefolder.Side.TurkeyLeg.part,false)
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.Gamefolder.Side.TurkeyLeg.Part,false)
 wait(0.2)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side["Spider House"].Pizza_Box.MeshPart,true)
 wait(0.1)
