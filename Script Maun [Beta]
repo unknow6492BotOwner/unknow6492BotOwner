@@ -5,9 +5,9 @@ local window = PabloLib:Create(
 "p" -- You can put any keybind here to open close.
 )
 
-local tab1 = window:CreateTab("My Script#0007")
+local tab1 = window:CreateTab("My Script#0008")
 tab1:CreateWarning("Owner By Normal_Bacon#9172")
-tab1:CreateInfo("Beta[Version 1.0.2]")
+tab1:CreateInfo("Beta[Version 1.0.3]")
 tab1:CreateLabel("↓↓↓ Update Log ↓↓↓")
 tab1:CreateLabel("-Horror RNG Script -Punch Suff Tycoon")
 
@@ -31,12 +31,16 @@ tab1:CreateButton("Fudge's RNG", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Fudge's%20RNG"))()
 end)
 
-tab1:CreateButton("Horror RNG [NEW]", function()
+tab1:CreateButton("Horror RNG", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Horror%20RNG"))()
 end)
 
-tab1:CreateButton("Punch Suff Tycoon [NEW]", function()
+tab1:CreateButton("Punch Suff Tycoon", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Punch%20Stuff%20Tycoon"))()
+end)
+
+tab1:CreateButton("Bou's Revenge[HORROR] [NEW]", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Bou's%20Revenge%5BHORROR%5D"))()
 end)
 
 local tab1 = window:CreateTab("Others Script#0007")
@@ -68,7 +72,7 @@ tab1:CreateButton("Fram Bob [Slap Battles]", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Aquoupi/DestroyerX/main/UltraBobFarm.lua"))()
 end)
 
-tab1:CreateButton("A Dusty Trip[OP] [New]", function()
+tab1:CreateButton("A Dusty Trip [OP]", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/ADustyTrip",true))()
 end)
 
