@@ -1,0 +1,35 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local Window = Library:NewWindow("Horror RNG💀 [FEAR]")
+local Tab = Window:NewSection("Main")
+
+Tab:CreateToggle("Auto Roll", function(value)
+
+   game:GetService("ReplicatedStorage").Events.StartRoll:FireServer(value)
+
+end)
+
+Tab:CreateButton("Auto inf Potion [Fast]", function()
+while wait(0.000000001) do
+
+   game:GetService("ReplicatedStorage").Events.InventoryEvent:FireServer("Equip","Super Luck Potion","Usable")
+   
+end
+
+end)
+
+Tab:CreateButton("Auto RollWish [Fast] v1", function()
+while wait(0.000000001) do
+   game:GetService("ReplicatedStorage").Events.RollWish:FireServer()
+end
+
+end)
+
+Tab:CreateButton("Auto RollWish [Fast] v2", function()
+
+while wait(0.000000001) do
+   game:GetService("ReplicatedStorage").Events.RollWish:FireServer()
+end
+
+end)
+
+local Tab = Window:NewSection("Script By Normal_Bacon#9172")
