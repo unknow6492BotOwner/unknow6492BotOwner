@@ -3,14 +3,14 @@ local Window = Library:NewWindow("Steal Time")
 
 local Tab = Window:NewSection("Main")
 
-Tab:CreateButton("ReachGUI", function()
+Tab:CreateButton("Reach GUI", function()
 
-loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Sword-reach-script-5636"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/GG"))()
 
 end)
 local Tab = Window:NewSection("FreeScript")
 
-Tab:CreateButton("Button", function()
+Tab:CreateButton("FreeScript", function()
 
  loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 
