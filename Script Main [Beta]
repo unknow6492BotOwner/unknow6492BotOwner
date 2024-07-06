@@ -1,3 +1,10 @@
+local PabloLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/PabloLibV3/main/PabloLibV3"))()
+local window = PabloLib:Create(
+"[⏳] Script Main [⏳]", -- Name here.
+"Enabled", -- If you want draggable set here to "Enabled" if you dont want set to "Disabled".
+"p" -- You can put any keybind here to open close.
+)
+
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "Script By Normal_Bacon#9172";
     Text = "Script loaded enjoy!";
@@ -5,17 +12,9 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
     Duration = 5;
 })
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
-Text = "[⏳]Script Main[⏳]";
+Text = "Script Main script loaded! Enjoy!";
     Color = Color3.fromRGB(255, 255, 255);
 })
-
-
-local PabloLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/PabloLibV3/main/PabloLibV3"))()
-local window = PabloLib:Create(
-"[⏳] Script Main [⏳]", -- Name here.
-"Enabled", -- If you want draggable set here to "Enabled" if you dont want set to "Disabled".
-"p" -- You can put any keybind here to open close.
-)
 
 local tab1 = window:CreateTab("My Script#0009")
 tab1:CreateWarning("Owner By Normal_Bacon#9172")
