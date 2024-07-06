@@ -1,0 +1,157 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Script By Normal_Bacon#9172";
+    Text = "Script loaded enjoy!";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = "build a boat script loaded! Enjoy!";
+    Color = Color3.fromRGB(255, 255, 255);
+})
+
+
+local PabloLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/PabloLibV3/main/PabloLibV3"))()
+local window = PabloLib:Create(
+"Build A Boat For Treasure [💀]", -- Name here.
+"Enabled", -- If you want draggable set here to "Enabled" if you dont want set to "Disabled".
+"p" -- You can put any keybind here to open close.
+)
+
+local tab1 = window:CreateTab("Autofarm")
+tab1:CreateWarning("Script By Normal#9172")
+
+tab1:CreateButton("AutoFarm", function()
+getgenv().TreasureAutoFarm = {
+    Enabled = true, -- // Toggle the auto farm on and off
+    Teleport = 1.10, -- // How fast between each teleport between the stages and stuff
+    TimeBetweenRuns = 1.10 -- // How long to wait until it goes to the next run
+}
+ 
+
+local Players = game:GetService("Players")
+local Workspace = game:GetService("Workspace")
+local Lighting = game:GetService("Lighting")
+ 
+
+local LocalPlayer = Players.LocalPlayer
+ 
+
+local autoFarm = function(currentRun)
+
+    local Character = LocalPlayer.Character
+    local NormalStages = Workspace.BoatStages.NormalStages
+ 
+    for i = 1, 10 do
+        local Stage = NormalStages["CaveStage" .. i]
+        local DarknessPart = Stage:FindFirstChild("DarknessPart")
+ 
+        if (DarknessPart) then
+        
+            print("Teleporting to next stage: Stage " .. i)
+            Character.HumanoidRootPart.CFrame = DarknessPart.CFrame
+ 
+            local Part = Instance.new("Part", LocalPlayer.Character)
+            Part.Anchored = true
+            Part.Position = LocalPlayer.Character.HumanoidRootPart.Position - Vector3.new(0, 6, 0)
+ 
+            wait(getgenv().TreasureAutoFarm.Teleport)
+            Part:Destroy()
+        end
+    end
+ 
+    print("Teleporting to the end")
+    repeat wait()
+        Character.HumanoidRootPart.CFrame = NormalStages.TheEnd.GoldenChest.Trigger.CFrame
+    until Lighting.ClockTime ~= 35
+ 
+    local Respawned = True
+    local Connection
+    Connection = LocalPlayer.CharacterAdded:Connect(function()
+        Respawned = true
+        Connection:Disconnect()
+    end)
+ 
+    repeat wait() until Respawned
+    wait(getgenv().TreasureAutoFarm.TimeBetweenRuns)
+    print("Auto Farm: Run " .. currentRun .. " finished")
+end
+ 
+local autoFarmRun = 1000000
+while wait() do
+    if (getgenv().TreasureAutoFarm.Enabled) then
+        print("Initialising Auto Farm: Run " .. autoFarmRun)
+        autoFarm(autoFarmRun)
+        autoFarmRun = autoFarmRun + 1000000
+    end
+end
+end)
+
+tab1:CreateButton("Off AutoFarm", function()
+getgenv().TreasureAutoFarm = {
+    Enabled = False, -- // Toggle the auto farm on and off
+    Teleport = 1.0, -- // How fast between each teleport between the stages and stuff
+    TimeBetweenRuns = 1.0 -- // How long to wait until it goes to the next run
+}
+ 
+local Players = game:GetService("Players")
+local Workspace = game:GetService("Workspace")
+local Lighting = game:GetService("Lighting")
+ 
+local LocalPlayer = Players.LocalPlayer
+ 
+local autoFarm = function(currentRun)
+   
+    local Character = LocalPlayer.Character
+    local NormalStages = Workspace.BoatStages.NormalStages
+ 
+    for i = 1, 10 do
+        local Stage = NormalStages["CaveStage" .. i]
+        local DarknessPart = Stage:FindFirstChild("DarknessPart")
+ 
+        if (DarknessPart) then
+            
+            print("Teleporting to next stage: Stage " .. i)
+            Character.HumanoidRootPart.CFrame = DarknessPart.CFram
+            
+            local Part = Instance.new("Part", LocalPlayer.Character)
+            Part.Anchored = true
+            Part.Position = LocalPlayer.Character.HumanoidRootPart.Position - Vector3.new(0, 6, 0)
+ 
+            wait(getgenv().TreasureAutoFarm.Teleport)
+            Part:Destroy()
+        end
+    end
+ 
+    
+    print("Teleporting to the end")
+    repeat wait()
+        Character.HumanoidRootPart.CFrame = NormalStages.TheEnd.GoldenChest.Trigger.CFrame
+    until Lighting.ClockTime ~= 35
+ 
+    local Respawned = false
+    local Connection
+    Connection = LocalPlayer.CharacterAdded:Connect(function()
+        Respawned = true
+        Connection:Disconnect()
+    end)
+ 
+    repeat wait() until Respawned
+    wait(getgenv().TreasureAutoFarm.TimeBetweenRuns)
+    print("Auto Farm: Run " .. currentRun .. " finished")
+end
+ 
+local autoFarmRun = 1
+while wait() do
+    if (getgenv().TreasureAutoFarm.Enabled) then
+        print("Initialising Auto Farm: Run " .. autoFarmRun)
+        autoFarm(autoFarmRun)
+        autoFarmRun = autoFarmRun + 1
+    end
+end
+end)
+
+tab1:CreateInfo("📝Script Auto Build🔧")
+
+tab1:CreateButton("Auto Build", function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/VertigoCool99/Script/main/BuildABoat/BuildABoatRestored.lua"),true))()
+end)
