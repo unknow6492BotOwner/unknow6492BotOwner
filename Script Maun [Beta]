@@ -5,11 +5,11 @@ local window = PabloLib:Create(
 "p" -- You can put any keybind here to open close.
 )
 
-local tab1 = window:CreateTab("My Script#0005")
+local tab1 = window:CreateTab("My Script#0006")
 tab1:CreateWarning("Owner By Normal_Bacon#9172")
-tab1:CreateInfo("Beta[Version 1.0.0]")
+tab1:CreateInfo("Beta[Version 1.0.1]")
 tab1:CreateLabel("↓↓↓ Update Log ↓↓↓")
-tab1:CreateLabel("-Fudge's RNG Script")
+tab1:CreateLabel("-Horror RNG Script")
 
 tab1:CreateButton("RNG Fights", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/RNG%20Fights"))()
@@ -27,8 +27,12 @@ tab1:CreateButton("Block Eaters", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Eat%20Block"))()
 end)
 
-tab1:CreateButton("Fudge's RNG [NEW]", function()
+tab1:CreateButton("Fudge's RNG", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Fudge's%20RNG"))()
+end)
+
+tab1:CreateButton("Horror RNG [NEW]", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Horror%20RNG"))()
 end)
 
 local tab1 = window:CreateTab("Others Script#0006")
@@ -61,7 +65,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Aquoupi/DestroyerX/ma
 end)
 
 local tab1 = window:CreateTab("Special")
-tab1:CreateWarning("Beta [Ver 1]")
+tab1:CreateWarning("!Beta!!")
 
 tab1:CreateButton("Spy GUI", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Spy"))()
