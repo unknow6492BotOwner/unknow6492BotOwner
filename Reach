@@ -1,0 +1,19 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local Window = Library:NewWindow("Steal Time")
+
+local Tab = Window:NewSection("Main")
+
+Tab:CreateButton("ReachGUI", function()
+
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Sword-reach-script-5636"))()
+
+end)
+local Tab = Window:NewSection("FreeScript")
+
+Tab:CreateButton("Button", function()
+
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+
+end)
+
+local Tab = Window:NewSection("Script By Normal_Bacon#9172")
