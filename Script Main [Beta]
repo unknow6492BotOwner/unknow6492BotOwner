@@ -1,3 +1,15 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Script By Normal_Bacon#9172";
+    Text = "Script loaded enjoy!";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = "Script Main Script loaded! Enjoy!";
+    Color = Color3.fromRGB(255, 255, 255);
+})
+
+
 local PabloLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/PabloLibV3/main/PabloLibV3"))()
 local window = PabloLib:Create(
 "[⏳] Script Main [⏳]", -- Name here.
@@ -49,6 +61,7 @@ end)
 
 tab1:CreateButton("Build a Boat For Treasure [NEW]", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Build%20A%20Boat%20For%20Treasure"))()
+end)
 
 local tab1 = window:CreateTab("Others Script#0008")
 tab1:CreateWarning("Beta Script?!")
