@@ -97,14 +97,3 @@ end)
 tab1:CreateButton("SimpleSpy[Version Mobile]", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RS/main/SimpleSpyMobile"))()
 end)
-
-game:GetService("StarterGui"):SetCore("SendNotification",{
-    Title = "Script By Normal_Bacon#9172";
-    Text = "Script loaded enjoy!";
-    Icon = "rbxassetid://2005276185";
-    Duration = 5;
-})
-game.StarterGui:SetCore("ChatMakeSystemMessage", {
-Text = "Script Main script loaded! Enjoy!";
-    Color = Color3.fromRGB(255, 255, 255);
-})
