@@ -38,12 +38,12 @@ game:GetService("ReplicatedStorage").Remotes.SystemCheck:FireServer(workspace.Ga
 end)
 
 tab1:CreateInfo("Bring Bou and Boulina")
-tab1:CreateButton("Bring Bou", function()
+tab1:CreateButton("Bring", function()
 
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Main.Bou.Base,true)
 wait(0.5)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Main.Bou.Base,false)
-
+wait(1)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Main.Boulina.Base,true)
 wait(0.5)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Main.Boulina.Base,false)
@@ -167,75 +167,73 @@ end)
 
 tab1:CreateInfo("Give All")
 tab1:CreateButton("Give All Food", function()
-wait(1)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Burger.Part,true)
 wait(0.5)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Burger.Part,false)
-
+wait(1)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Banana.Part,true)
 wait(0.5)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Banana.Part,false)
-
+wait(1)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Pizza.Part,true)
 wait(0.5)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Pizza.Part,false)
-
+wait(1)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Sushi1.Part,true)
 wait(0.5)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Sushi1.Part,false)
-
+wait(1)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Sandwich.Part,true)
 wait(0.5)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Sadwich.Part,false)
-
+wait(1)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Sushi2.Part,true)
 wait(0.5)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Sushi2.Part,false)
-
+wait(1)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Apple.Part,true)
 wait(0.5)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Apple.Part,false)
-
+wait(1)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Hotdog.Part,true)
 wait(0.5)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Hotdog.Part,false)
-
+wait(1)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.TurkeyLeg.Part,true)
 wait(0.5)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.gamefolder.side.TurkeyLeg.part,false)
-
+wait(1)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side["Spider House"].Pizza_Box.MeshPart,true)
 wait(0.5)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side["Spider House"].Pizza_Box.MeshPart,false)
-
+wait(1)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side["Spider House"].Fish.Part,true)
 wait(0.5)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side["Spider House"].Fish.Part,false)
-
+wait(1)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side["Spider House"].Bandage["Meshes/bandaj_Cylinder"],true)
 wait(0.5)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side["Spider House"].Bandage["Meshes/bandaj_Cylinder"],false)
-
+wait(1)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Baseball.Part,true)
 wait(0.5)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Baseball.Part,false)
-
+wait(1)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Medicine.Part,true)
 wait(0.5)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Medicine.Part,false)
-
+wait(1)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Camera["Meshes/camera_Cube"],true)
 wait(0.5)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Camera["Meshes/camera_Cube"],false)
-
+wait(1)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Main.Boulina.Base,true)
 wait(0.5)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Main.Boulina.Base,false)
-
+wait(1)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Main.Bou.Base,true)
 wait(0.5)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Main.Bou.Base,false)
-
 end)
 
 tab1:CreateInfo("LocalPlayer")
