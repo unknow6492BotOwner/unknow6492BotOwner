@@ -1,3 +1,15 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Script By Normal_Bacon#9172";
+    Text = "Script loaded enjoy!";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = "[⏳]Script Main[⏳]";
+    Color = Color3.fromRGB(255, 255, 255);
+})
+
+
 local PabloLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/PabloLibV3/main/PabloLibV3"))()
 local window = PabloLib:Create(
 "[⏳] Script Main [⏳]", -- Name here.
@@ -39,13 +51,16 @@ tab1:CreateButton("Punch Suff Tycoon", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Punch%20Stuff%20Tycoon"))()
 end)
 
-tab1:CreateButton("Reach [NEW]", function()
+tab1:CreateButton("Reach", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Reach"))()
 end)
 
-tab1:CreateButton("Bou's Revenge[HORROR] [NEW]", function()
+tab1:CreateButton("Bou's Revenge[HORROR]", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Bou's%20Revenge%5BHORROR%5D"))()
 end)
+
+tab1:CreateButton("Build a Boat For Treasure [NEW]", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Build%20A%20Boat%20For%20Treasure"))()
 
 local tab1 = window:CreateTab("Others Script#0008")
 tab1:CreateWarning("Beta Script?!")
