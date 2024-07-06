@@ -76,7 +76,7 @@ tab1:CreateButton("Bring Sandwich [Food]", function()
 
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Sandwich.Part,true)
 wait(0.5)
-game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Sadwich.Part,false)
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Sandwich.Part,false)
 end)
 
 tab1:CreateButton("Bring Sushi1 [Food]", function()
@@ -185,7 +185,7 @@ game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolde
 wait(0.2)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Sandwich.Part,true)
 wait(0.1)
-game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Sadwich.Part,false)
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Sandwich.Part,false)
 wait(0.2)
 game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Sushi2.Part,true)
 wait(0.1)
