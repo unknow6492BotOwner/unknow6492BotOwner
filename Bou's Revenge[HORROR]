@@ -1,0 +1,171 @@
+local PabloLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/PabloLibV3/main/PabloLibV3"))()
+local window = PabloLib:Create(
+"Bou's Revenge [HORROR]", -- Name here.
+"Enabled", -- If you want draggable set here to "Enabled" if you dont want set to "Disabled".
+"p" -- You can put any keybind here to open close.
+)
+
+local tab1 = window:CreateTab("Main")
+tab1:CreateWarning("Owner By Normal_Bacon#9172")
+
+tab1:CreateInfo("Unluck Poop Badge")
+tab1:CreateButton("Get All Poop", function()
+
+game:GetService("ReplicatedStorage").Remotes.SystemCheck:FireServer(workspace.GameFolder.Side.Poops.Poop1,"Pick_Poop")
+game:GetService("ReplicatedStorage").Remotes.SystemCheck:FireServer(workspace.GameFolder.Side.Poops.Poop2,"Pick_Poop")
+game:GetService("ReplicatedStorage").Remotes.SystemCheck:FireServer(workspace.GameFolder.Side.Poops.Poop3,"Pick_Poop")
+game:GetService("ReplicatedStorage").Remotes.SystemCheck:FireServer(workspace.GameFolder.Side.Poops.Poop4,"Pick_Poop")
+game:GetService("ReplicatedStorage").Remotes.SystemCheck:FireServer(workspace.GameFolder.Side.Poops.Poop5,"Pick_Poop")
+game:GetService("ReplicatedStorage").Remotes.SystemCheck:FireServer(workspace.GameFolder.Side.Poops.Poop6,"Pick_Poop")
+game:GetService("ReplicatedStorage").Remotes.SystemCheck:FireServer(workspace.GameFolder.Side.Poops.Poop7,"Pick_Poop")
+game:GetService("ReplicatedStorage").Remotes.SystemCheck:FireServer(workspace.GameFolder.Side.Poops.Poop8,"Pick_Poop")
+game:GetService("ReplicatedStorage").Remotes.SystemCheck:FireServer(workspace.GameFolder.Side.Poops.Poop9,"Pick_Poop")
+
+end)
+
+tab1:CreateInfo("1/3 Spider Badge")
+tab1:CreateButton("Pick Rod", function()
+game:GetService("ReplicatedStorage").Remotes.SystemCheck:FireServer(workspace.GameFolder.Side.FishingRod,"Pick_Rod")
+end)
+
+tab1:CreateInfo("2/3 Spider Badge")
+tab1:CreateButton("Call Pizza", function()
+game:GetService("ReplicatedStorage").Remotes.SystemCheck:FireServer(workspace.GameFolder.Side.Phone,"Call_Pizza")
+end)
+
+tab1:CreateInfo("3/3 Spider Badge")
+tab1:CreateButton("Make Ice cream", function()
+
+game:GetService("ReplicatedStorage").Remotes.SystemCheck:FireServer(workspace.GameFolder.Side.Stick,"Pick_Stick")
+game:GetService("ReplicatedStorage").Remotes.SystemCheck:FireServer(workspace.GameFolder.Side.Glass,"Pick_Glass")
+game:GetService("ReplicatedStorage").Remotes.SystemCheck:FireServer(workspace.GameFolder.Side.Sink,"Get_Water")
+game:GetService("ReplicatedStorage").Remotes.SystemCheck:FireServer(workspace.GameFolder.Side.Popsicle,"Place_Popsicle")
+
+end)
+
+tab1:CreateInfo("Bring Bou")
+tab1:CreateButton("Bring Bou", function()
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Main.Bou.Base,true)
+wait(0.5)
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Main.Bou.Base,false)
+end)
+
+tab1:CreateInfo("Bring Boulina")
+tab1:CreateButton("Bring Bulina", function()
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Main.Boulina.Base,true)
+wait(0.5)
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Main.Boulina.Base,false)
+end)
+
+tab1:CreateInfo("Bring Items/Food")
+
+tab1:CreateButton("Bring BaseBall [items]", function()
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Baseball.Part,true)
+wait(0.5)
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Baseball.Part,false)
+end)
+
+tab1:CreateButton("Bring Medicine [items]", function()
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Medicine.Part,true)
+wait(0.5)
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Medicine.Part,false)
+end)
+
+tab1:CreateButton("Bring TurkeyLeg [Food]", function()
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.TurkeyLeg.Part,true)
+wait(0.5)
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.gamefolder.side.TurkeyLeg.part,false)
+end)
+
+tab1:CreateButton("Bring Sandwich [Food]", function()
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Sandwich.Part,true)
+wait(0.5)
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Sadwich.Part,false)
+end)
+
+tab1:CreateButton("Bring Sushi1 [Food]", function()
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Sushi1.Part,true)
+wait(0.5)
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Sushi1.Part,false)
+end)
+
+tab1:CreateButton("Bring Sushi2 [Food]", function()
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Sushi2.Part,true)
+wait(0.5)
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Sushi2.Part,false)
+end)
+
+tab1:CreateButton("Bring Apple [Food]", function()
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Apple.Part,true)
+wait(0.5)
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Apple.Part,false)
+end)
+
+tab1:CreateButton("Bring HotDog [Food]", function()
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Hotdog.Part,true)
+wait(0.5)
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Hotdog.Part,false)
+end)
+
+tab1:CreateButton("Bring Cheese [Food]", function()
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Cheese.Part,true)
+wait(0.5)
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Cheese.Part,false)
+end)
+
+tab1:CreateButton("Bring Pizza [Food]", function()
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Pizza.Part,true)
+wait(0.5)
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Pizza.Part,false)
+end)
+
+tab1:CreateButton("Bring Banana [Food]", function()
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Banana.Part,true)
+wait(0.5)
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Banana.Part,false)
+end)
+
+tab1:CreateButton("Bring Camera[items]", function()
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Camera["Meshes/camera_Cube"],true)
+wait(0.5)
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Camera["Meshes/camera_Cube"],false)
+end)
+
+tab1:CreateButton("Bring Burger [Food]", function()
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Burger.Part,true)
+wait(0.5)
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side.Burger.Part,false)
+end)
+
+tab1:CreateInfo("Enter the Spider ending before it can be used.")
+
+tab1:CreateButton("Bring Pizza Box [Spider Ending]", function()
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side["Spider House"].Pizza_Box.MeshPart,true)
+wait(0.5)
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side["Spider House"].Pizza_Box.MeshPart,false)
+end)
+
+tab1:CreateButton("Bring Fish [Spider Ending]", function()
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side["Spider House"].Fish.Part,true)
+wait(0.5)
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side["Spider House"].Fish.Part,false)
+end)
+
+tab1:CreateButton("Bring Bandage[Spider Ending]", function()
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side["Spider House"].Bandage["Meshes/bandaj_Cylinder"],true)
+wait(0.5)
+game:GetService("ReplicatedStorage").Remotes.Grab:FireServer(workspace.GameFolder.Side["Spider House"].Bandage["Meshes/bandaj_Cylinder"],false)
+end)
+
+tab1:CreateInfo("LocalPlayer")
+tab1:CreateTextbox("WalkSpeed Set", function(a)
+
+   game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = a
+
+end)
+
+tab1:CreateTextbox("Jumppower Set", function(a)
+
+   game.Players.LocalPlayer.Character.Humanoid.JumpPower = a
+
+end)
