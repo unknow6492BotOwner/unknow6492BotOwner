@@ -5,7 +5,7 @@ local window = PabloLib:Create(
 "p" -- You can put any keybind here to open close.
 )
 
-local tab1 = window:CreateTab("My Script#0007")
+local tab1 = window:CreateTab("My Script#0006")
 tab1:CreateWarning("Owner By Normal_Bacon#9172")
 tab1:CreateInfo("Beta[Version 1.0.2]")
 tab1:CreateLabel("↓↓↓ Update Log ↓↓↓")
@@ -39,7 +39,7 @@ tab1:CreateButton("Punch Suff Tycoon [NEW]", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Punch%20Stuff%20Tycoon"))()
 end)
 
-local tab1 = window:CreateTab("Others Script#0006")
+local tab1 = window:CreateTab("Others Script#0007")
 tab1:CreateWarning("Beta Script?!")
 
 tab1:CreateButton("Infinity yield", function()
@@ -66,6 +66,10 @@ end)
 
 tab1:CreateButton("Fram Bob [Slap Battles]", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Aquoupi/DestroyerX/main/UltraBobFarm.lua"))()
+end)
+
+tab1:CreateButton("A Dusty Trip[OP] [New]", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/ADustyTrip",true))()
 end)
 
 local tab1 = window:CreateTab("Special")
