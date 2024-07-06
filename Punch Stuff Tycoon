@@ -1,0 +1,11 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local Window = Library:NewWindow("Punch Stuff Tycoon 👊")
+local Tab = Window:NewSection("Main")
+
+Tab:CreateTextbox("How much do you need?", function(text)
+
+        game:GetService("ReplicatedStorage").GetCoin:FireServer(text)
+
+end)
+
+local Tab = Window:NewSection("Script By Normal_Bacon#9172")
