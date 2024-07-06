@@ -25,15 +25,15 @@ end)
 tab1:CreateWarning("LocalPlayer")
 
 tab1:CreateTextbox("WalkSpeed", function(a)
-while wait() do
+
    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = a
-end
+
 end)
 
 tab1:CreateTextbox("JumpPower", function(a)
-while wait() do
+
    game.Players.LocalPlayer.Character.Humanoid.JumpPower = a
-end
+
 end)
 
 tab1:CreateWarning("!!Script Free!!")
