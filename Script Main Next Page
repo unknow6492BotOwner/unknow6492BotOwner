@@ -54,8 +54,8 @@ tab.newButton("Legend of Speed [New]", "Key: SUBSCRIBERELZBLOX", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/fareljr1/Hub/main/Loader"))()
 end)
 
-local tab = DrRayLibrary.newTab("Obby But You're On a Bike", "rbxassetid://2005276185")
+local tab = DrRayLibrary.newTab("Obby But You're On a Bike[New]", "rbxassetid://2005276185")
 
-tab.newButton("Obby But You're On a Bike", "unknow", function()
+tab.newButton("Obby But You're On a Bike[New]", "unknow", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/DHBCommunity/DHBOfficialScript/main/Unlockbike"))()
 end)
