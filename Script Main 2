@@ -156,8 +156,14 @@ tab.newButton("DestroyerHub Slap battles", "Ueshsbd", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Usehsbd/DestroyerHub/main/DestHubPublic"))()
 end)
 
-local tab = DrRayLibrary.newTab("Legend of Speed[New]", "rbxassetid://2005276185")
+local tab = DrRayLibrary.newTab("Legend of Speed", "rbxassetid://2005276185")
 
 tab.newButton("legend of Speed", "Key: SUBSCRIBERELZBLOX", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/fareljr1/Hub/main/Loader"))()
+end)
+
+local tab = DrRayLibrary.newTab("Obby But You're On a Bike[New]", "rbxassetid://2005276185")
+
+tab.newButton("[W36] Obby But You’re On a Bike", "DHBCommunity", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DHBCommunity/DHBOfficialScript/main/Unlockbike"))()
 end)
