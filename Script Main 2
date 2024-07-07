@@ -75,7 +75,7 @@ tab.newButton("Eat Block", "Credit By Normal_Bacon#9172", function()
 end)
 
 
-tab.newButton("Fidge's RNG", "Credit by Normal_Bacon#9172, function()
+tab.newButton("Fidge's RNG", "Credit by Normal_Bacon#9172", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Fudge's%20RNG"))()
 end)
 
