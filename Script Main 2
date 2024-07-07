@@ -112,23 +112,23 @@ end)
 
 local tab = DrRayLibrary.newTab("Break in Stroy", "rbxassetid://2005276185")
 
-tab.newButton("Break in 2", "Breaking Blitz", function()
+tab.newButton("RScriptz Break in 2", "Breaking Blitz", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RScriptz/RobloxScripts/main/BreakIn2.lua"))()
 end)
 
-tab.newButton("Break in 2", "JNHH Gaming and Playvora_", function()
+tab.newButton("FBreak in 2", "JNHH Gaming and Playvora_", function()
     loadstring(game:HttpGet("https://freenote.biz/raw/80jXm2Q0a7",true))()
 end)
 
-tab.newButton("Break in 2", "memejames", function()
+tab.newButton("Hide Main Break in 2", "memejames", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/memejames/Hide/main/Break%20in%202"))()
 end)
 
-tab.newButton("Break in 1", "Nikita365", function()
+tab.newButton("GBreak in 1", "Nikita365", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Nikita365/Break-In-Story-/main/Break%20In%20Story%20Hub"))()
 end)
 
-tab.newButton("Break in 1", "HHubmega", function()
+tab.newButton("Master Break in 1", "HHubmega", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/megamoeus/HHubmega/master/BreakIn", true))()
 end)
 
