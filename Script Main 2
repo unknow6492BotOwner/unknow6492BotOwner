@@ -37,6 +37,7 @@ tab.newButton("Old Script Main", "Normal_Bacon#9172", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Script%20Main%20%5BBeta%5D"))()
 end)
 
+local tab = DrRayLibrary.newTab("My Script(Soon)", "rbxassetid://2005276185")
 
 local tab = DrRayLibrary.newTab("Break in Stroy", "rbxassetid://2005276185")
 
