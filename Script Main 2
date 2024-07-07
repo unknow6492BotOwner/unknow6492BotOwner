@@ -1,3 +1,14 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Script By Normal_Bacon#9172";
+    Text = "Script My enjoy!";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = "Enjoy Script Main#0000";
+    Color = Color3.fromRGB(255, 255, 255);
+})
+
 local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
 local window = DrRayLibrary:Load("[⏳] Script Main 2 [⏳]", "Default")
 
@@ -22,7 +33,7 @@ tab.newButton("Check Version", "Check a Version Script", function()
     
     game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "Check Version...";
-    Text = "Version Now [ 1.0.01]";
+    Text = "Version Now [ 1.0.06]";
     Icon = "rbxassetid://2005276185";
     Duration = 5;
 })
@@ -37,56 +48,64 @@ tab.newButton("Old Script Main", "Normal_Bacon#9172", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Script%20Main%20%5BBeta%5D"))()
 end)
 
-local tab = DrRayLibrary.newTab("My Script(Soon)", "rbxassetid://2005276185")
-
-tab.newButton("Button", "Prints Hello!", function()
-    print('Hello!')
+tab.newButton("SimpleSpyMobile", "Credit By Normal_Bacon#9172", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RS/main/SimpleSpyMobile"))()
 end)
 
-tab.newButton("Button", "Prints Hello!", function()
-    print('Hello!')
+tab.newButton("Normal_BaconSpy#9172", "Credit By Normal_Bacon#9172", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Spy"))()
 end)
 
-tab.newButton("Button", "Prints Hello!", function()
-    print('Hello!')
+local tab = DrRayLibrary.newTab("My Script[Update]", "rbxassetid://2005276185")
+
+tab.newButton("RNG Fights", "Credit By Normal_Bacon#9172", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/RNG%20Fights"))()
 end)
 
-tab.newButton("Button", "Prints Hello!", function()
-    print('Hello!')
+tab.newButton("King of the Hill", "Credit By Normal_Bacon#9172", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/King%20of%20The%20Hill"))()
 end)
 
-
-tab.newButton("Button", "Prints Hello!", function()
-    print('Hello!')
+tab.newButton("start a business to get your dad back", "Credit By Normal_Bacon#9172", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/start%20a%20business%20to%20get%20your%20dad%20back"))()
 end)
 
-
-tab.newButton("Button", "Prints Hello!", function()
-    print('Hello!')
-end)
-
-
-tab.newButton("Button", "Prints Hello!", function()
-    print('Hello!')
+tab.newButton("Eat Block", "Credit By Normal_Bacon#9172", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Eat%20Block"))()
 end)
 
 
-tab.newButton("Button", "Prints Hello!", function()
-    print('Hello!')
+tab.newButton("Fidge's RNG", "Credit by Normal_Bacon#9172, function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Fudge's%20RNG"))()
 end)
 
 
-tab.newButton("Button", "Prints Hello!", function()
-    print('Hello!')
+tab.newButton("Horror RNG", "Credit By Normal_Bacon#9172", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Horror%20RNG"))()
 end)
 
 
-tab.newButton("Button", "Prints Hello!", function()
-    print('Hello!')
+tab.newButton("Punch Stuff Tycoon", "Credit By Normal_Bacon#9172", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Punch%20Stuff%20Tycoon"))()
 end)
 
 
-tab.newButton("Button", "Prints Hello!", function()
+tab.newButton("Reach GUI", "Credit By Normal_Bacon#9172", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Reach"))()
+    end)
+
+
+tab.newButton("Bou's Revenge[HORROR]", "Credit By Normal_Bacon#9172", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Bou's%20Revenge%5BHORROR%5D"))()
+end)
+
+
+tab.newButton("Build a boat for Treasure", "Credit By Normal_Bacon#9172", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Build%20A%20Boat%20For%20Treasure"))()
+end)
+
+
+tab.newButton("Break in 2 [New]", "Credit By Normal_Bacon#9172", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Break%20in%202"))()
 end)
 
