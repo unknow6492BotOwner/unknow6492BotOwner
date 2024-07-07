@@ -39,6 +39,58 @@ end)
 
 local tab = DrRayLibrary.newTab("My Script(Soon)", "rbxassetid://2005276185")
 
+tab.newButton("Button", "Prints Hello!", function()
+    print('Hello!')
+end)
+
+tab.newButton("Button", "Prints Hello!", function()
+    print('Hello!')
+end)
+
+tab.newButton("Button", "Prints Hello!", function()
+    print('Hello!')
+end)
+
+tab.newButton("Button", "Prints Hello!", function()
+    print('Hello!')
+end)
+
+
+tab.newButton("Button", "Prints Hello!", function()
+    print('Hello!')
+end)
+
+
+tab.newButton("Button", "Prints Hello!", function()
+    print('Hello!')
+end)
+
+
+tab.newButton("Button", "Prints Hello!", function()
+    print('Hello!')
+end)
+
+
+tab.newButton("Button", "Prints Hello!", function()
+    print('Hello!')
+end)
+
+
+tab.newButton("Button", "Prints Hello!", function()
+    print('Hello!')
+end)
+
+
+tab.newButton("Button", "Prints Hello!", function()
+    print('Hello!')
+end)
+
+
+tab.newButton("Button", "Prints Hello!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Break%20in%202"))()
+end)
+
+
 local tab = DrRayLibrary.newTab("Break in Stroy", "rbxassetid://2005276185")
 
 tab.newButton("Break in 2", "Breaking Blitz", function()
