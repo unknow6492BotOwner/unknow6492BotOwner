@@ -28,3 +28,9 @@ local tab = DrRayLibrary.newTab("Obby Bike[New]", "rbxassetid://2005276185")
 tab.newButton("Obby But You're On a Bike[New]", "unknow", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/DHBCommunity/DHBOfficialScript/main/Unlockbike"))()
 end)
+
+local tab = DrRayLibrary.newTab("Evade [New]", "rbxassetid://2005276185")
+
+tab.newButton("Evade [New]", "unknow", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubEvade"))()
+end)
