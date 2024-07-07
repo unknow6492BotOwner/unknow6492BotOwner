@@ -1,6 +1,6 @@
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "Script By Normal_Bacon#9172";
-    Text = "Script My enjoy!";
+    Text = "Subscribe Me!!";
     Icon = "rbxassetid://2005276185";
     Duration = 5;
 })
@@ -142,7 +142,7 @@ tab.newButton("A Dusty Trip V3", "Prints Hello!", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ThacG/EruditeHub/main/A%20Dusty%20Trip/V3"))()
 end)
 
-local tab = DrRayLibrary.newTab("Slap Battles ", "ImageIdHere")
+local tab = DrRayLibrary.newTab("Slap Battles ", "rbxassetid://2005276185")
 
 tab.newButton("Ultra Slap battles", "Fram Bob", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Aquoupi/DestroyerX/main/UltraBobFarm.lua"))()
