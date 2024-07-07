@@ -1,0 +1,61 @@
+lgame:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Script By Normal_Bacon#9172";
+    Text = "Subscribe Me!!";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = "Credit to Owner";
+    Color = Color3.fromRGB(255, 255, 255);
+})
+
+local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+local window = DrRayLibrary:Load("[⏳] Script Main 2.1 [⏳]", "Default")
+
+local tab = DrRayLibrary.newTab("Credit", "rbxassetid://2005276185")
+
+tab.newButton("Script By Normal_Bacon", "Subscribe Me!", function()
+
+    game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Script By Normal_Bacon#9172";
+    Text = "Script My enjoy!";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = "Credit By Normal_Bacon#9172";
+    Color = Color3.fromRGB(255, 255, 255);
+})
+
+end)
+
+tab.newButton("Check Version", "Check a Version Script", function()
+    
+    game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Check Version...";
+    Text = "Version Now [ 1.0.08]";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = "Check Complete";
+    Color = Color3.fromRGB(255, 255, 255);
+})
+
+local tab = DrRayLibrary.newTab("Combat Warriors[New]", "rbxassetid://2005276185")
+
+tab.newButton("Combat Warriors[Op] New", "thanhdan", function()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/708e27c2ac33d627f10c14fdec6e9419.lua"))()
+end)
+
+local tab = DrRayLibrary.newTab("Legend Of Speed[New]", "rbxassetid://2005276185")
+
+tab.newButton("Legend of Speed [New]", "Key: SUBSCRIBERELZBLOX", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fareljr1/Hub/main/Loader"))()
+end)
+
+local tab = DrRayLibrary.newTab("Obby But You're On a Bike", "rbxassetid://2005276185")
+
+tab.newButton("Obby But You're On a Bike", "unknow", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DHBCommunity/DHBOfficialScript/main/Unlockbike"))()
+end)
