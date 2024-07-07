@@ -3,6 +3,10 @@ local window = DrRayLibrary:Load("[⏳] Script Main 2.1 [⏳]", "Default")
 
 local tab = DrRayLibrary.newTab("Credit", "rbxassetid://2005276185")
 
+tab.newButton("Credit By Normal_Bacon#9172", "👁️👄👁️", function()
+    print('Hello!')
+end)
+
 local tab = DrRayLibrary.newTab("Combat Warriors[New]", "rbxassetid://2005276185")
 
 tab.newButton("Combat Warriors[Op] New", "thanhdan", function()
