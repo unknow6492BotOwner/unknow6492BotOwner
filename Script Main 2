@@ -33,7 +33,7 @@ tab.newButton("Check Version", "Check a Version Script", function()
     
     game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "Check Version...";
-    Text = "Version Now [ 1.0.06]";
+    Text = "Version Now [ 1.0.07]";
     Icon = "rbxassetid://2005276185";
     Duration = 5;
 })
