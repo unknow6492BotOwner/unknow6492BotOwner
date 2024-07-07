@@ -8,6 +8,7 @@ local window = PabloLib:Create(
 --Tabs--
 local tab1 = window:CreateTab("Main Menu[⏳]")
 tab1:CreateLabel("Owner By Normal_Bacon")
+tab1:CreateLabel("subscribe Kaito Channel!!")
 tab1:CreateWarning("[ Version 1.0.0 ]")
 tab1:CreateButton("Auto Random", function()
 while wait() do
