@@ -1,46 +1,7 @@
-lgame:GetService("StarterGui"):SetCore("SendNotification",{
-    Title = "Script By Normal_Bacon#9172";
-    Text = "Subscribe Me!!";
-    Icon = "rbxassetid://2005276185";
-    Duration = 5;
-})
-game.StarterGui:SetCore("ChatMakeSystemMessage", {
-Text = "Credit to Owner";
-    Color = Color3.fromRGB(255, 255, 255);
-})
-
 local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
 local window = DrRayLibrary:Load("[⏳] Script Main 2.1 [⏳]", "Default")
 
 local tab = DrRayLibrary.newTab("Credit", "rbxassetid://2005276185")
-
-tab.newButton("Script By Normal_Bacon", "Subscribe Me!", function()
-
-    game:GetService("StarterGui"):SetCore("SendNotification",{
-    Title = "Script By Normal_Bacon#9172";
-    Text = "Script My enjoy!";
-    Icon = "rbxassetid://2005276185";
-    Duration = 5;
-})
-game.StarterGui:SetCore("ChatMakeSystemMessage", {
-Text = "Credit By Normal_Bacon#9172";
-    Color = Color3.fromRGB(255, 255, 255);
-})
-
-end)
-
-tab.newButton("Check Version", "Check a Version Script", function()
-    
-    game:GetService("StarterGui"):SetCore("SendNotification",{
-    Title = "Check Version...";
-    Text = "Version Now [ 1.0.08]";
-    Icon = "rbxassetid://2005276185";
-    Duration = 5;
-})
-game.StarterGui:SetCore("ChatMakeSystemMessage", {
-Text = "Check Complete";
-    Color = Color3.fromRGB(255, 255, 255);
-})
 
 local tab = DrRayLibrary.newTab("Combat Warriors[New]", "rbxassetid://2005276185")
 
