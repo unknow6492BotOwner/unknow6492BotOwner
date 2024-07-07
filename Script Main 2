@@ -44,6 +44,11 @@ Text = "Check Complete";
 
 end) 
 
+tab.newButton("Next", "Next Page", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/%5B%E2%8F%B3%5D%20Script%20Main%202.1%20%5B%E2%8F%B3%5D"))()
+end)
+
+
 tab.newButton("Old Script Main", "Normal_Bacon#9172", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Script%20Main%20%5BBeta%5D"))()
 end)
@@ -154,22 +159,4 @@ end)
 
 tab.newButton("DestroyerHub Slap battles", "Ueshsbd", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Usehsbd/DestroyerHub/main/DestHubPublic"))()
-end)
-
-local tab = DrRayLibrary.newTab("Legend of Speed", "rbxassetid://2005276185")
-
-tab.newButton("legend of Speed", "Key: SUBSCRIBERELZBLOX", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/fareljr1/Hub/main/Loader"))()
-end)
-
-local tab = DrRayLibrary.newTab("Obby But You're On a Bike[New]", "rbxassetid://2005276185")
-
-tab.newButton("[W36] Obby But You’re On a Bike", "DHBCommunity", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/DHBCommunity/DHBOfficialScript/main/Unlockbike"))()
-end)
-
-local tab = DrRayLibrary.newTab("Combo Warrior[NEW]", "rbxassetid://2005276185")
-
-tab.newButton("Combat Warriors[Op][New]", "thanhdan", function()
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/708e27c2ac33d627f10c14fdec6e9419.lua"))()
 end)
