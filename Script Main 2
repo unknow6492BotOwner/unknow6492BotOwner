@@ -168,8 +168,8 @@ tab.newButton("[W36] Obby But You’re On a Bike", "DHBCommunity", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/DHBCommunity/DHBOfficialScript/main/Unlockbike"))()
 end)
 
-local tab = DrRayLibrary.newTab("Combo Warrior, "rbxassetid://2005276185")
+local tab = DrRayLibrary.newTab("Combo Warrior[NEW]", "rbxassetid://2005276185")
 
-tab.newButton("Combat Warriors[Op]", "thanhdan", function()
+tab.newButton("Combat Warriors[Op][New]", "thanhdan", function()
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/708e27c2ac33d627f10c14fdec6e9419.lua"))()
 end)
