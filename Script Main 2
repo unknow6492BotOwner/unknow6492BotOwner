@@ -33,7 +33,7 @@ tab.newButton("Check Version", "Check a Version Script", function()
     
     game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "Check Version...";
-    Text = "Version Now [ 1.0.08]";
+    Text = "Version Now [ 1.0.09]";
     Icon = "rbxassetid://2005276185";
     Duration = 5;
 })
@@ -109,10 +109,13 @@ tab.newButton("Build a boat for Treasure", "Credit By Normal_Bacon#9172", functi
 end)
 
 
-tab.newButton("Break in 2 [New]", "Credit By Normal_Bacon#9172", function()
+tab.newButton("Break in 2", "Credit By Normal_Bacon#9172", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Break%20in%202"))()
 end)
 
+tab.newButton("A Very Hungry Case0h [New]", "Credit By Normal_Bacon#9172", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/A%20Very%20Hungry%20Case0h"))()
+end)
 
 local tab = DrRayLibrary.newTab("Break in Stroy", "rbxassetid://2005276185")
 
