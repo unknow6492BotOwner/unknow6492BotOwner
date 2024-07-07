@@ -56,7 +56,7 @@ tab.newButton("Normal_BaconSpy#9172", "Credit By Normal_Bacon#9172", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Spy"))()
 end)
 
-local tab = DrRayLibrary.newTab("My Script[Update]", "rbxassetid://2005276185")
+local tab = DrRayLibrary.newTab("My Script", "rbxassetid://2005276185")
 
 tab.newButton("RNG Fights", "Credit By Normal_Bacon#9172", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/RNG%20Fights"))()
@@ -156,7 +156,7 @@ tab.newButton("DestroyerHub Slap battles", "Ueshsbd", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Usehsbd/DestroyerHub/main/DestHubPublic"))()
 end)
 
-local tab = DrRayLibrary.newTab("Legend of Speed", "rbxassetid://2005276185")
+local tab = DrRayLibrary.newTab("Legend of Speed[New]", "rbxassetid://2005276185")
 
 tab.newButton("legend of Speed", "Key: SUBSCRIBERELZBLOX", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/fareljr1/Hub/main/Loader"))()
