@@ -7,6 +7,10 @@ tab.newButton("Credit By Normal_Bacon#9172", "👁️👄👁️", function()
     print('Hello!')
 end)
 
+tab.newButton("Back Script Main 2", "Back", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Script%20Main%202"))()
+end)
+
 local tab = DrRayLibrary.newTab("Combat Warriors[New]", "rbxassetid://2005276185")
 
 tab.newButton("Combat Warriors[Op] New", "thanhdan", function()
@@ -19,7 +23,7 @@ tab.newButton("Legend of Speed [New]", "Key: SUBSCRIBERELZBLOX", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/fareljr1/Hub/main/Loader"))()
 end)
 
-local tab = DrRayLibrary.newTab("Obby But You're On a Bike[New]", "rbxassetid://2005276185")
+local tab = DrRayLibrary.newTab("Obby Bike[New]", "rbxassetid://2005276185")
 
 tab.newButton("Obby But You're On a Bike[New]", "unknow", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/DHBCommunity/DHBOfficialScript/main/Unlockbike"))()
