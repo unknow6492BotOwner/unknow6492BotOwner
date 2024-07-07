@@ -1,0 +1,39 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Script By Normal_Bacon#9172";
+    Text = "Subscribe Me!!";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = "Credit to Owner";
+    Color = Color3.fromRGB(255, 255, 255);
+})
+
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wall%20v3')))()
+local w = library:CreateWindow("A Very Hungry CaseOh")
+
+local b = w:CreateFolder("Main")
+
+b:Button("Spawn Nuke",function()
+    game:GetService("ReplicatedStorage").Nuke:FireServer()
+end)
+
+b:Button("Explosion Map",function()
+while wait(0.0001) do
+    game:GetService("ReplicatedStorage").Nuke:FireServer()
+end
+end)
+
+b:Button("Inf EXP",function()
+while wait(0.0001) do
+   local args = {
+    [1] = 9e9
+}
+
+game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))
+end
+end)
+
+b:DestroyGui()
+
+local b = w:CreateFolder("Normal_Bacon#9172")
