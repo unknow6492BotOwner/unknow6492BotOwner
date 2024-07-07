@@ -155,3 +155,9 @@ end)
 tab.newButton("DestroyerHub Slap battles", "Ueshsbd", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Usehsbd/DestroyerHub/main/DestHubPublic"))()
 end)
+
+local tab = DrRayLibrary.newTab("Legend of Speed", "rbxassetid://2005276185")
+
+tab.newButton("legend of Speed", "Key: SUBSCRIBERELZBLOX", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fareljr1/Hub/main/Loader"))()
+end)
