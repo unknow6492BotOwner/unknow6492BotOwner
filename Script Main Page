@@ -1,33 +1,16 @@
-local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
-local window = DrRayLibrary:Load("[⏳] Script Main 2.1 [⏳]", "Default")
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local Window = Library:NewWindow("Uploaded")
 
-local tab = DrRayLibrary.newTab("Tora IsMe [Soon]", "ImageIdHere")
+local Tab = Window:NewSection("Spawn GUI 2.1")
 
-tab.newButton("Dupe Money ROCKS [NoKey]", "Credit to Tora IsMe", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/ROCK", true))()
+Tab:CreateButton("Next Page", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Script%20Main%20Page"))()
+
 end)
 
-local tab = DrRayLibrary.newTab("Aquoupi [Soon]", "ImageIdHere")
+Tab:CreateButton("Back Page", function()
 
-tab.newButton("Admin V2 Slap Battles [NoKey]", "Credit to Aquoupi", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Aquoupi/DestroyerX/main/OtherSBScripts/AdminCommands.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Script%20Main%202"))()
+
 end)
-
-local tab = DrRayLibrary.newTab("[Soon]", "ImageIdHere")
-
-tab.newButton("Button", "Prints Hello!", function()
-    print('Hello!')
-end)
-
-local tab = DrRayLibrary.newTab("[Soon]", "ImageIdHere")
-
-tab.newButton("Button", "Prints Hello!", function()
-    print('Hello!')
-end)
-
-local tab = DrRayLibrary.newTab("[Soon]", "ImageIdHere")
-
-tab.newButton("Button", "Prints Hello!", function()
-    print('Hello!')
-end)
-
