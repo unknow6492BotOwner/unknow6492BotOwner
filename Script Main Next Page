@@ -41,7 +41,7 @@ end)
 
 local tab = DrRayLibrary.newTab("Combat Warriors[New]", "rbxassetid://2005276185")
 
-tab.newButton("Combat Warriors[Op] New", "thanhdan", function()
+tab.newButton("Combat Warriors[Op] [New]", "thanhdan", function()
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/708e27c2ac33d627f10c14fdec6e9419.lua"))()
 end)
 
@@ -53,12 +53,12 @@ end)
 
 local tab = DrRayLibrary.newTab("Obby Bike[New]", "rbxassetid://2005276185")
 
-tab.newButton("Obby But You're On a Bike[New]", "unknow", function()
+tab.newButton("Obby But You're On a Bike[New]", "DHBCommunity", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/DHBCommunity/DHBOfficialScript/main/Unlockbike"))()
 end)
 
 local tab = DrRayLibrary.newTab("Evade [New]", "rbxassetid://2005276185")
 
-tab.newButton("Evade [New]", "unknow", function()
+tab.newButton("Evade [New]", "tbao143", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubEvade"))()
 end)
