@@ -45,7 +45,7 @@ Text = "Check Complete";
 end) 
 
 tab.newButton("Next", "Next Page", function()
-    loadstring(game:HttpGet(""))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Spawn%20Main"))()
 end)
 
 tab.newButton("Old Script Main", "Normal_Bacon#9172", function()
