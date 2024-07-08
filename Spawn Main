@@ -1,0 +1,10 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local Window = Library:NewWindow("Uploaded")
+
+local Tab = Window:NewSection("Spawn GUI 2.1")
+
+Tab:CreateButton("Next Page", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Script%20Main%20Page"))()
+
+end)
