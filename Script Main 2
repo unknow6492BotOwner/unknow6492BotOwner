@@ -110,8 +110,12 @@ tab.newButton("Build a boat for Treasure", "Credit By Normal_Bacon#9172", functi
 end)
 
 
-tab.newButton("Break in 2 [New]", "Credit By Normal_Bacon#9172", function()
+tab.newButton("Break in 2", "Credit By Normal_Bacon#9172", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Break%20in%202"))()
+end)
+
+tab.newButton("A Very Hungry Case0h", "Credit By Normal_Bacon#9172", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/A%20Very%20Hungry%20Case0h"))()
 end)
 
 
