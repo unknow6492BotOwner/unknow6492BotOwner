@@ -23,6 +23,10 @@ local RollCooldown = GameFolder:WaitForChild("RollCooldown")
 RollCooldown.Value = 0.00000000001
 end)
 
+tab1:CreateButton("Get Luck x5", function()
+game:GetService("ReplicatedStorage").EventsFolder.LuckIncrease:FireServer(9e9)
+end)
+
 tab1:CreateWarning("LocalPlayer")
 
 tab1:CreateTextbox("WalkSpeed", function(a)
