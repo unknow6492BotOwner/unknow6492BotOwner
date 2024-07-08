@@ -1,0 +1,33 @@
+local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+local window = DrRayLibrary:Load("[⏳] Script Main 2.1 [⏳]", "Default")
+
+local tab = DrRayLibrary.newTab("Tora IsMe [Soon]", "ImageIdHere")
+
+tab.newButton("Dupe Money ROCKS [NoKey]", "Credit to Tora IsMe", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/ROCK", true))()
+end)
+
+local tab = DrRayLibrary.newTab("Aquoupi [Soon]", "ImageIdHere")
+
+tab.newButton("Admin V2 Slap Battles [NoKey]", "Credit to Aquoupi", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Aquoupi/DestroyerX/main/OtherSBScripts/AdminCommands.lua"))()
+end)
+
+local tab = DrRayLibrary.newTab("[Soon]", "ImageIdHere")
+
+tab.newButton("Button", "Prints Hello!", function()
+    print('Hello!')
+end)
+
+local tab = DrRayLibrary.newTab("[Soon]", "ImageIdHere")
+
+tab.newButton("Button", "Prints Hello!", function()
+    print('Hello!')
+end)
+
+local tab = DrRayLibrary.newTab("[Soon]", "ImageIdHere")
+
+tab.newButton("Button", "Prints Hello!", function()
+    print('Hello!')
+end)
+
