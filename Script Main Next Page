@@ -39,12 +39,6 @@ tab.newButton("Back Script Main 2", "Back", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Script%20Main%202"))()
 end)
 
-local tab = DrRayLibrary.newTab("Combat Warriors[New]", "rbxassetid://2005276185")
-
-tab.newButton("Combat Warriors[Op] [New]", "thanhdan", function()
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/708e27c2ac33d627f10c14fdec6e9419.lua"))()
-end)
-
 local tab = DrRayLibrary.newTab("Legend Of Speed[New]", "rbxassetid://2005276185")
 
 tab.newButton("Legend of Speed [New]", "Key: SUBSCRIBERELZBLOX", function()
