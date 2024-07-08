@@ -1,0 +1,31 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local Window = Library:NewWindow("Cross Invisible Path to MAGIC CARPET!")
+
+local Tab = Window:NewSection("Main")
+
+Tab:CreateButton("Skip All Stage", function()
+
+game:GetService("ReplicatedStorage").ChangeStage:FireServer(game:GetService("Players").LocalPlayer,10)
+
+end)
+
+Tab:CreateButton("Easy TopBorad", function()
+
+game:GetService("ReplicatedStorage").SaveTrophyAttribute:FireServer(game:GetService("Players").LocalPlayer,9e9)
+
+end)
+
+Tab:CreateButton("Skip Time Lucky Blox [Ban Hammer]", function()
+
+game:GetService("ReplicatedStorage").FreeGearEvent:FireServer(game:GetService("Players").LocalPlayer)
+
+end)
+
+Tab:CreateButton("Give Rainbow", function()
+
+game:GetService("ReplicatedStorage").CarpetsEvents.Rainbow:FireServer(game:GetService("Players").LocalPlayer)
+
+end)
+
+local Tab = Window:NewSection("Normal_Bacon#9172")
+
