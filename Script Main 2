@@ -122,10 +122,13 @@ tab.newButton("Cross Invisible Path to MAGIC CARPET!", "Credit By Normal_Bacon#9
     loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/CIPTMC"))()
 end)
 
-tab.newButton("Prison life[New]", "Credit By Normal_Bacon#9172", function()
+tab.newButton("Prison life", "Credit By Normal_Bacon#9172", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Prison%20life"))()
 end)
 
+tab.newButton("[New]", "Credit By Normal_Bacon#9172", function()
+    loadstring(game:HttpGet(""))()
+end)
 
 local tab = DrRayLibrary.newTab("Break in Stroy", "rbxassetid://2005276185")
 
