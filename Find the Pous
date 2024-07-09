@@ -1,0 +1,58 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local Window = Library:NewWindow("[CITY!] Find the Pous (40)")
+
+local Tab = Window:NewSection("Main")
+
+Tab:CreateButton("Unluck All", function()
+
+game:GetService("ReplicatedStorage").Badge:FireServer(2125206129)
+game:GetService("ReplicatedStorage").Badge:FireServer(2125200764)
+game:GetService("ReplicatedStorage").Badge:FireServer(2125302850)
+game:GetService("ReplicatedStorage").Badge:FireServer(2125206146)
+game:GetService("ReplicatedStorage").Badge:FireServer(2125206123)
+
+game:GetService("ReplicatedStorage").Badge:FireServer(2126191035)
+game:GetService("ReplicatedStorage").Badge:FireServer(8621928057)
+game:GetService("ReplicatedStorage").Badge:FireServer(2126190948)
+game:GetService("ReplicatedStorage").Badge:FireServer(2126190894)
+game:GetService("ReplicatedStorage").Badge:FireServer(2126190880)
+
+game:GetService("ReplicatedStorage").Badge:FireServer(2126574383)
+game:GetService("ReplicatedStorage").Badge:FireServer(2126471555)
+game:GetService("ReplicatedStorage").Badge:FireServer(2126411522)
+game:GetService("ReplicatedStorage").Badge:FireServer(2126385444)
+game:GetService("ReplicatedStorage").Badge:FireServer(2126384472)
+
+game:GetService("ReplicatedStorage").Badge:FireServer(2138740538)
+game:GetService("ReplicatedStorage").Badge:FireServer(2138737353)
+game:GetService("ReplicatedStorage").Badge:FireServer(2129018900)
+game:GetService("ReplicatedStorage").Badge:FireServer(2129018904)
+game:GetService("ReplicatedStorage").Badge:FireServer(2128667472)
+
+game:GetService("ReplicatedStorage").Badge:FireServer(4056307367000766)
+game:GetService("ReplicatedStorage").Badge:FireServer(2922989026295431)
+game:GetService("ReplicatedStorage").Badge:FireServer(3809048371365699)
+game:GetService("ReplicatedStorage").Badge:FireServer(582389689006798)
+game:GetService("ReplicatedStorage").Badge:FireServer(2377766334030622)
+
+game:GetService("ReplicatedStorage").Badge:FireServer(3865995589153940)
+game:GetService("ReplicatedStorage").Badge:FireServer(653076686991103)
+game:GetService("ReplicatedStorage").Badge:FireServer(2906374084828745)
+game:GetService("ReplicatedStorage").Badge:FireServer(3039635626947037)
+game:GetService("ReplicatedStorage").Badge:FireServer(2946043173974510)
+
+game:GetService("ReplicatedStorage").Badge:FireServer(4260691315313016)
+game:GetService("ReplicatedStorage").Badge:FireServer(2486349683747941)
+game:GetService("ReplicatedStorage").Badge:FireServer(4464535498108419)
+game:GetService("ReplicatedStorage").Badge:FireServer(2955209245215197)
+game:GetService("ReplicatedStorage").Badge:FireServer(1836076686613567)
+
+game:GetService("ReplicatedStorage").Badge:FireServer(3313624573189444)
+game:GetService("ReplicatedStorage").Badge:FireServer(346669787603848)
+game:GetService("ReplicatedStorage").Badge:FireServer(2138734317)
+game:GetService("ReplicatedStorage").Badge:FireServer(2125302876)
+game:GetService("ReplicatedStorage").Badge:FireServer(2125878491)
+
+end)
+
+local Tab = Window:NewSection("Normal_Bacon#9172")
