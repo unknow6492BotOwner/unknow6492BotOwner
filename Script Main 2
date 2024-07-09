@@ -126,8 +126,8 @@ tab.newButton("Prison life", "Credit By Normal_Bacon#9172", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Prison%20life"))()
 end)
 
-tab.newButton("[New]", "Credit By Normal_Bacon#9172", function()
-    loadstring(game:HttpGet(""))()
+tab.newButton("[CITY!] Find The Pous (40) [New]", "Credit By Normal_Bacon#9172", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Find%20the%20Pous"))()
 end)
 
 local tab = DrRayLibrary.newTab("Break in Stroy", "rbxassetid://2005276185")
