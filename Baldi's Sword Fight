@@ -1,0 +1,48 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local Window = Library:NewWindow("Baldi's Sword Fight! ⚔️")
+
+local Tab = Window:NewSection("Main")
+
+Tab:CreateButton("1", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-77.0802841, -128.749664, -463.029999, 1, 0, 0, 0, -1, 0, 0, 0, -1)
+wait()
+
+end)
+
+Tab:CreateButton("2", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-77.0809097, -128.745026, -457.030914, 1, 0, 0, 0, -1, 0, 0, 0, -1)
+wait()
+
+end)
+
+Tab:CreateButton("3", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-77.0809174, -128.654404, -451.030975, 1, 0, 0, 0, -1, 0, 0, 0, -1)
+wait()
+
+end)
+
+Tab:CreateButton("4", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-77.0809631, -128.752899, -445.030945, 1, 0, 0, 0, -1, 0, 0, 0, -1)
+wait()
+
+end)
+
+local Tab = Window:NewSection("LocalPlayer")
+
+Tab:CreateButton("Infinity Yield", function()
+
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+
+end)
+
+Tab:CreateButton("FLY GUI V3", function()
+
+loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
+
+end)
+
+local Tab = Window:NewSection("YT: Normal_Bacon#9172")
