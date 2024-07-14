@@ -1,0 +1,51 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Script By Normal_Bacon#9172";
+    Text = "Loading...";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = "Spawn GUI 2.1 - 1";
+    Color = Color3.fromRGB(255, 255, 255);
+})
+
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local Window = Library:NewWindow("Uploaded")
+
+local Tab = Window:NewSection("Spawn GUI 2.1")
+
+Tab:CreateButton("Next Page[Soon]", function()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Coming Soon";
+    Text = "Maybe come where version 1.0.10";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = "Script Main By Normal_Bacon#9172";
+    Color = Color3.fromRGB(255, 255, 255);
+})
+
+end)
+
+Tab:CreateButton("Back Page", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/My%20Script%202"))()
+
+end)
+
+Tab:CreateButton("YouTuber Script[Soon]", function()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Coming Soon";
+    Text = "Maybe come where version 1.0.10";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = "Script Main By Normal_Bacon#9172";
+    Color = Color3.fromRGB(255, 255, 255);
+})
+
+end)
