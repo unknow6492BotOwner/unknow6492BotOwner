@@ -1,0 +1,253 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local Window = Library:NewWindow("Carry A Friend!")
+
+local Tab = Window:NewSection("Main")
+
+Tab:CreateButton("AutoFram", function()
+
+while wait() do
+
+local args = {
+    [1] = workspace.PortalTPS.Basics
+}
+
+game:GetService("ReplicatedStorage").Events.EnterLevel:FireServer(unpack(args))
+
+wait(3)
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6361.55762, 241.547241, -561.574463, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+wait()
+
+end
+end)
+
+Tab:CreateButton("AutoRebirth", function()
+
+while wait() do
+game:GetService("ReplicatedStorage").Events.Rebirth:FireServer()
+end
+
+end)
+
+local Tab = Window:NewSection("Summon Egg")
+
+Tab:CreateButton("Candy Egg  x1| 120", function()
+
+local args = {
+    [1] = "Candy",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer(unpack(args))
+
+
+end)
+
+Tab:CreateButton("Candy Egg x3 | 360", function()
+
+local args = {
+    [1] = "Candy",
+    [2] = 3
+}
+
+game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer(unpack(args))
+
+
+end)
+
+Tab:CreateButton("Enchanted Egg x1 | ", function()
+
+local args = {
+    [1] = "Enchanted",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer(unpack(args))
+
+
+end)
+
+Tab:CreateButton("Enchanted Egg x3 | ", function()
+
+local args = {
+    [1] = "Enchanted",
+    [2] = 3
+}
+
+game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer(unpack(args))
+
+
+end)
+
+Tab:CreateButton("Atlantis Egg x1 | ", function()
+
+local args = {
+    [1] = "Atlantis",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer(unpack(args))
+
+
+end)
+
+
+Tab:CreateButton("Atlantis Egg x3 | ", function()
+
+local args = {
+    [1] = "Atlantis",
+    [2] = 3
+}
+
+game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer(unpack(args))
+
+
+end)
+
+local Tab = Window:NewSection("Summon Egg 2")
+
+Tab:CreateButton("Elemental Egg x1 | " , function()
+
+local args = {
+    [1] = "Elemental",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer(unpack(args))
+
+
+end)
+
+Tab:CreateButton("Elemental Egg x3 | ", function()
+
+local args = {
+    [1] = "Elemental",
+    [2] = 3
+}
+
+game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer(unpack(args))
+
+
+end)
+
+Tab:CreateButton("Dino Egg x1 | ", function()
+
+local args = {
+    [1] = "Dino",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Dino Egg x3 | ", function()
+
+local args = {
+    [1] = "Dino",
+    [2] = 3
+}
+
+game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer(unpack(args))
+
+
+end)
+
+Tab:CreateButton("Pirate Egg x1 | ", function()
+
+local args = {
+    [1] = "Pirate",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer(unpack(args))
+
+
+end)
+
+Tab:CreateButton("Pirate Egg x3 | ", function()
+
+local args = {
+    [1] = "Pirate",
+    [2] = 3
+}
+
+game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer(unpack(args))
+
+
+end)
+
+Tab:CreateButton("Godly Egg x1 | ", function()
+
+local args = {
+    [1] = "Godly",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer(unpack(args))
+
+
+end)
+
+Tab:CreateButton("Godly Egg x3 | ", function()
+
+local args = {
+    [1] = "Godly",
+    [2] = 3
+}
+
+game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer(unpack(args))
+
+
+end)
+
+Tab:CreateButton("Anime Egg x1 | ", function()
+
+local args = {
+    [1] = "Anime",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer(unpack(args))
+
+
+end)
+
+Tab:CreateButton("Anime Egg x3 | ", function()
+
+local args = {
+    [1] = "Anime",
+    [2] = 3
+}
+
+game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer(unpack(args))
+
+
+end)
+
+Tab:CreateButton("Ninja Egg x1 | ", function()
+
+local args = {
+    [1] = "Ninja",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer(unpack(args))
+
+
+end)
+
+Tab:CreateButton("Ninja Egg x3 | ", function()
+
+local args = {
+    [1] = "Ninja",
+    [2] = 3
+}
+
+game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer(unpack(args))
+
+
+end)
+
+
+local Tab = Window:NewSection("YT: Normal_Bacon#9172")
