@@ -1,0 +1,106 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local Window = Library:NewWindow("My Script")
+
+local Tab = Window:NewSection("Main")
+
+Tab:CreateButton("[UPDATE] RNG Fights", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/RNG%20Fights"))()
+
+end)
+
+Tab:CreateButton("King of The Hill", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/King%20of%20The%20Hill"))()
+
+end)
+
+Tab:CreateButton("Start a business to get your dad back", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/start%20a%20business%20to%20get%20your%20dad%20back"))()
+
+end)
+
+Tab:CreateButton("Eat Block", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Eat%20Block"))()
+
+end)
+
+Tab:CreateButton("Fudge's RNG", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Fudge's%20RNG"))()
+
+end)
+
+Tab:CreateButton("Horror RNG", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Horror%20RNG"))()
+
+end)
+
+Tab:CreateButton("Reach", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Reach"))()
+
+end)
+
+Tab:CreateButton("Punch Stuff Tycoon", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Punch%20Stuff%20Tycoon"))()
+
+end)
+
+Tab:CreateButton("Bou's Revenge [HORROR]", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Bou's%20Revenge%5BHORROR%5D"))()
+
+end)
+
+Tab:CreateButton("Build A Boat For Treasure", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Build%20A%20Boat%20For%20Treasure"))()
+
+end)
+
+Tab:CreateButton("Break in 2", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Break%20in%202"))()
+
+end)
+
+Tab:CreateButton("A Very Hungry Case0h", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/A%20Very%20Hungry%20Case0h"))()
+
+end)
+
+Tab:CreateButton("Cross Invisible Path to MAGIC CARPET!", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/CIPTMC"))()
+
+end)
+
+Tab:CreateButton("Prison life", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Prison%20life"))()
+
+end)
+
+Tab:CreateButton("[CITY!] Find the Pous (40) [New]", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Find%20the%20Pous"))()
+
+end)
+
+local Tab = Window:NewSection("YouTube")
+
+Tab:CreateButton("Spawn Script YouTube", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Script%20Main%20Page"))()
+
+end)
+
+local Tab = Window:NewSection("Player[Soon]")
+
+local Tab = Window:NewSection("YT: Normal_Bacon#9172")
