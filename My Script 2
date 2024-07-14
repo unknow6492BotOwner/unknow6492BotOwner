@@ -97,7 +97,7 @@ local Tab = Window:NewSection("YouTube")
 
 Tab:CreateButton("Spawn Script YouTube", function()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Script%20Main%20Page"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/YouTube%20Script"))()
 
 end)
 
