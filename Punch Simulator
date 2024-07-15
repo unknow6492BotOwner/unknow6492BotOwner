@@ -1,0 +1,30 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local Window = Library:NewWindow("Wall Punch Simulator")
+
+local Tab = Window:NewSection("Main")
+
+Tab:CreateButton("AutoFram [Win]", function()
+
+while wait(0.000000000001) do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-123.451324, -2.82820535, 10315.6504, 0, 0, -1, -1, 0, 0, 0, 1, 0)
+wait()
+end
+
+end)
+
+Tab:CreateButton("AutoFram [Punch]", function()
+
+while wait(0.000000001) do
+game:GetService("ReplicatedStorage").Boxing:FireServer()
+end
+
+end)
+
+Tab:CreateButton("Flashed to the end.", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-122.699951, -2.5, 10170, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+wait()
+
+end)
+
+local Tab = Window:NewSection("YT: BaconScript#9172")
