@@ -20,7 +20,7 @@ end)
 
 local Tab = Window:NewSection("Champion Defense")
 
-Tab:CreateButton("Instant Skip Wave", function()
+Tab:CreateButton("Instant Skip Wave[Not Work]", function()
 
 local remote = game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Skip")
  
@@ -80,4 +80,5 @@ game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("Clicke
 
 end)
 
+local Tab = Window:NewSection("RealOwner: Ait's Scripting")
 local Tab = Window:NewSection("YT: BaconScript#9172")
