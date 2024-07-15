@@ -1,0 +1,56 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local Window = Library:NewWindow("Bou's Revenge [HORROR]")
+
+local Tab = Window:NewSection("Main")
+
+Tab:CreateButton("Infinity Coins", function()
+
+local args = {
+    [1] = 1000000000,
+    [2] = 4123
+}
+
+game:GetService("ReplicatedStorage").Remotes.GetReward:FireServer(unpack(args))
+
+
+end)
+
+Tab:CreateButton("AutoBuy Spin", function()
+
+while wait(0.2) do
+game:GetService("ReplicatedStorage").Remotes.BuySpin:FireServer()
+end
+
+end)
+
+Tab:CreateButton("Give Badge [Cosmetics_Knife]", function()
+
+local args = {
+    [1] = "Cosmetic_Knife",
+    [2] = 4123
+}
+
+game:GetService("ReplicatedStorage").Remotes.GetReward:FireServer(unpack(args))
+
+
+end)
+
+Tab:CreateButton("AutoBuy Bloxy", function()
+
+while wait(0.2) do
+local args = {
+    [1] = "Bloxy"
+}
+
+game:GetService("ReplicatedStorage").Remotes.BuyEvent:FireServer(unpack(args))
+end
+
+end)
+
+Tab:CreateButton("Button", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Bou's%20Revenge%5BHORROR%5D"))()
+
+end)
+
+local Tab = Window:NewSection("YT: Normal_Bacon#9172")
