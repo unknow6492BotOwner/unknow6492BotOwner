@@ -1,7 +1,7 @@
 local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
 local Window = Library:NewWindow("Carry A Friend!")
 
-local Tab = Window:NewSection("Main")
+local Tab = Window:NewSection("Main [Fix Code]")
 
 Tab:CreateButton("AutoFram", function()
 
@@ -55,7 +55,7 @@ game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer(unpack(args))
 
 end)
 
-Tab:CreateButton("Enchanted Egg x1 | ", function()
+Tab:CreateButton("Enchanted Egg x1 | 1.26K", function()
 
 local args = {
     [1] = "Enchanted",
@@ -67,7 +67,7 @@ game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer(unpack(args))
 
 end)
 
-Tab:CreateButton("Enchanted Egg x3 | ", function()
+Tab:CreateButton("Enchanted Egg x3 | 3.7K", function()
 
 local args = {
     [1] = "Enchanted",
@@ -79,7 +79,7 @@ game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer(unpack(args))
 
 end)
 
-Tab:CreateButton("Atlantis Egg x1 | ", function()
+Tab:CreateButton("Atlantis Egg x1 | 5.9K", function()
 
 local args = {
     [1] = "Atlantis",
@@ -92,7 +92,7 @@ game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer(unpack(args))
 end)
 
 
-Tab:CreateButton("Atlantis Egg x3 | ", function()
+Tab:CreateButton("Atlantis Egg x3 | 17.9K", function()
 
 local args = {
     [1] = "Atlantis",
@@ -106,7 +106,7 @@ end)
 
 local Tab = Window:NewSection("Summon Egg 2")
 
-Tab:CreateButton("Elemental Egg x1 | " , function()
+Tab:CreateButton("Elemental Egg x1 | 23.3K" , function()
 
 local args = {
     [1] = "Elemental",
@@ -118,7 +118,7 @@ game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer(unpack(args))
 
 end)
 
-Tab:CreateButton("Elemental Egg x3 | ", function()
+Tab:CreateButton("Elemental Egg x3 | 69.9K", function()
 
 local args = {
     [1] = "Elemental",
@@ -130,7 +130,7 @@ game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer(unpack(args))
 
 end)
 
-Tab:CreateButton("Dino Egg x1 | ", function()
+Tab:CreateButton("Dino Egg x1 | 85K", function()
 
 local args = {
     [1] = "Dino",
@@ -141,7 +141,7 @@ game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer(unpack(args))
 
 end)
 
-Tab:CreateButton("Dino Egg x3 | ", function()
+Tab:CreateButton("Dino Egg x3 | 255K", function()
 
 local args = {
     [1] = "Dino",
@@ -153,7 +153,7 @@ game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer(unpack(args))
 
 end)
 
-Tab:CreateButton("Pirate Egg x1 | ", function()
+Tab:CreateButton("Pirate Egg x1 | 405K", function()
 
 local args = {
     [1] = "Pirate",
@@ -165,7 +165,7 @@ game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer(unpack(args))
 
 end)
 
-Tab:CreateButton("Pirate Egg x3 | ", function()
+Tab:CreateButton("Pirate Egg x3 | 1.2M", function()
 
 local args = {
     [1] = "Pirate",
@@ -177,7 +177,7 @@ game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer(unpack(args))
 
 end)
 
-Tab:CreateButton("Godly Egg x1 | ", function()
+Tab:CreateButton("Godly Egg x1 | 1.5M", function()
 
 local args = {
     [1] = "Godly",
@@ -189,7 +189,7 @@ game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer(unpack(args))
 
 end)
 
-Tab:CreateButton("Godly Egg x3 | ", function()
+Tab:CreateButton("Godly Egg x3 | 4.5M", function()
 
 local args = {
     [1] = "Godly",
@@ -201,7 +201,7 @@ game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer(unpack(args))
 
 end)
 
-Tab:CreateButton("Anime Egg x1 | ", function()
+Tab:CreateButton("Anime Egg x1 | 5M", function()
 
 local args = {
     [1] = "Anime",
@@ -213,7 +213,7 @@ game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer(unpack(args))
 
 end)
 
-Tab:CreateButton("Anime Egg x3 | ", function()
+Tab:CreateButton("Anime Egg x3 | 15M", function()
 
 local args = {
     [1] = "Anime",
@@ -225,7 +225,7 @@ game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer(unpack(args))
 
 end)
 
-Tab:CreateButton("Ninja Egg x1 | ", function()
+Tab:CreateButton("Ninja Egg x1 | 5M", function()
 
 local args = {
     [1] = "Ninja",
@@ -237,7 +237,7 @@ game:GetService("ReplicatedStorage").Events.OpenEgg:FireServer(unpack(args))
 
 end)
 
-Tab:CreateButton("Ninja Egg x3 | ", function()
+Tab:CreateButton("Ninja Egg x3 | 15M", function()
 
 local args = {
     [1] = "Ninja",
