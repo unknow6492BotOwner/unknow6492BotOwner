@@ -20,17 +20,14 @@ end)
 
 local Tab = Window:NewSection("Champion Defense")
 
-Tab:CreateButton("Instant Skip Wave[Not Work]", function()
+Tab:CreateButton("Instant Skip Wave[Fix]", function()
 
 local remote = game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Skip")
- 
--- Define the number of times to send the Skip command
+
 local numSkips = 100
  
--- Define the delay between each Skip command (in seconds)
 local delay = 0.1  -- Adjust this value as needed
  
--- Function to send Skip commands
 local function sendSkips()
     for i = 1, numSkips do
         local args = {
@@ -41,7 +38,6 @@ local function sendSkips()
     end
 end
  
--- Call the function to start sending Skip commands
 sendSkips()
  
 end)
