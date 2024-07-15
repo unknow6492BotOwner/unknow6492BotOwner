@@ -47,7 +47,7 @@ end
 
 end)
 
-Tab:CreateButton("Button", function()
+Tab:CreateButton("Old Gui", function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Bou's%20Revenge%5BHORROR%5D"))()
 
