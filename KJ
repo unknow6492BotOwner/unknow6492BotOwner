@@ -1,0 +1,109 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local Window = Library:NewWindow("KJ CHARACTER MOVESETS PLACE")
+
+local Tab = Window:NewSection("KJ")
+
+Tab:CreateButton("Ultimate KJ", function()
+
+local args = {
+    [1] = 1.2820000000000005
+}
+
+game:GetService("ReplicatedStorage").Remotes.kj.release:FireServer(unpack(args))
+
+end)
+
+Tab:CreateButton("DropKick", function()
+
+game:GetService("ReplicatedStorage").KJ.Remote.DropKick:FireServer()
+
+end)
+
+Tab:CreateButton("StoicBomb", function()
+
+game:GetService("ReplicatedStorage").KJ.Remote.StoicBomb:FireServer()
+
+end)
+
+local Tab = Window:NewSection("GOJO")
+
+Tab:CreateButton("Ultimate GOJO", function()
+
+local args = {
+    [1] = 1.4680000000000006
+}
+
+game:GetService("ReplicatedStorage").Remotes.gojo.release:FireServer(unpack(args))
+
+
+end)
+
+Tab:CreateButton("HollowPurplue", function()
+
+game:GetService("ReplicatedStorage").GOJO.Remote.HollowPurple:FireServer()
+
+end)
+
+Tab:CreateButton("ImgainaryPurple", function()
+
+game:GetService("ReplicatedStorage").GOJO.Remote.ImaginaryPurple:FireServer()
+
+end)
+
+local Tab = Window:NewSection("TOJI")
+
+Tab:CreateButton("Ultimate TOJI", function()
+
+local args = {
+    [1] = 1.7600000000000011
+}
+
+game:GetService("ReplicatedStorage").Remotes.toji.release:FireServer(unpack(args))
+
+end)
+
+Tab:CreateButton("AMANAI", function()
+
+game:GetService("ReplicatedStorage").TOJI.Remote.AMANAI:FireServer()
+
+end)
+
+Tab:CreateButton("Little", function()
+
+game:GetService("ReplicatedStorage").TOJI.Remote.Little:FireServer()
+
+end)
+
+local Tab = Window:NewSection("Character")
+
+Tab:CreateButton("KJ", function()
+
+local args = {
+    [1] = "KJ"
+}
+
+game:GetService("Players").LocalPlayer.Character:FindFirstChild("Change Character").ChangeCharacter:FireServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Gojo", function()
+
+local args = {
+    [1] = "GOJO"
+}
+
+game:GetService("Players").LocalPlayer.Character:FindFirstChild("Change Character").ChangeCharacter:FireServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Toji", function()
+
+local args = {
+    [1] = "TOJI"
+}
+
+game:GetService("Players").LocalPlayer.Character:FindFirstChild("Change Character").ChangeCharacter:FireServer(unpack(args))
+
+end)
+
+local Tab = Window:NewSection("YT: BaconScript#9172")
