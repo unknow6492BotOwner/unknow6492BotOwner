@@ -76,10 +76,34 @@ end)
 
 local Tab = Window:NewSection("Troll Player")
 
-Tab:CreateButton("Troll [💀]", function()
+Tab:CreateButton("LoopSkill [AMANAI]", function()
 
-while wait(0.000001) do
+while wait() do
 game:GetService("ReplicatedStorage").TOJI.Remote.AMANAI:FireServer()
+end
+
+end)
+
+Tab:CreateButton("LoopSkill [HollowPurplue]", function()
+
+while wait() do
+game:GetService("ReplicatedStorage").GOJO.Remote.HollowPurple:FireServer()
+end
+
+end)
+
+Tab:CreateButton("DropKick", function()
+
+while wait() do
+game:GetService("ReplicatedStorage").KJ.Remote.DropKick:FireServer()
+end
+
+end)
+
+Tab:CreateButton("LoopSkill [StoicBomb]", function()
+
+while wait() do
+game:GetService("ReplicatedStorage").KJ.Remote.StoicBomb:FireServer()
 end
 
 end)
