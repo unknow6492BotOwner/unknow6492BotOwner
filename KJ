@@ -74,6 +74,16 @@ game:GetService("ReplicatedStorage").TOJI.Remote.Little:FireServer()
 
 end)
 
+local Tab = Window:NewSection("Troll Player")
+
+Tab:CreateButton("Troll [💀]", function()
+
+while wait(0.000001) do
+game:GetService("ReplicatedStorage").TOJI.Remote.AMANAI:FireServer()
+end
+
+end)
+
 local Tab = Window:NewSection("Character")
 
 Tab:CreateButton("KJ", function()
