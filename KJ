@@ -92,7 +92,7 @@ end
 
 end)
 
-Tab:CreateButton("DropKick", function()
+Tab:CreateButton("LoopSkill [DropKick]", function()
 
 while wait() do
 game:GetService("ReplicatedStorage").KJ.Remote.DropKick:FireServer()
