@@ -1,0 +1,34 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local Window = Library:NewWindow("[UPD]Roblox But Every Second You Get +1 Jump Power")
+
+local Tab = Window:NewSection("Main")
+
+Tab:CreateButton("Equip Beat Pet", function()
+
+local args = {
+    [1] = game:GetService("Players").LocalPlayer.Pets.Infection,
+    [2] = "Equip"
+}
+
+game:GetService("ReplicatedStorage").Events.Equip:FireServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Give Win (75)", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(25132.5, 332.74884, 670.212158, 0, 0, 1, 1, 0, 0, 0, 1, 0)
+wait()
+
+end)
+
+Tab:CreateButton("Velocity (1.0qd)", function()
+
+local args = {
+    [1] = "1000000000000000"
+}
+
+game:GetService("ReplicatedStorage").Events.Velocity:InvokeServer(unpack(args))
+
+end)
+
+local Tab = Window:NewSection("YT: BaconScript#9172")
