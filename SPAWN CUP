@@ -78,6 +78,12 @@ end)
 
 local Tab = Window:NewSection("Free Script")
 
+Tab:CreateButton("Fram Chest", function()
+
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Trollge%20fram'))()
+
+end)
+
 Tab:CreateButton("Infinity Yield", function()
 
  loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
