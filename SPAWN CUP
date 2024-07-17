@@ -43,4 +43,53 @@ game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:F
 
 end)
 
+local Tab = Window:NewSection("LoopSpawn")
+
+Tab:CreateButton("Spawn All [ Legendary - Common]", function()
+
+while wait() do
+local args = {
+    [1] = "Legendary"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:FireServer(unpack(args))
+
+local args = {
+    [1] = "Epic"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:FireServer(unpack(args))
+
+local args = {
+    [1] = "Uncommon"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:FireServer(unpack(args))
+
+local args = {
+    [1] = "Common"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:FireServer(unpack(args))
+
+end
+
+end)
+
+local Tab = Window:NewSection("Free Script")
+
+Tab:CreateButton("Infinity Yield", function()
+
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+
+end)
+
+Tab:CreateButton("DexMoon Mobile [KEY]", function()
+
+local __function = loadstring(game:HttpGet("https://github.com/Hosvile/DEX-Explorer/releases/latest/download/main.lua", true))
+
+__function(__function)
+
+end)
+
 local Tab = Window:NewSection("YT: BacnScript#9172")
