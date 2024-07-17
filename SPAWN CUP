@@ -1,7 +1,7 @@
 local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
-local Window = Library:NewWindow("Name")
+local Window = Library:NewWindow("Spawn Cup GUI [1.0.0]")
 
-local Tab = Window:NewSection("My Tab")
+local Tab = Window:NewSection("Main")
 
 Tab:CreateButton("Spawn Cup Legendary", function()
 
