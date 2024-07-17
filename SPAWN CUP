@@ -1,0 +1,46 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local Window = Library:NewWindow("Name")
+
+local Tab = Window:NewSection("My Tab")
+
+Tab:CreateButton("Spawn Cup Legendary", function()
+
+local args = {
+    [1] = "Legendary"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:FireServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Spawn Cup Epic", function()
+
+local args = {
+    [1] = "Epic"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:FireServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Spawn Cup Uncommon", function()
+
+local args = {
+    [1] = "Uncommon"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:FireServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Spawn Cup Common", function()
+
+local args = {
+    [1] = "Common"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:FireServer(unpack(args))
+
+end)
+
+local Tab = Window:NewSection("YT: BacnScript#9172")
