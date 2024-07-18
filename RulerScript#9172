@@ -118,6 +118,12 @@ end)
 
 local Tab = Window:NewSection("Free Script")
 
+Tab:CreateButton("Simple Spy", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RS/main/SimpleSpyMobile"))()
+
+end)
+
 Tab:CreateButton("Fram Chest", function()
 
  loadstring(game:HttpGet('https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Trollge%20fram'))()
