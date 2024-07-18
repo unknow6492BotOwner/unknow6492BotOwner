@@ -126,7 +126,7 @@ __function(__function)
 
 end)
 
-local Tab = Window:NewSection("Update Check)
+local Tab = Window:NewSection("Update Check")
 
 Tab:CreateButton("Check Version", function()
 
