@@ -223,7 +223,7 @@ end)
 Tab:CreateButton("Check Update [✅]", function()
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
-    Title = "Update";
+    Title = "Big Update";
     Text = "Update: Teleport Zome";
     Icon = "rbxassetid://2005276185";
     Duration = 5;
