@@ -194,10 +194,6 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
     Icon = "rbxassetid://2005276185";
     Duration = 5;
 })
-game.StarterGui:SetCore("ChatMakeSystemMessage", {
-Text = "Version: 1.0.5";
-    Color = Color3.fromRGB(255, 255, 255);
-})
 
 end)
 
@@ -209,10 +205,6 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
     Icon = "rbxassetid://2005276185";
     Duration = 5;
 })
-game.StarterGui:SetCore("ChatMakeSystemMessage", {
-Text = "Update: Loop Spawn items";
-    Color = Color3.fromRGB(255, 255, 255);
-})
 
 end)
 
@@ -220,21 +212,54 @@ local Tab = Window:NewSection("Server[📊]")
 
 Tab:CreateButton("ReJoin[🔁]", function()
 
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ReJoin[🔁]";
+    Text = "Loading...";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(2)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ReJoin[🔁]";
+    Text = "1/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ReJoin[🔁]";
+    Text = "2/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ReJoin[🔁]";
+    Text = "3/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(0.7)
+
 game:GetService("TeleportService"):Teleport(game.PlaceId)
 
 end)
 
 Tab:CreateButton("ServerHop[⏩]", function()
 
-for _, v in ipairs(game:GetService("HttpService"):JSONDecode(game:HttpGetAsync("https://games.roblox.com/v1/games/" .. game.PlaceId .. "/servers/Public?sortOrder=Asc&limit=100")).data) do
-		if type(v) == "table" and v.maxPlayers > v.playing and v.id ~= game.JobId then
-			x[#x + 1] = v.id
-		end
-	end
-	if #x > 0 then
-		game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, x[math.random(1, #x)])
-	else
-		ServerHop.Text = "Couldn't Find Server"
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ServerHop[⏩]";
+    Text = "Sorry Not Work 😔";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
 
 end)
 
