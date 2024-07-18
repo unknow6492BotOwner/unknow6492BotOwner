@@ -329,4 +329,19 @@ TPS:TeleportToPlaceInstance(_place,Server.id,game:GetService('Players').LocalPla
 
 end)
 
+Tab:CreateButton("Server Finder [💬]", function()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Finder Server Script";
+    Text = "Loading...";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1)
+
+loadstring(game:HttpGet("https://www.scriptblox.com/raw/Server-Browser_80", true))();
+
+end)
+
 local Tab = Window:NewSection("YT: BacnScript#9172")
