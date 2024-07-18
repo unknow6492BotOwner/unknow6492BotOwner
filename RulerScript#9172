@@ -261,14 +261,71 @@ game:GetService("TeleportService"):Teleport(game.PlaceId)
 
 end)
 
-Tab:CreateButton("ServerHop[⏩]", function()
+Tab:CreateButton("ServerHop LowPlayer[⏩]", function()
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
-    Title = "ServerHop[⏩]";
-    Text = "Sorry Not Work 😔";
+    Title = "ServerHop LowPlayer[⏩]";
+    Text = "Loading...";
     Icon = "rbxassetid://2005276185";
     Duration = 5;
 })
+
+wait(2)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ServerHop LowPlayer[⏩]";
+    Text = "1/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ServerHop LowPlayer[⏩]";
+    Text = "2/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ServerHop LowPlayer[⏩]";
+    Text = "3/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "[ServerHop LowPlayer[⏩]]";
+    Text = "Loading...[Finish]";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(2)
+
+local Http = game:GetService("HttpService")
+local TPS = game:GetService("TeleportService")
+local Api = "https://games.roblox.com/v1/games/"
+ 
+local _place = game.PlaceId
+local _servers = Api.._place.."/servers/Public?sortOrder=Asc&limit=100"
+function ListServers(cursor)
+   local Raw = game:HttpGet(_servers .. ((cursor and "&cursor="..cursor) or ""))
+   return Http:JSONDecode(Raw)
+end
+ 
+local Server, Next; repeat
+   local Servers = ListServers(Next)
+   Server = Servers.data[1]
+   Next = Servers.nextPageCursor
+until Server
+ 
+TPS:TeleportToPlaceInstance(_place,Server.id,game:GetService('Players').LocalPlayer)
 
 end)
 
