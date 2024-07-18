@@ -1,5 +1,5 @@
 local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
-local Window = Library:NewWindow("Spawn Cup GUI [1.0.0]")
+local Window = Library:NewWindow("Ruler Script")
 
 local Tab = Window:NewSection("Main")
 
@@ -43,9 +43,9 @@ game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:F
 
 end)
 
-local Tab = Window:NewSection("LoopSpawn")
+local Tab = Window:NewSection("Spawn All Lege - Comm")
 
-Tab:CreateButton("Spawn All [ Legendary - Common]", function()
+Tab:CreateButton("LoopSpawn", function()
 
 while wait() do
 local args = {
@@ -76,6 +76,34 @@ end
 
 end)
 
+Tab:CreateButton("Spawn All NoLoop", function()
+
+local args = {
+    [1] = "Legendary"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:FireServer(unpack(args))
+
+local args = {
+    [1] = "Epic"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:FireServer(unpack(args))
+
+local args = {
+    [1] = "Uncommon"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:FireServer(unpack(args))
+
+local args = {
+    [1] = "Common"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:FireServer(unpack(args))
+
+end)
+
 local Tab = Window:NewSection("Free Script")
 
 Tab:CreateButton("Fram Chest", function()
@@ -95,6 +123,38 @@ Tab:CreateButton("DexMoon Mobile [KEY]", function()
 local __function = loadstring(game:HttpGet("https://github.com/Hosvile/DEX-Explorer/releases/latest/download/main.lua", true))
 
 __function(__function)
+
+end)
+
+local Tab = Window:NewSection("Update Check)
+
+Tab:CreateButton("Check Version", function()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Version";
+    Text = "Now Version 1.0.3";
+    Icon = "rbxassetid://18544616579";
+    Duration = 5;
+})
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = "1.0.3";
+    Color = Color3.fromRGB(255, 255, 255);
+})
+
+end)
+
+Tab:CreateButton("Check Update", function()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Update";
+    Text = "Update: [Spawn All NoLoop]";
+    Icon = "rbxassetid://18544616579";
+    Duration = 5;
+})
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = "Update: [Spawn All NoLoop]";
+    Color = Color3.fromRGB(255, 255, 255);
+})
 
 end)
 
