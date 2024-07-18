@@ -158,7 +158,7 @@ end)
 
 local Tab = Window:NewSection("Teleport [☁️]")
 
-Tab:CreateButton("Map", function()
+Tab:CreateButton("Random Cup", function()
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-624.303772, 76.7999573, 24.7357006, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 wait()
@@ -168,6 +168,13 @@ end)
 Tab:CreateButton("Safe Zome", function()
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-49.5556641, 73.7658081, 140.853088, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+wait()
+
+end)
+
+Tab:CreateButton("Safe Zome 2", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1357.65649, 73.9970245, -158.431625, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 wait()
 
 end)
@@ -206,7 +213,7 @@ Tab:CreateButton("Check Version", function()
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "Version";
-    Text = "Now Version 1.0.5";
+    Text = "Now Version 1.0.2";
     Icon = "rbxassetid://2005276185";
     Duration = 5;
 })
@@ -217,7 +224,7 @@ Tab:CreateButton("Check Update [✅]", function()
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "Update";
-    Text = "Update: Delete Trollcoins";
+    Text = "Update: Teleport Zome";
     Icon = "rbxassetid://2005276185";
     Duration = 5;
 })
