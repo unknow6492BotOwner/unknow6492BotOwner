@@ -224,4 +224,10 @@ game:GetService("TeleportService"):Teleport(game.PlaceId)
 
 end)
 
+Tab:CreateButton("ServerHop[⚖️]", function()
+
+game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, x[math.random(1, #x)])
+
+end)
+
 local Tab = Window:NewSection("YT: BacnScript#9172")
