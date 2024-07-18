@@ -108,6 +108,46 @@ game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:F
 
 end)
 
+Tab:CreateButton("Spawn Cup Legendary", function()
+while wait() do
+local args = {
+    [1] = "Legendary"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:FireServer(unpack(args))
+end
+end)
+
+Tab:CreateButton("Spawn Cup Epic", function()
+while wait() do
+local args = {
+    [1] = "Epic"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:FireServer(unpack(args))
+end
+end)
+
+Tab:CreateButton("Spawn Cup Uncommon", function()
+while wait() do
+local args = {
+    [1] = "Uncommon"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:FireServer(unpack(args))
+end
+end)
+
+Tab:CreateButton("Spawn Cup Common", function()
+while wait() do
+local args = {
+    [1] = "Common"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:FireServer(unpack(args))
+end
+end)
+
 local Tab = Window:NewSection("⚠️Delete⚠️")
 
 Tab:CreateButton("Delete Trollcoins[⚠️]", function()
