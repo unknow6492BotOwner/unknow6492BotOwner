@@ -76,26 +76,30 @@ end
 
 end)
 
-Tab:CreateButton("Spawn All NoLoop", function()
+Tab:CreateButton("Spawn All ", function()
 
+wait(1.2)
 local args = {
     [1] = "Legendary"
 }
 
 game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:FireServer(unpack(args))
 
+wait(1.2)
 local args = {
     [1] = "Epic"
 }
 
 game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:FireServer(unpack(args))
 
+wait(1.2)
 local args = {
     [1] = "Uncommon"
 }
 
 game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:FireServer(unpack(args))
 
+wait(1.2)
 local args = {
     [1] = "Common"
 }
