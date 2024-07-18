@@ -228,7 +228,7 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
     Duration = 5;
 })
 
-wait(1)
+wait(1.5)
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "ReJoin[🔁]";
@@ -237,7 +237,7 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
     Duration = 5;
 })
 
-wait(1)
+wait(1.5)
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "ReJoin[🔁]";
@@ -246,7 +246,16 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
     Duration = 5;
 })
 
-wait(0.7)
+wait(1.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ReJoin[🔁]";
+    Text = "Loading...[Finish]";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(2)
 
 game:GetService("TeleportService"):Teleport(game.PlaceId)
 
