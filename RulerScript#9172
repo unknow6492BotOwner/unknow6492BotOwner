@@ -133,7 +133,7 @@ Tab:CreateButton("Check Version", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "Version";
     Text = "Now Version 1.0.3";
-    Icon = "rbxassetid://18544616579";
+    Icon = "rbxassetid://2005276185";
     Duration = 5;
 })
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
@@ -148,7 +148,7 @@ Tab:CreateButton("Check Update", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "Update";
     Text = "Update: [Spawn All NoLoop]";
-    Icon = "rbxassetid://18544616579";
+    Icon = "rbxassetid://2005276185";
     Duration = 5;
 })
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
