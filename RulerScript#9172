@@ -216,4 +216,12 @@ Text = "Update: Loop Spawn items";
 
 end)
 
+local Tab = Window:NewSection("Server")
+
+Tab:CreateButton("ReJoin[⚖️]", function()
+
+game:GetService("TeleportService"):Teleport(game.PlaceId)
+
+end)
+
 local Tab = Window:NewSection("YT: BacnScript#9172")
