@@ -3,7 +3,7 @@ local Window = Library:NewWindow("[⚠️] Ruler Script [⚠️]")
 
 local Tab = Window:NewSection("Main")
 
-Tab:CreateButton("Spawn Cup Legendary", function()
+Tab:CreateButton("Spawn Cup Legendary[🌠]", function()
 
 local args = {
     [1] = "Legendary"
@@ -13,7 +13,7 @@ game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:F
 
 end)
 
-Tab:CreateButton("Spawn Cup Epic", function()
+Tab:CreateButton("Spawn Cup Epic[🌌]", function()
 
 local args = {
     [1] = "Epic"
@@ -23,7 +23,7 @@ game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:F
 
 end)
 
-Tab:CreateButton("Spawn Cup Uncommon", function()
+Tab:CreateButton("Spawn Cup Uncommon[🪐]", function()
 
 local args = {
     [1] = "Uncommon"
@@ -33,7 +33,7 @@ game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:F
 
 end)
 
-Tab:CreateButton("Spawn Cup Common", function()
+Tab:CreateButton("Spawn Cup Common[🌕]", function()
 
 local args = {
     [1] = "Common"
@@ -43,9 +43,9 @@ game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:F
 
 end)
 
-local Tab = Window:NewSection("Spawn All Lege - Comm")
+local Tab = Window:NewSection("Spawn Cup 🌠 - 🌕")
 
-Tab:CreateButton("LoopSpawn", function()
+Tab:CreateButton("LoopSpawn [💩]", function()
 
 while wait() do
 local args = {
@@ -76,7 +76,7 @@ end
 
 end)
 
-Tab:CreateButton("Spawn All ", function()
+Tab:CreateButton("Spawn All [💀]", function()
 
 wait(0.1)
 local args = {
@@ -108,7 +108,7 @@ game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:F
 
 end)
 
-Tab:CreateButton("LoopSpawn Cup Legendary", function()
+Tab:CreateButton("LoopSpawn Cup Legendary [🌠]", function()
 while wait() do
 local args = {
     [1] = "Legendary"
@@ -118,7 +118,7 @@ game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:F
 end
 end)
 
-Tab:CreateButton("LoopSpawn Cup Epic", function()
+Tab:CreateButton("LoopSpawn Cup Epic [🌌]", function()
 while wait() do
 local args = {
     [1] = "Epic"
@@ -128,7 +128,7 @@ game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:F
 end
 end)
 
-Tab:CreateButton("LoopSpawn Cup Uncommon", function()
+Tab:CreateButton("LoopSpawn Cup Uncommon [🪐]", function()
 while wait() do
 local args = {
     [1] = "Uncommon"
@@ -138,7 +138,7 @@ game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:F
 end
 end)
 
-Tab:CreateButton("LoopSpawn Cup Common", function()
+Tab:CreateButton("LoopSpawn Cup Common [🌕]", function()
 while wait() do
 local args = {
     [1] = "Common"
@@ -158,25 +158,25 @@ end)
 
 local Tab = Window:NewSection("Free Script")
 
-Tab:CreateButton("Simple Spy", function()
+Tab:CreateButton("Simple Spy [🕵🏻]", function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RS/main/SimpleSpyMobile"))()
 
 end)
 
-Tab:CreateButton("Fram Chest", function()
+Tab:CreateButton("Fram Chest [💰]", function()
 
  loadstring(game:HttpGet('https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Trollge%20fram'))()
 
 end)
 
-Tab:CreateButton("Infinity Yield", function()
+Tab:CreateButton("Infinity Yield [∞]", function()
 
  loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 
 end)
 
-Tab:CreateButton("DexMoon Mobile [KEY]", function()
+Tab:CreateButton("DexMoon Mobile [KEY] [📚]", function()
 
 local __function = loadstring(game:HttpGet("https://github.com/Hosvile/DEX-Explorer/releases/latest/download/main.lua", true))
 
@@ -184,7 +184,7 @@ __function(__function)
 
 end)
 
-local Tab = Window:NewSection("Update Check")
+local Tab = Window:NewSection("Update Check [✅]")
 
 Tab:CreateButton("Check Version", function()
 
@@ -201,7 +201,7 @@ Text = "Version: 1.0.5";
 
 end)
 
-Tab:CreateButton("Check Update", function()
+Tab:CreateButton("Check Update [✅]", function()
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "Update";
@@ -216,15 +216,15 @@ Text = "Update: Loop Spawn items";
 
 end)
 
-local Tab = Window:NewSection("Server")
+local Tab = Window:NewSection("Server[📊]")
 
-Tab:CreateButton("ReJoin[⚖️]", function()
+Tab:CreateButton("ReJoin[🔁]", function()
 
 game:GetService("TeleportService"):Teleport(game.PlaceId)
 
 end)
 
-Tab:CreateButton("ServerHop[⚖️]", function()
+Tab:CreateButton("ServerHop[⏩]", function()
 
 game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, x[math.random(1, #x)])
 
