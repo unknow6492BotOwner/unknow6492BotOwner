@@ -137,7 +137,7 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
     Duration = 5;
 })
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
-Text = "1.0.3";
+Text = "Version: 1.0.3";
     Color = Color3.fromRGB(255, 255, 255);
 })
 
