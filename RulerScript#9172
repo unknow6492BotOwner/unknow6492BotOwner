@@ -108,6 +108,14 @@ game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:F
 
 end)
 
+local Tab = Window:NewSection("⚠️Delete⚠️")
+
+Tab:CreateButton("Delete Trollcoins[⚠️]", function()
+
+game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.RemoteEvent1:FireServer()
+
+end)
+
 local Tab = Window:NewSection("Free Script")
 
 Tab:CreateButton("Fram Chest", function()
@@ -136,12 +144,12 @@ Tab:CreateButton("Check Version", function()
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "Version";
-    Text = "Now Version 1.0.3";
+    Text = "Now Version 1.0.4";
     Icon = "rbxassetid://2005276185";
     Duration = 5;
 })
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
-Text = "Version: 1.0.3";
+Text = "Version: 1.0.4";
     Color = Color3.fromRGB(255, 255, 255);
 })
 
@@ -151,12 +159,12 @@ Tab:CreateButton("Check Update", function()
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "Update";
-    Text = "Update: [Spawn All NoLoop]";
+    Text = "Update: Delete Trollcoins";
     Icon = "rbxassetid://2005276185";
     Duration = 5;
 })
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
-Text = "Update: [Spawn All NoLoop]";
+Text = "Update: Delete Trollcoins";
     Color = Color3.fromRGB(255, 255, 255);
 })
 
