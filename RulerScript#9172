@@ -156,6 +156,22 @@ game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.RemoteEv
 
 end)
 
+local Tab = Window:NewSection("Teleport [☁️]")
+
+Tab:CreateButton("Map", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-624.303772, 76.7999573, 24.7357006, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+wait()
+
+end)
+
+Tab:CreateButton("Safe Zome", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-49.5556641, 73.7658081, 140.853088, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+wait()
+
+end)
+
 local Tab = Window:NewSection("Free Script")
 
 Tab:CreateButton("Simple Spy [🕵🏻]", function()
