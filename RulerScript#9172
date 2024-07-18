@@ -1,5 +1,5 @@
 local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
-local Window = Library:NewWindow("Ruler Script")
+local Window = Library:NewWindow("[⚠️] Ruler Script [⚠️]")
 
 local Tab = Window:NewSection("Main")
 
@@ -108,7 +108,7 @@ game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:F
 
 end)
 
-Tab:CreateButton("Spawn Cup Legendary", function()
+Tab:CreateButton("LoopSpawn Cup Legendary", function()
 while wait() do
 local args = {
     [1] = "Legendary"
@@ -118,7 +118,7 @@ game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:F
 end
 end)
 
-Tab:CreateButton("Spawn Cup Epic", function()
+Tab:CreateButton("LoopSpawn Cup Epic", function()
 while wait() do
 local args = {
     [1] = "Epic"
@@ -128,7 +128,7 @@ game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:F
 end
 end)
 
-Tab:CreateButton("Spawn Cup Uncommon", function()
+Tab:CreateButton("LoopSpawn Cup Uncommon", function()
 while wait() do
 local args = {
     [1] = "Uncommon"
@@ -138,7 +138,7 @@ game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:F
 end
 end)
 
-Tab:CreateButton("Spawn Cup Common", function()
+Tab:CreateButton("LoopSpawn Cup Common", function()
 while wait() do
 local args = {
     [1] = "Common"
@@ -190,12 +190,12 @@ Tab:CreateButton("Check Version", function()
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "Version";
-    Text = "Now Version 1.0.4";
+    Text = "Now Version 1.0.5";
     Icon = "rbxassetid://2005276185";
     Duration = 5;
 })
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
-Text = "Version: 1.0.4";
+Text = "Version: 1.0.5";
     Color = Color3.fromRGB(255, 255, 255);
 })
 
@@ -210,7 +210,7 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
     Duration = 5;
 })
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
-Text = "Update: Delete Trollcoins";
+Text = "Update: Loop Spawn items";
     Color = Color3.fromRGB(255, 255, 255);
 })
 
