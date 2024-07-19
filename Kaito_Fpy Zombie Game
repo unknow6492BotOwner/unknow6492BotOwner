@@ -1,0 +1,314 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local Window = Library:NewWindow("Zombie Game")
+
+local Tab = Window:NewSection("Human")
+
+Tab:CreateButton("Wooden Bat", function()
+
+local args = {
+    [1] = "Wooden Bat"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Katana", function()
+
+local args = {
+    [1] = "Katana"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Frying Pan", function()
+
+local args = {
+    [1] = "Frying Pan"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Fire Axe", function()
+
+local args = {
+    [1] = "Fire Axe"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Machete", function()
+
+local args = {
+    [1] = "Machete"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Pizza Sword", function()
+
+local args = {
+    [1] = "Pizza Sword"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Shovel", function()
+
+local args = {
+    [1] = "Shovel"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Classic Sword", function()
+
+local args = {
+    [1] = "Classic Sword"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Crossbow", function()
+
+local args = {
+    [1] = "Crossbow"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+local Tab = Window:NewSection("Zombie")
+
+Tab:CreateButton("Bone Sword", function()
+
+local args = {
+    [1] = "Bone Sword"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Zombie Club", function()
+
+local args = {
+    [1] = "Zombie Club"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Spawn Zombie [+Script ]", function()
+
+game:GetService("ReplicatedStorage").Remotes.ZombieRelated.Necro.AbilityPlayer:FireServer()
+
+end)
+
+local Tab = Window:NewSection("Secret")
+
+Tab:CreateButton("Pistol", function()
+
+local args = {
+    [1] = "Pistol"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Taser", function()
+
+local args = {
+    [1] = "Taser"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Shotgun", function()
+
+local args = {
+    [1] = "Shotgun"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Raygun", function()
+
+local args = {
+    [1] = "Raygun"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Frozen Katana", function()
+
+local args = {
+    [1] = "Frozen Katana"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Fire Katana", function()
+
+local args = {
+    [1] = "Fire Katana"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Chainsaw", function()
+
+local args = {
+    [1] = "Chainsaw"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Charged Bat", function()
+
+local args = {
+    [1] = "Charged Bat"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Frozen Bat", function()
+
+local args = {
+    [1] = "Frozen Bat"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Flaming Bat", function()
+
+local args = {
+    [1] = "Flaming Bat"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+local Tab = Window:NewSection("Gamepass")
+
+Tab:CreateButton("Sniper (1 shot)", function()
+
+local args = {
+    [1] = "Sniper"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("LandMine [NotWork]", function()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "The Create | Kaito_Fyp |";
+    Text = "Kaito_Fyp Not Fix Now";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+end)
+
+
+local Tab = Window:NewSection("unknown")
+
+Tab:CreateButton("Golf Club", function()
+
+local args = {
+    [1] = "Golf Club"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Stun Baton", function()
+
+local args = {
+    [1] = "Stun Baton"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+local Tab = Window:NewSection("Teleport [+Script]")
+
+Tab:CreateButton("Pizza Room", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3.00000596, -54.201107, -362.599823, -0.0280286632, 0, -0.999607146, 0, 1.00000179, 0, 0.999608934, 0, -0.0280286353)
+wait()
+
+end)
+
+Tab:CreateButton("Safe Zone", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-81.5, 22.5, 66, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+wait()
+
+end)
+
+Tab:CreateButton("Zomie Zone", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(67.43927, 1, 36.1018143, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+wait()
+
+end)
+
+Tab:CreateButton("Spawner Zombie", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(19.0000038, 3.00057888, 39.5, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+wait()
+
+end)
+
+local Tab = Window:NewSection("YT: BaconScript#9172")
+
+Tab:CreateButton("+Script [By Me]", function()
+
+end)
+
+local Tab = Window:NewSection("YT: Kaito_Fyp")
+
+Tab:CreateButton("Original Script", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaitofyp/Zombie-game-upd3-Made-By-Kaito_Fyp/main/Op%20script"))()
+
+end)
