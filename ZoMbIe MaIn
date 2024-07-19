@@ -1,0 +1,123 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local Window = Library:NewWindow("Zombie Game [ðŸ§Ÿ]")
+
+local Tab = Window:NewSection("Main")
+
+Tab:CreateButton("One Shoot", function()
+
+local args = {
+    [1] = "Sniper"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Pizza Room", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3.00005531, -54.2010994, -362.599945, -0.755360007, 0, 0.65531075, 0, 1, 0, -0.655310869, 0, -0.755359888)
+wait()
+
+end)
+
+Tab:CreateButton("Pistol", function()
+
+local args = {
+    [1] = "Pistol"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Taser", function()
+
+local args = {
+    [1] = "Taser"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Shotgun", function()
+
+local args = {
+    [1] = "Shotgun"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Raygun", function()
+
+local args = {
+    [1] = "Raygun"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Frozen Katana", function()
+
+local args = {
+    [1] = "Frozen Katana"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Fire Katana", function()
+
+local args = {
+    [1] = "Fire Katana"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Chainsaw", function()
+
+local args = {
+    [1] = "Chainsaw"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Charged Bat", function()
+
+local args = {
+    [1] = "Charged Bat"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Frozen Bat", function()
+
+local args = {
+    [1] = "Frozen Bat"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Flaming Bat", function()
+
+local args = {
+    [1] = "Flaming Bat"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop.EquipWeapon:InvokeServer(unpack(args))
+
+end)
+
+local Tab = Window:NewSection("YT: BaconScript#9172")
