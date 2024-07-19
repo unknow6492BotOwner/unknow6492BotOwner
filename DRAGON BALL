@@ -9,7 +9,7 @@ game:GetService("ReplicatedStorage").GiveHP:FireServer()
 
 end)
 
-Tab:CreateButton("LoopGive HP [Max]", function()
+Tab:CreateButton("God Mode [OP]", function()
 while wait() do
 game:GetService("ReplicatedStorage").GiveHP:FireServer()
 end
