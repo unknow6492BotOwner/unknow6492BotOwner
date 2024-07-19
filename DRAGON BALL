@@ -1,0 +1,18 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local Window = Library:NewWindow("Dragon Ball Saiyans Ability Test")
+
+local Tab = Window:NewSection("HP")
+
+Tab:CreateButton("Give HP [Max]", function()
+
+game:GetService("ReplicatedStorage").GiveHP:FireServer()
+
+end)
+
+Tab:CreateButton("LoopGive HP [Max]", function()
+while wait() do
+game:GetService("ReplicatedStorage").GiveHP:FireServer()
+end
+end)
+
+local Tab = Window:NewSection("YT: BaconScript#9172")
