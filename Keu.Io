@@ -1,0 +1,175 @@
+---Dont Fix
+---Script By BaconScript#9172
+---You fix i delete a script [Origin]
+---Okay Enjojy
+local screenGui = Instance.new("ScreenGui")
+screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+screenGui.ResetOnSpawn = false
+
+local frame = Instance.new("Frame")
+frame.Size = UDim2.new(0.15, 0, 0.2, 0)
+frame.Position = UDim2.new(0.425, 0, 0.4, 0)
+frame.BackgroundColor3 = Color3.new(0, 0, 0)
+frame.Parent = screenGui
+frame.BackgroundTransparency = 0.3
+frame.BorderSizePixel = 0
+frame.ClipsDescendants = true
+frame.ZIndex = 1
+
+local uICorner = Instance.new("UICorner")
+uICorner.CornerRadius = UDim.new(0.05, 0)
+uICorner.Parent = frame
+
+local title = Instance.new("TextLabel")
+title.Size = UDim2.new(1, 0, 0.2, 0)
+title.Position = UDim2.new(0, 0, 0, 0)
+title.BackgroundColor3 = Color3.new(0.1, 0.1, 0.1)
+title.Text = "Key System"
+title.TextColor3 = Color3.new(1, 1, 1)
+title.Font = Enum.Font.GothamBlack
+title.TextSize = 12
+title.Parent = frame
+
+local titleCorner = Instance.new("UICorner")
+titleCorner.CornerRadius = UDim.new(0.1, 0)
+titleCorner.Parent = title
+
+local textBox = Instance.new("TextBox")
+textBox.Size = UDim2.new(0.8, 0, 0.2, 0)
+textBox.Position = UDim2.new(0.1, 0, 0.3, 0)
+textBox.BackgroundColor3 = Color3.new(0.2, 0.2, 0.2)
+textBox.Text = ""
+textBox.TextColor3 = Color3.new(1, 1, 1)
+textBox.Font = Enum.Font.GothamBlack
+textBox.TextSize = 9
+textBox.Parent = frame
+
+local textBoxCorner = Instance.new("UICorner")
+textBoxCorner.CornerRadius = UDim.new(0.1, 0)
+textBoxCorner.Parent = textBox
+
+local enterKeyButton = Instance.new("TextButton")
+enterKeyButton.Size = UDim2.new(0.8, 0, 0.15, 0)
+enterKeyButton.Position = UDim2.new(0.1, 0, 0.55, 0)
+enterKeyButton.BackgroundColor3 = Color3.new(0.3, 0.3, 0.3)
+enterKeyButton.Text = "Enter Key"
+enterKeyButton.TextColor3 = Color3.new(1, 1, 1)
+enterKeyButton.Font = Enum.Font.GothamBlack
+enterKeyButton.TextSize = 11
+enterKeyButton.Parent = frame
+
+local enterKeyButtonCorner = Instance.new("UICorner")
+enterKeyButtonCorner.CornerRadius = UDim.new(0.1, 0)
+enterKeyButtonCorner.Parent = enterKeyButton
+
+local getKeyButton = Instance.new("TextButton")
+getKeyButton.Size = UDim2.new(0.8, 0, 0.15, 0)
+getKeyButton.Position = UDim2.new(0.1, 0, 0.71, 0)
+getKeyButton.BackgroundColor3 = Color3.new(0.3, 0.3, 0.3)
+getKeyButton.Text = "Get Key"
+getKeyButton.TextColor3 = Color3.new(1, 1, 1)
+getKeyButton.Font = Enum.Font.GothamBlack
+getKeyButton.TextSize = 11
+getKeyButton.Parent = frame
+
+local getKeyButtonCorner = Instance.new("UICorner")
+getKeyButtonCorner.CornerRadius = UDim.new(0.1, 0)
+getKeyButtonCorner.Parent = getKeyButton
+
+local function setClipboardWithURL1()
+    setclipboard("https://pastebin.com/raw/dWm01v79")
+end
+
+getKeyButton.MouseButton1Click:Connect(setClipboardWithURL1)
+
+local function sendNotification(title, text, duration)
+    game.StarterGui:SetCore("SendNotification", {
+        Title = title;
+        Text = text;
+        Duration = duration;
+    })
+end
+
+local discordButton = Instance.new("TextButton")
+discordButton.Size = UDim2.new(0.8, 0, 0.15, 0)
+discordButton.Position = UDim2.new(0.1, 0, 0.87, 0)
+discordButton.BackgroundColor3 = Color3.new(0.3, 0.3, 0.3)
+discordButton.Text = "Discord My Friend"
+discordButton.TextColor3 = Color3.new(1, 1, 1)
+discordButton.Font = Enum.Font.GothamBlack
+discordButton.TextSize = 11
+discordButton.Parent = frame
+
+local discordButtonCorner = Instance.new("UICorner")
+discordButtonCorner.CornerRadius = UDim.new(0.1, 0)
+discordButtonCorner.Parent = discordButton
+
+local function setClipboardWithURL()
+    setclipboard("Not A link")
+end
+
+getKeyButton.MouseButton1Click:Connect(setClipboardWithURL)
+discordButton.MouseButton1Click:Connect(setClipboardWithURL)
+
+local function sendNotification(title, text, duration)
+    game.StarterGui:SetCore("SendNotification", {
+        Title = title;
+        Text = text;
+        Duration = duration;
+    })
+end
+
+local function enterKey()
+    local userInputKey = textBox.Text
+    local correctKey = "2016IPlayRobloxNotCH_ThxForSub47"
+    local correctKey = "Kaito_Fyp_Is_a_Good_Friend"
+    local correctKey = "FreeScript_2024!!"
+
+    if userInputKey == correctKey then
+        local scriptURL = "scriptlink"
+        local success, result = pcall(function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/RulerScript%239172"))()
+        end)
+
+        if success then
+            screenGui:Destroy()
+        else
+            sendNotification("Error", "Failed to load script. Check the console for details.", 10)
+        end
+    else
+        sendNotification("Wrong Key", "You entered the wrong key!", 10)
+    end
+end
+
+enterKeyButton.MouseButton1Click:Connect(enterKey)
+
+local dragging, dragInput, dragStart, startPos
+
+local function update(input)
+    local delta = input.Position - dragStart
+    frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+end
+
+title.InputBegan:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+        dragging, dragStart, startPos = true, input.Position, frame.Position
+
+        input.Changed:Connect(function()
+            if input.UserInputState == Enum.UserInputState.End then
+                dragging = false
+            end
+        end)
+    end
+end)
+
+title.InputChanged:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+        dragInput = input
+    end
+end)
+
+game:GetService("UserInputService").InputChanged:Connect(function(input)
+    if dragging and input == dragInput then
+        update(input)
+    end
+end)
