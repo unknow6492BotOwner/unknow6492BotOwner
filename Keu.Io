@@ -118,9 +118,7 @@ end
 local function enterKey()
     local userInputKey = textBox.Text
     local correctKey = "2016IPlayRobloxNotCH_ThxForSub47"
-    local correctKey = "Kaito_Fyp_Is_a_Good_Friend"
-    local correctKey = "FreeScript_2024!!"
-
+    
     if userInputKey == correctKey then
         local scriptURL = "scriptlink"
         local success, result = pcall(function()
