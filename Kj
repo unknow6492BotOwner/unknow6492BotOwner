@@ -1,0 +1,58 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local Window = Library:NewWindow("KJ Moveset")
+
+local Tab = Window:NewSection("Ultimate")
+
+Tab:CreateButton("Ultimate KJ", function()
+
+local args = {
+    [1] = "KJUltamite"
+}
+
+game:GetService("ReplicatedStorage").Events.ChangeChar:FireServer(unpack(args))
+
+end)
+
+Tab:CreateButton("StoicBomb", function()
+
+game:GetService("ReplicatedStorage").CharacterServer.Awakening.KJ.StoicBomb:FireServer()
+
+end)
+
+Tab:CreateButton("DropKick", function()
+
+game:GetService("ReplicatedStorage").CharacterServer.Awakening.KJ.DropKick:FireServer()
+
+end)
+
+Tab:CreateButton("Ultimate Flexowkrs", function()
+
+game:GetService("ReplicatedStorage").CharacterServer.Awakening.KJ.UltimateFlexowkrs:FireServer()
+
+end)
+
+local Tab = Window:NewSection("Character")
+
+Tab:CreateButton("KJ", function()
+
+local args = {
+    [1] = "KJ"
+}
+
+game:GetService("ReplicatedStorage").Events.ChangeChar:FireServer(unpack(args))
+
+
+end)
+
+Tab:CreateButton("Admin", function()
+
+local args = {
+    [1] = "Administrator"
+}
+
+game:GetService("ReplicatedStorage").Events.ChangeChar:FireServer(unpack(args))
+
+
+end)
+
+local Tab = Window:NewSection("YT: BaconScript#9172")
