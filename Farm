@@ -1,0 +1,190 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local Window = Library:NewWindow("Muscle Lifting Simulator")
+
+ local Tab = Window:NewSection("AutoFarm")
+ 
+ Tab:CreateButton("AutoTap", function()
+while wait(0.1) do
+local args = {
+    [1] = "Amkjm1nBNhM2J4nu3acK2n2h8fiaM3mEMAk3JHINAKhhsHS4Kbebv"
+}
+
+game:GetService("ReplicatedStorage").Events.liftWeight:FireServer(unpack(args))
+end
+end)
+ 
+ Tab:CreateButton("AutoRebirth", function()
+while wait(0.1) do
+game:GetService("ReplicatedStorage").Events.playerPrestige:FireServer()
+end
+end)
+
+local Tab = Window:NewSection("Free Upgrade [0]")
+
+Tab:CreateButton("Muscle Bonus [0]", function()
+
+local args = {
+    [1] = "muscleB"
+}
+
+game:GetService("ReplicatedStorage").Events.purchasedUpgrade:FireServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Rep Speed [0]", function()
+
+local args = {
+    [1] = "repS"
+}
+
+game:GetService("ReplicatedStorage").Events.purchasedUpgrade:FireServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Walk Speed [0]", function()
+
+local args = {
+    [1] = "wSp"
+}
+
+game:GetService("ReplicatedStorage").Events.purchasedUpgrade:FireServer(unpack(args))
+
+end)
+
+local Tab = Window:NewSection("Server[📊]")
+
+Tab:CreateButton("ReJoin[🔁]", function()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ReJoin[🔁]";
+    Text = "Loading...";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(2)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ReJoin[🔁]";
+    Text = "1/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ReJoin[🔁]";
+    Text = "2/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ReJoin[🔁]";
+    Text = "3/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ReJoin[🔁]";
+    Text = "Loading...[Finish]";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(2)
+
+game:GetService("TeleportService"):Teleport(game.PlaceId)
+
+end)
+
+Tab:CreateButton("ServerHop LowPlayer[⏩]", function()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ServerHop LowPlayer[⏩]";
+    Text = "Loading...";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(2)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ServerHop LowPlayer[⏩]";
+    Text = "1/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ServerHop LowPlayer[⏩]";
+    Text = "2/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ServerHop LowPlayer[⏩]";
+    Text = "3/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "[ServerHop LowPlayer[⏩]]";
+    Text = "Loading...[Finish]";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(2)
+
+local Http = game:GetService("HttpService")
+local TPS = game:GetService("TeleportService")
+local Api = "https://games.roblox.com/v1/games/"
+ 
+local _place = game.PlaceId
+local _servers = Api.._place.."/servers/Public?sortOrder=Asc&limit=100"
+function ListServers(cursor)
+   local Raw = game:HttpGet(_servers .. ((cursor and "&cursor="..cursor) or ""))
+   return Http:JSONDecode(Raw)
+end
+ 
+local Server, Next; repeat
+   local Servers = ListServers(Next)
+   Server = Servers.data[1]
+   Next = Servers.nextPageCursor
+until Server
+ 
+TPS:TeleportToPlaceInstance(_place,Server.id,game:GetService('Players').LocalPlayer)
+
+end)
+
+Tab:CreateButton("Server Finder [💬]", function()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Finder Server Script";
+    Text = "Loading...";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1)
+
+loadstring(game:HttpGet("https://www.scriptblox.com/raw/Server-Browser_80", true))();
+
+end)
+
+local Tab = Window:NewSection("YT: BaconScript#9172")
