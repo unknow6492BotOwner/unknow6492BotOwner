@@ -121,9 +121,7 @@ end
 
 local function enterKey()
     local userInputKey = textBox.Text
-    local 1correctKey = "2016IPlayRobloxNotCH_ThxForSub47"
-    local 2correctKey = "Kaito_Fyp_Is_a_Good_Friend"
-    local 3correctKey = "FreeScript_2024!!"
+    local correctKey = "2016IPlayRobloxNotCH_ThxForSub47"
 
     if userInputKey == correctKey then
         local scriptURL = "scriptlink"
