@@ -3,6 +3,100 @@ local Window = Library:NewWindow("Alien Tower Defense")
 
 local Tab = Window:NewSection("Summon Units [<Free]")
 
+Tab:CreateButton("Standard Banner [10]", function()
+
+local args = {
+    [1] = {
+        ["Currency_ID"] = "HardCurrency",
+        ["Content_Amount"] = 10,
+        ["Currency_Amount"] = -0,
+        ["Start_Time"] = "2024-04-19T00:00:00Z",
+        ["Offer_Type"] = "Multipurchase",
+        ["Subsection_Ids"] = {
+            [1] = "Standard_S0_Lootbox_01"
+        },
+        ["Priority"] = 10,
+        ["Content_ID"] = "Lootbox_Standard_S0_01",
+        ["Enabled"] = true
+    },
+    [2] = "HardCurrency"
+}
+ 
+game:GetService("ReplicatedStorage"):WaitForChild("ProductService"):WaitForChild("RF"):WaitForChild("purchaseProduct"):InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Limited Bunner [10]", function()
+
+local args = {
+    [1] = {
+        ["Enabled"] = true,
+        ["Content_Amount"] = 10,
+        ["End_Time"] = "2024-08-09T00:00:00Z",
+        ["Currency_Amount"] = -0,
+        ["Start_Time"] = "2024-04-19T00:00:00Z",
+        ["Offer_Type"] = "Multipurchase",
+        ["Subsection_Ids"] = {
+            [1] = "Limited_S0_Lootbox_01"
+        },
+        ["Priority"] = 10,
+        ["Content_ID"] = "Lootbox_Limited_S0_01",
+        ["Currency_ID"] = "HardCurrency"
+    },
+    [2] = "HardCurrency"
+}
+ 
+game:GetService("ReplicatedStorage"):WaitForChild("ProductService"):WaitForChild("RF"):WaitForChild("purchaseProduct"):InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Standard Banner [50]", function()
+
+local args = {
+    [1] = {
+        ["Currency_ID"] = "HardCurrency",
+        ["Content_Amount"] = 50,
+        ["Currency_Amount"] = -0,
+        ["Start_Time"] = "2024-04-19T00:00:00Z",
+        ["Offer_Type"] = "Multipurchase",
+        ["Subsection_Ids"] = {
+            [1] = "Standard_S0_Lootbox_01"
+        },
+        ["Priority"] = 10,
+        ["Content_ID"] = "Lootbox_Standard_S0_01",
+        ["Enabled"] = true
+    },
+    [2] = "HardCurrency"
+}
+ 
+game:GetService("ReplicatedStorage"):WaitForChild("ProductService"):WaitForChild("RF"):WaitForChild("purchaseProduct"):InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Limited Bunner [50]", function()
+
+local args = {
+    [1] = {
+        ["Enabled"] = true,
+        ["Content_Amount"] = 50,
+        ["End_Time"] = "2024-08-09T00:00:00Z",
+        ["Currency_Amount"] = -0,
+        ["Start_Time"] = "2024-04-19T00:00:00Z",
+        ["Offer_Type"] = "Multipurchase",
+        ["Subsection_Ids"] = {
+            [1] = "Limited_S0_Lootbox_01"
+        },
+        ["Priority"] = 10,
+        ["Content_ID"] = "Lootbox_Limited_S0_01",
+        ["Currency_ID"] = "HardCurrency"
+    },
+    [2] = "HardCurrency"
+}
+ 
+game:GetService("ReplicatedStorage"):WaitForChild("ProductService"):WaitForChild("RF"):WaitForChild("purchaseProduct"):InvokeServer(unpack(args))
+
+end)
+
 Tab:CreateButton("Standard Banner [100]", function()
 
 local args = {
@@ -23,7 +117,6 @@ local args = {
 }
  
 game:GetService("ReplicatedStorage"):WaitForChild("ProductService"):WaitForChild("RF"):WaitForChild("purchaseProduct"):InvokeServer(unpack(args))
-
 
 end)
 
@@ -48,7 +141,285 @@ local args = {
 }
  
 game:GetService("ReplicatedStorage"):WaitForChild("ProductService"):WaitForChild("RF"):WaitForChild("purchaseProduct"):InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Standard Banner [500]", function()
+
+local args = {
+    [1] = {
+        ["Currency_ID"] = "HardCurrency",
+        ["Content_Amount"] = 500,
+        ["Currency_Amount"] = -0,
+        ["Start_Time"] = "2024-04-19T00:00:00Z",
+        ["Offer_Type"] = "Multipurchase",
+        ["Subsection_Ids"] = {
+            [1] = "Standard_S0_Lootbox_01"
+        },
+        ["Priority"] = 10,
+        ["Content_ID"] = "Lootbox_Standard_S0_01",
+        ["Enabled"] = true
+    },
+    [2] = "HardCurrency"
+}
  
+game:GetService("ReplicatedStorage"):WaitForChild("ProductService"):WaitForChild("RF"):WaitForChild("purchaseProduct"):InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Limited Bunner [500]", function()
+
+local args = {
+    [1] = {
+        ["Enabled"] = true,
+        ["Content_Amount"] = 500,
+        ["End_Time"] = "2024-08-09T00:00:00Z",
+        ["Currency_Amount"] = -0,
+        ["Start_Time"] = "2024-04-19T00:00:00Z",
+        ["Offer_Type"] = "Multipurchase",
+        ["Subsection_Ids"] = {
+            [1] = "Limited_S0_Lootbox_01"
+        },
+        ["Priority"] = 10,
+        ["Content_ID"] = "Lootbox_Limited_S0_01",
+        ["Currency_ID"] = "HardCurrency"
+    },
+    [2] = "HardCurrency"
+}
+ 
+game:GetService("ReplicatedStorage"):WaitForChild("ProductService"):WaitForChild("RF"):WaitForChild("purchaseProduct"):InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Standard Banner [1000]", function()
+
+local args = {
+    [1] = {
+        ["Currency_ID"] = "HardCurrency",
+        ["Content_Amount"] = 1000,
+        ["Currency_Amount"] = -0,
+        ["Start_Time"] = "2024-04-19T00:00:00Z",
+        ["Offer_Type"] = "Multipurchase",
+        ["Subsection_Ids"] = {
+            [1] = "Standard_S0_Lootbox_01"
+        },
+        ["Priority"] = 10,
+        ["Content_ID"] = "Lootbox_Standard_S0_01",
+        ["Enabled"] = true
+    },
+    [2] = "HardCurrency"
+}
+ 
+game:GetService("ReplicatedStorage"):WaitForChild("ProductService"):WaitForChild("RF"):WaitForChild("purchaseProduct"):InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Limited Bunner [1000]", function()
+
+local args = {
+    [1] = {
+        ["Enabled"] = true,
+        ["Content_Amount"] = 1000,
+        ["End_Time"] = "2024-08-09T00:00:00Z",
+        ["Currency_Amount"] = -0,
+        ["Start_Time"] = "2024-04-19T00:00:00Z",
+        ["Offer_Type"] = "Multipurchase",
+        ["Subsection_Ids"] = {
+            [1] = "Limited_S0_Lootbox_01"
+        },
+        ["Priority"] = 10,
+        ["Content_ID"] = "Lootbox_Limited_S0_01",
+        ["Currency_ID"] = "HardCurrency"
+    },
+    [2] = "HardCurrency"
+}
+ 
+game:GetService("ReplicatedStorage"):WaitForChild("ProductService"):WaitForChild("RF"):WaitForChild("purchaseProduct"):InvokeServer(unpack(args))
+
+end)
+
+local Tab = Window:NewSection("Summon Units 2.0 [<Free][💀]")
+
+Tab:CreateButton("Standard Banner [1M]", function()
+
+local args = {
+    [1] = {
+        ["Currency_ID"] = "HardCurrency",
+        ["Content_Amount"] = 1000000,
+        ["Currency_Amount"] = -0,
+        ["Start_Time"] = "2024-04-19T00:00:00Z",
+        ["Offer_Type"] = "Multipurchase",
+        ["Subsection_Ids"] = {
+            [1] = "Standard_S0_Lootbox_01"
+        },
+        ["Priority"] = 10,
+        ["Content_ID"] = "Lootbox_Standard_S0_01",
+        ["Enabled"] = true
+    },
+    [2] = "HardCurrency"
+}
+ 
+game:GetService("ReplicatedStorage"):WaitForChild("ProductService"):WaitForChild("RF"):WaitForChild("purchaseProduct"):InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Limited Bunner [1M]", function()
+
+local args = {
+    [1] = {
+        ["Enabled"] = true,
+        ["Content_Amount"] = 1000000,
+        ["End_Time"] = "2024-08-09T00:00:00Z",
+        ["Currency_Amount"] = -0,
+        ["Start_Time"] = "2024-04-19T00:00:00Z",
+        ["Offer_Type"] = "Multipurchase",
+        ["Subsection_Ids"] = {
+            [1] = "Limited_S0_Lootbox_01"
+        },
+        ["Priority"] = 10,
+        ["Content_ID"] = "Lootbox_Limited_S0_01",
+        ["Currency_ID"] = "HardCurrency"
+    },
+    [2] = "HardCurrency"
+}
+ 
+game:GetService("ReplicatedStorage"):WaitForChild("ProductService"):WaitForChild("RF"):WaitForChild("purchaseProduct"):InvokeServer(unpack(args))
+
+end)
+
+local Tab = Window:NewSection("Server[📊]")
+
+Tab:CreateButton("ReJoin[🔁]", function()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ReJoin[🔁]";
+    Text = "Loading...";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(2)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ReJoin[🔁]";
+    Text = "1/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ReJoin[🔁]";
+    Text = "2/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ReJoin[🔁]";
+    Text = "3/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ReJoin[🔁]";
+    Text = "Loading...[Finish]";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(2)
+
+game:GetService("TeleportService"):Teleport(game.PlaceId)
+
+end)
+
+Tab:CreateButton("ServerHop LowPlayer[⏩]", function()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ServerHop LowPlayer[⏩]";
+    Text = "Loading...";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(2)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ServerHop LowPlayer[⏩]";
+    Text = "1/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ServerHop LowPlayer[⏩]";
+    Text = "2/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ServerHop LowPlayer[⏩]";
+    Text = "3/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "[ServerHop LowPlayer[⏩]]";
+    Text = "Loading...[Finish]";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(2)
+
+local Http = game:GetService("HttpService")
+local TPS = game:GetService("TeleportService")
+local Api = "https://games.roblox.com/v1/games/"
+ 
+local _place = game.PlaceId
+local _servers = Api.._place.."/servers/Public?sortOrder=Asc&limit=100"
+function ListServers(cursor)
+   local Raw = game:HttpGet(_servers .. ((cursor and "&cursor="..cursor) or ""))
+   return Http:JSONDecode(Raw)
+end
+ 
+local Server, Next; repeat
+   local Servers = ListServers(Next)
+   Server = Servers.data[1]
+   Next = Servers.nextPageCursor
+until Server
+ 
+TPS:TeleportToPlaceInstance(_place,Server.id,game:GetService('Players').LocalPlayer)
+
+end)
+
+Tab:CreateButton("Server Finder [💬]", function()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Finder Server Script";
+    Text = "Loading...";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1)
+
+loadstring(game:HttpGet("https://www.scriptblox.com/raw/Server-Browser_80", true))();
 
 end)
 
