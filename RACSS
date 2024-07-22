@@ -144,7 +144,7 @@ game:GetService("ReplicatedStorage").Remotes.Upgrade:InvokeServer(unpack(args))
 
 end)
 
-Tab:CreateButton("Sack [1250$]", function()
+Tab:CreateButton("Weights [1250$]", function()
 
 local args = {
     [1] = "Weights"
@@ -164,7 +164,7 @@ game:GetService("ReplicatedStorage").Remotes.Upgrade:InvokeServer(unpack(args))
 
 end)
 
-Tab:CreateButton("Sack [650$]", function()
+Tab:CreateButton("Adrenaline [650$]", function()
 
 local args = {
     [1] = "Adrenaline"
@@ -174,7 +174,7 @@ game:GetService("ReplicatedStorage").Remotes.Upgrade:InvokeServer(unpack(args))
 
 end)
 
-Tab:CreateButton("Sack [1500$]", function()
+Tab:CreateButton("Rader [1500$]", function()
 
 local args = {
     [1] = "Rader"
