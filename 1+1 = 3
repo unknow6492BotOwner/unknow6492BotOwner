@@ -438,7 +438,7 @@ for _, v in pairs(Calculator.MainFrame.ButtonsFrame:GetChildren()) do
 			end)
 		else
 			v.MouseButton1Click:Connect(function()
-				if numLabel.Text == "0" or numLabel.Text == "Error" then
+				if numLabel.Text == "0" or numLabel.Text == "N/A" then
 					numLabel.Text = ""
 				end
 				
