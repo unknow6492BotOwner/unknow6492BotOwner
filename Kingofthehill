@@ -77,7 +77,7 @@ end)
 
 Tab:CreateTextbox("Set Jumppower", function(text)
 
-        game.Players.LocalPlayer.Character.Humanoid.Jumppower = (text)
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = (text)
 
 end)
 
