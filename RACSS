@@ -1,0 +1,45 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local Window = Library:NewWindow("RAC Store Simulator")
+
+local Tab = Window:NewSection("Main")
+
+Tab:CreateTextbox("WalkSpeed Set", function(text)
+
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (text)
+
+end)
+
+Tab:CreateTextbox("Jumppower Set Not Work", function(text)
+
+        game.Players.LocalPlayer.Character.Humanoid.Jumppower = (text)
+
+end)
+
+Tab:CreateButton("Good Farm Spot [Need 3 Strong]", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(46.7147827, 3.30098486, 82.5313873, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+wait()
+
+end)
+
+Tab:CreateButton("Safe Zone", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(84.306015, 3.22548485, -22.5951977, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+wait()
+
+end)
+
+Tab:CreateButton("Storage Room", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(61.0949669, 0.199999988, 103.381897, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+wait()
+
+end)
+
+Tab:CreateButton("Reset", function()
+
+game:GetService("ReplicatedStorage").Remotes.Died:FireServer()
+
+end)
+
+local Tab = Window:NewSection("YT: BaconScript#9172")
