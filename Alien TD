@@ -1,0 +1,57 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local Window = Library:NewWindow("Alien Tower Defense")
+
+local Tab = Window:NewSection("Summon Units [<Free]")
+
+Tab:CreateButton("Standard Banner [100]", function()
+
+local args = {
+    [1] = {
+        ["Currency_ID"] = "HardCurrency",
+        ["Content_Amount"] = 100,
+        ["Currency_Amount"] = -0,
+        ["Start_Time"] = "2024-04-19T00:00:00Z",
+        ["Offer_Type"] = "Multipurchase",
+        ["Subsection_Ids"] = {
+            [1] = "Standard_S0_Lootbox_01"
+        },
+        ["Priority"] = 10,
+        ["Content_ID"] = "Lootbox_Standard_S0_01",
+        ["Enabled"] = true
+    },
+    [2] = "HardCurrency"
+}
+ 
+game:GetService("ReplicatedStorage"):WaitForChild("ProductService"):WaitForChild("RF"):WaitForChild("purchaseProduct"):InvokeServer(unpack(args))
+
+
+end)
+
+Tab:CreateButton("Limited Bunner [100]", function()
+
+local args = {
+    [1] = {
+        ["Enabled"] = true,
+        ["Content_Amount"] = 100,
+        ["End_Time"] = "2024-08-09T00:00:00Z",
+        ["Currency_Amount"] = -0,
+        ["Start_Time"] = "2024-04-19T00:00:00Z",
+        ["Offer_Type"] = "Multipurchase",
+        ["Subsection_Ids"] = {
+            [1] = "Limited_S0_Lootbox_01"
+        },
+        ["Priority"] = 10,
+        ["Content_ID"] = "Lootbox_Limited_S0_01",
+        ["Currency_ID"] = "HardCurrency"
+    },
+    [2] = "HardCurrency"
+}
+ 
+game:GetService("ReplicatedStorage"):WaitForChild("ProductService"):WaitForChild("RF"):WaitForChild("purchaseProduct"):InvokeServer(unpack(args))
+ 
+
+end)
+
+local Tab = Window:NewSection("Credit: Ain't Scripting")
+
+local Tab = Window:NewSection("YT: BaconScript#9172")
