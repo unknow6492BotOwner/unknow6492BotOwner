@@ -101,7 +101,7 @@ discordButtonCorner.CornerRadius = UDim.new(0.1, 0)
 discordButtonCorner.Parent = discordButton
 
 local function setClipboardWithURL()
-    setclipboard("Not A link")
+    setclipboard("https://discord.com/invite/aVPpUtWK")
 end
 
 getKeyButton.MouseButton1Click:Connect(setClipboardWithURL)
