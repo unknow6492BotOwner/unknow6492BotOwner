@@ -41,7 +41,21 @@ game:GetService("ReplicatedStorage").BonusFolderFX.BoughASword:FireServer("Buy",
 
 end)
 
-local Tab = Window:NewSection("Players [❤️‍🔥]")
+local Tab = Window:NewSection("Troll [😳]")
+
+Tab:CreateButton("SpawnSkill Z [TrueTripleKatana]", function()
+
+workspace.GunShop_8267.TrueTripleKatana.SkillZ.Fire:FireServer(game:GetService("Players").LocalPlayer)
+
+end)
+
+Tab:CreateButton("SpawnSkill X [TrueTripleKatana]", function()
+
+workspace.GunShop_8267.TrueTripleKatana.SkillX.Fire:FireServer(game:GetService("Players").LocalPlayer)
+
+end)
+
+local Tab = Window:NewSection("Players [🎉]")
 
 Tab:CreateTextbox("WalkSpeed Set", function(text)
 
