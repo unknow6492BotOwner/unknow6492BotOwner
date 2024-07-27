@@ -21,7 +21,7 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
     Duration = 5;
 })
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Sheeshablee73/Scriptss/main/RivalsUPD2.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/OtherScripts/main/BlockTalesGodmode.lua"))()
 
 end)
 
