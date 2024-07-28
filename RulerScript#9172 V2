@@ -19,8 +19,6 @@ game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:F
 end
 end)
 
-end)
-
 Tab:CreateToggle("Spawn Epic Cup [🌌]", function(value)
      Toggle = value;
 end)
@@ -35,8 +33,6 @@ spawn(function()
 game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:FireServer(unpack(args))
      end
 end
-end)
-
 end)
 
 Tab:CreateToggle("Spawn Uncommon Cup [🌕]", function(value)
@@ -55,8 +51,6 @@ game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:F
 end
 end)
 
-end)
-
 Tab:CreateToggle("Spawn Common Cup [🪐]", function(value)
      Toggle = value;
 end)
@@ -71,8 +65,6 @@ spawn(function()
 game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:FireServer(unpack(args))
      end
 end
-end)
-
 end)
 
 local Tab = Window:NewSection("⚠️Delete⚠️")
