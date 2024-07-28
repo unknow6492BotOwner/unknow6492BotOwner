@@ -1,0 +1,276 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+j local Window = Library:NewWindow("RulerScript#9172 V2")
+
+local Tab = Window:NewSection("Spawn Cup")
+
+Tab:CreateToggle("Spawn Legendary Cup [🌠]", function(value)
+     Toggle = value;
+end)
+
+spawn(function()
+     while wait(0.1) do
+               if Toggle then
+               local args = {
+    [1] = "Legendary"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:FireServer(unpack(args))
+     end
+end
+end)
+
+end)
+
+Tab:CreateToggle("Spawn Epic Cup [🌌]", function(value)
+     Toggle = value;
+end)
+
+spawn(function()
+     while wait(0.1) do
+               if Toggle then
+               local args = {
+    [1] = "Epic"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:FireServer(unpack(args))
+     end
+end
+end)
+
+end)
+
+Tab:CreateToggle("Spawn Uncommon Cup [🌕]", function(value)
+     Toggle = value;
+end)
+
+spawn(function()
+     while wait(0.1) do
+               if Toggle then
+               local args = {
+    [1] = "Uncommon"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:FireServer(unpack(args))
+     end
+end
+end)
+
+end)
+
+Tab:CreateToggle("Spawn Common Cup [🪐]", function(value)
+     Toggle = value;
+end)
+
+spawn(function()
+     while wait(0.1) do
+               if Toggle then
+               local args = {
+    [1] = "Common"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:FireServer(unpack(args))
+     end
+end
+end)
+
+end)
+
+local Tab = Window:NewSection("⚠️Delete⚠️")
+
+Tab:CreateButton("Delete Trollcoins[⚠️]", function()
+
+game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.RemoteEvent1:FireServer()
+
+end)
+
+local Tab = Window:NewSection("Teleport [☁️]")
+
+Tab:CreateButton("Random Cup", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-624.303772, 76.7999573, 24.7357006, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+wait()
+
+end)
+
+Tab:CreateButton("Safe Zome", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-49.5556641, 73.7658081, 140.853088, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+wait()
+
+end)
+
+Tab:CreateButton("Safe Zome 2", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1357.65649, 73.9970245, -158.431625, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+wait()
+
+end)
+local Tab = Window:NewSection("Fram [💰]")
+
+Tab:CreateButton("Fram Chest [💰]", function()
+
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Trollge%20fram'))()
+
+end)
+
+local Tab = Window:NewSection("Update Check [✅]")
+
+Tab:CreateButton("Check Version", function()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Version";
+    Text = "Now Version 1.0.5";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+end)
+
+Tab:CreateButton("Check Update [✅]", function()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Mini Update";
+    Text = "Update: New GUI V2 +Fix Bug";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+end)
+
+local Tab = Window:NewSection("Server[📊]")
+
+Tab:CreateButton("ReJoin[🔁]", function()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ReJoin[🔁]";
+    Text = "Loading...";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(2)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ReJoin[🔁]";
+    Text = "1/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ReJoin[🔁]";
+    Text = "2/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ReJoin[🔁]";
+    Text = "3/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ReJoin[🔁]";
+    Text = "Loading...[Finish]";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(2)
+
+game:GetService("TeleportService"):Teleport(game.PlaceId)
+
+end)
+
+Tab:CreateButton("ServerHop LowPlayer[⏩]", function()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ServerHop LowPlayer[⏩]";
+    Text = "Loading...";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(2)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ServerHop LowPlayer[⏩]";
+    Text = "1/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ServerHop LowPlayer[⏩]";
+    Text = "2/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ServerHop LowPlayer[⏩]";
+    Text = "3/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "[ServerHop LowPlayer[⏩]]";
+    Text = "Loading...[Finish]";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(2)
+
+local Http = game:GetService("HttpService")
+local TPS = game:GetService("TeleportService")
+local Api = "https://games.roblox.com/v1/games/"
+ 
+local _place = game.PlaceId
+local _servers = Api.._place.."/servers/Public?sortOrder=Asc&limit=100"
+function ListServers(cursor)
+   local Raw = game:HttpGet(_servers .. ((cursor and "&cursor="..cursor) or ""))
+   return Http:JSONDecode(Raw)
+end
+ 
+local Server, Next; repeat
+   local Servers = ListServers(Next)
+   Server = Servers.data[1]
+   Next = Servers.nextPageCursor
+until Server
+ 
+TPS:TeleportToPlaceInstance(_place,Server.id,game:GetService('Players').LocalPlayer)
+
+end)
+
+Tab:CreateButton("Server Finder [💬]", function()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Finder Server Script";
+    Text = "Loading...";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1)
+
+loadstring(game:HttpGet("https://www.scriptblox.com/raw/Server-Browser_80", true))();
+
+end)
+
+local Tab = Window:NewSection("YT: BacnScript#9172")
