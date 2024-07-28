@@ -1,0 +1,363 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local Window = Library:NewWindow("TROLL SCRIPT")
+
+local Tab = Window:NewSection("Equip Character [🎉]")
+
+Tab:CreateButton("KJ", function()
+
+local args = {
+    [1] = "KJ"
+}
+
+game:GetService("Players").LocalPlayer.Character:FindFirstChild("Change Character").ChangeCharacter:FireServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Gojo", function()
+
+local args = {
+    [1] = "Gojo"
+}
+
+game:GetService("Players").LocalPlayer.Character:FindFirstChild("Change Character").ChangeCharacter:FireServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Yuta", function()
+
+local args = {
+    [1] = "Yuta"
+}
+
+game:GetService("Players").LocalPlayer.Character:FindFirstChild("Change Character").ChangeCharacter:FireServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Admin", function()
+
+local args = {
+    [1] = "Admin"
+}
+
+game:GetService("Players").LocalPlayer.Character:FindFirstChild("Change Character").ChangeCharacter:FireServer(unpack(args))
+
+end)
+
+local Tab = Window:NewSection("Normal KJ [🌌]")
+
+Tab:CreateButton("Ravage", function()
+
+game:GetService("Players").LocalPlayer.Backpack.Ravage.LocalScript.Event:FireServer()
+
+end)
+
+Tab:CreateButton("Sweep Swift", function()
+
+game:GetService("ReplicatedStorage").KJ.Remote:FindFirstChild("Sweep Swift"):FireServer()
+
+end)
+
+Tab:CreateButton("Colaterial Ruin", function()
+
+game:GetService("Players").LocalPlayer.Character:FindFirstChild("Colaterial Ruin").LocalScript.Skill:FireServer()
+
+end)
+
+local Tab = Window:NewSection("Ultimate KJ [🌠 ]")
+
+Tab:CreateButton("Ultimate KJ", function()
+
+local args = {
+    [1] = "KJ"
+}
+
+game:GetService("ReplicatedStorage").UltimateUsed:FireServer(unpack(args))
+
+end)
+
+Tab:CreateButton("DropKick", function()
+
+game:GetService("ReplicatedStorage").KJ.Remote.DropKick:FireServer()
+
+end)
+
+Tab:CreateButton("Stoic Bomb", function()
+
+game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Stoic Bomb").LocalScript.Event:FireServer()
+
+end)
+
+Tab:CreateButton("Five Season", function()
+
+local args = {
+    [1] = "Ability",
+    [2] = "Season",
+    [3] = {
+        ["char"] = game:GetService("Players").LocalPlayer.Character,
+        ["player"] = game:GetService("Players").LocalPlayer,
+        ["root"] = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart,
+        ["hum"] = game:GetService("Players").LocalPlayer.Character.Humanoid
+    }
+}
+
+game:GetService("ReplicatedStorage").Server:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Unlimited Flex Works", function()
+
+game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Unlimited Flex Works").LocalScript.Event:FireServer()
+
+end)
+
+local Tab = Window:NewSection("Normal GOJO [🔵🔴]")
+
+Tab:CreateButton("Reversal Red", function()
+
+game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Reversal Red").LocalScript.Event:FireServer()
+
+end)
+
+Tab:CreateButton("Lapse Blue", function()
+
+game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Lapse Blue").LocalScript.Event:FireServer()
+
+end)
+
+Tab:CreateButton("TwoFold", function()
+
+game:GetService("ReplicatedStorage").Honored.Remotes.TwoFold:FireServer()
+
+end)
+
+Tab:CreateButton("Rapid", function()
+
+game:GetService("ReplicatedStorage").Honored.Remotes.Rapid:FireServer()
+
+end)
+
+local Tab = Window:NewSection("Ultimate GOJO [🟣]")
+
+Tab:CreateButton("Ultimate Gojo", function()
+
+local args = {
+    [1] = "Gojo"
+}
+
+game:GetService("ReplicatedStorage").UltimateUsed:FireServer(unpack(args))
+
+end)
+
+local Tab = Window:NewSection("Normal YUTA [🤫]")
+
+Tab:CreateButton("Cursed Slashes", function()
+
+game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Cursed Slashes").LocalScript.Event:FireServer()
+
+end)
+
+Tab:CreateButton("Cursed Speech", function()
+
+game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Cursed Speech").LocalScript.Event:FireServer()
+
+end)
+
+Tab:CreateButton("Black Flash", function()
+
+game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Black Flash").LocalScript.Event:FireServer()
+
+end)
+
+Tab:CreateButton("Shikigami Slash", function()
+
+game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Shikigami Slash").LocalScript.Event:FireServer()
+
+end)
+
+local Tab = Window:NewSection("Ultimate YUTA [🤨]")
+
+Tab:CreateButton("Nothing", function()
+
+local args = {
+    [1] = "Yuta"
+}
+
+game:GetService("ReplicatedStorage").UltimateUsed:FireServer(unpack(args))
+
+end)
+
+local Tab = Window:NewSection("Normal ADMIN [💫]")
+
+Tab:CreateButton("Head First", function()
+
+game:GetService("ReplicatedStorage").Attack:FireServer()
+
+end)
+
+local Tab = Window:NewSection("Ultimate ADMIN [💀]")
+
+Tab:CreateButton("Nothing", function()
+
+local args = {
+    [1] = "Admin"
+}
+
+game:GetService("ReplicatedStorage").UltimateUsed:FireServer(unpack(args))
+
+end)
+
+local Tab = Window:NewSection("YT: BaconScript#9172")
+
+local Window = Library:NewWindow("Player [🎉]")
+
+local Tab = Window:NewSection("LocalPlayers [✅]")
+
+Tab:CreateTextbox("WalkSpeed Set", function(text)
+
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (text)
+
+end)
+
+Tab:CreateTextbox("Jumppower Set", function(text)
+
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = (text)
+
+end)
+
+local Tab = Window:NewSection("Server[📊]")
+
+Tab:CreateButton("ReJoin[🔁]", function()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ReJoin[🔁]";
+    Text = "Loading...";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(2)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ReJoin[🔁]";
+    Text = "1/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ReJoin[🔁]";
+    Text = "2/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ReJoin[🔁]";
+    Text = "3/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ReJoin[🔁]";
+    Text = "Loading...[Finish]";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(2)
+
+game:GetService("TeleportService"):Teleport(game.PlaceId)
+
+end)
+
+Tab:CreateButton("ServerHop LowPlayer[⏩]", function()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ServerHop LowPlayer[⏩]";
+    Text = "Loading...";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(2)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ServerHop LowPlayer[⏩]";
+    Text = "1/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ServerHop LowPlayer[⏩]";
+    Text = "2/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ServerHop LowPlayer[⏩]";
+    Text = "3/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "[ServerHop LowPlayer[⏩]]";
+    Text = "Loading...[Finish]";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(2)
+
+local Http = game:GetService("HttpService")
+local TPS = game:GetService("TeleportService")
+local Api = "https://games.roblox.com/v1/games/"
+ 
+local _place = game.PlaceId
+local _servers = Api.._place.."/servers/Public?sortOrder=Asc&limit=100"
+function ListServers(cursor)
+   local Raw = game:HttpGet(_servers .. ((cursor and "&cursor="..cursor) or ""))
+   return Http:JSONDecode(Raw)
+end
+ 
+local Server, Next; repeat
+   local Servers = ListServers(Next)
+   Server = Servers.data[1]
+   Next = Servers.nextPageCursor
+until Server
+ 
+TPS:TeleportToPlaceInstance(_place,Server.id,game:GetService('Players').LocalPlayer)
+
+end)
+
+Tab:CreateButton("Server Finder [💬]", function()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Finder Server Script";
+    Text = "Loading...";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1)
+
+loadstring(game:HttpGet("https://www.scriptblox.com/raw/Server-Browser_80", true))();
+
+end)
+
+local Tab = Window:NewSection("YT: BaconScript#9172")
