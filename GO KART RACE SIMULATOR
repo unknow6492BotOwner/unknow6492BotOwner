@@ -21,7 +21,7 @@ Tab:CreateToggle("Give Win", function(value)
 end)
 
 spawn(function()
-     while wait(0.1) do
+     while wait(0.000001) do
                if Toggle then
                local args = {
     [1] = 6
@@ -39,7 +39,7 @@ Tab:CreateToggle("AutoRebirth", function(value)
 end)
 
 spawn(function()
-     while wait(0.1) do
+     while wait(0.00001) do
                if Toggle then
                local args = {
     [1] = "Rebirth"
@@ -59,7 +59,7 @@ Tab:CreateToggle("Give Dominus Egg", function(value)
 end)
 
 spawn(function()
-     while wait(0.1) do
+     while wait(0.00001) do
                if Toggle then
                local args = {
     [1] = "Dominus Egg",
@@ -79,7 +79,7 @@ Tab:CreateToggle("Give Magma Egg", function(value)
 end)
 
 spawn(function()
-     while wait(0.1) do
+     while wait(0.00001) do
                if Toggle then
                local args = {
     [1] = "Magma Egg",
