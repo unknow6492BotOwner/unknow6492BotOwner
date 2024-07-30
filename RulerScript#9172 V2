@@ -1,4 +1,5 @@
-local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()local Window = Library:NewWindow("RulerScript#9172 V2")
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local Window = Library:NewWindow("RulerScript#9172 V2")
 
 local Tab = Window:NewSection("Spawn Cup [😳]")
 
