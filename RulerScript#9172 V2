@@ -45,7 +45,7 @@ end)
 
 local Tab = Window:NewSection("LoopSpawn Cup [💫]")
 
-Tab:CreateToggle("Spawn Legendary Cup [🌠]", function(value)
+Tab:CreateToggle("Spawn All Cup [🌠]", function(value)
      Toggle = value;
 end)
 
@@ -57,50 +57,20 @@ spawn(function()
 }
 
 game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:FireServer(unpack(args))
-     end
-end
-end)
 
-Tab:CreateToggle("Spawn Epic Cup [🌌]", function(loop)
-     Toggle = loop;
-end)
-
-spawn(function()
-     while wait(0.1) do
-               if Toggle then
-               local args = {
+local args = {
     [1] = "Epic"
 }
 
 game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:FireServer(unpack(args))
-     end
-end
-end)
 
-Tab:CreateToggle("Spawn Uncommon Cup [🌕]", function(bob)
-     Toggle = bob;
-end)
-
-spawn(function()
-     while wait(0.1) do
-               if Toggle then
-               local args = {
+local args = {
     [1] = "Uncommon"
 }
 
 game:GetService("Players").LocalPlayer.PlayerGui.SpinGui2.LOL.Spin.Spin.Reward:FireServer(unpack(args))
-     end
-end
-end)
 
-Tab:CreateToggle("Spawn Common Cup [🪐]", function(toggle)
-     Toggle = toggle;
-end)
-
-spawn(function()
-     while wait(0.1) do
-               if Toggle then
-               local args = {
+local args = {
     [1] = "Common"
 }
 
