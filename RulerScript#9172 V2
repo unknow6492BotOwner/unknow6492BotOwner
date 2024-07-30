@@ -1,7 +1,7 @@
 local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
 j local Window = Library:NewWindow("RulerScript#9172 V2")
 
-local Tab = Window:NewSection("Spawn Cup [🤫]")
+local Tab = Window:NewSection("Spawn Cup [😳]")
 
 Tab:CreateButton("Spawn Legendary", function()
 
