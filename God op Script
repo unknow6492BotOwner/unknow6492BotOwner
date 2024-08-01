@@ -1,0 +1,132 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local Window = Library:NewWindow("BaconScript#9172 HUB")
+local Tab = Window:NewSection("Main")
+
+Tab:CreateTextbox("Get Money", function(text)
+
+local args = {
+    [1] = "Buy",
+    [2] = "WoodKatana",
+    [3] = -(text)
+}
+
+game:GetService("ReplicatedStorage").Remotes.Swords:FireServer(unpack(args))
+        
+end)
+
+Tab:CreateToggle("Infinity Win", function(value)
+
+     Toggle = value;
+end)
+spawn(function()
+     while wait() do
+               if Toggle then
+               local args = {
+    [1] = "G5"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Gift:FireServer(unpack(args))
+
+     end
+end
+
+end
+
+local Tab = Window:NewSection("GamepassSword")
+
+Tab:CreateButton("Give Omega Sword", function()
+
+local args = {
+    [1] = "G7"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Gift:FireServer(unpack(args))
+
+end)
+Tab:CreateButton("GiveAll Gift [NoLimited]", function()
+
+local args = {
+    [1] = "G1"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Gift:FireServer(unpack(args))
+
+local args = {
+    [1] = "G2"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Gift:FireServer(unpack(args))
+
+local args = {
+    [1] = "G3"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Gift:FireServer(unpack(args))
+
+local args = {
+    [1] = "G4"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Gift:FireServer(unpack(args))
+
+local args = {
+    [1] = "G5"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Gift:FireServer(unpack(args))
+
+local args = {
+    [1] = "G6"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Gift:FireServer(unpack(args))
+
+end)
+
+local Tab = Window:NewSection("OpenEgg")
+
+Tab:CreateButton("Legendary [25 Win]", function()
+
+local args = {
+    [1] = "Legendary",
+    [2] = "Single"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.EggOpened:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Rare [10 Win]", function()
+
+local args = {
+    [1] = "Rare",
+    [2] = "Single"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.EggOpened:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Uncommon [5 Win]", function()
+
+local args = {
+    [1] = "Uncommon",
+    [2] = "Single"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.EggOpened:InvokeServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Common [1 Win]", function()
+
+local args = {
+    [1] = "Common",
+    [2] = "Single"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.EggOpened:InvokeServer(unpack(args))
+
+end)
+
+local Tab = Window:NewSection("YT: BaconScript#9172")
