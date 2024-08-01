@@ -32,8 +32,6 @@ end
 
 end)
 
-local Tab = Window:NewSection("GamepassSword")
-
 Tab:CreateButton("Give Omega Sword", function()
 
 local args = {
