@@ -25,10 +25,25 @@ RollCooldown.Value = 0.0000000000000000000000001
 
 end)
 
-Tab:CreateButton("Get 4.7 Luck", function()
-while wait() do
-game:GetService("ReplicatedStorage").EventsFolder.LuckIncrease:FireServer(1.5)
-end
+Tab:CreateButton("Get Divine Power [Requires 1 coin to Work]", function()
+
+local args = {
+    [1] = 1,
+    [2] = "Divine Power"
+}
+
+game:GetService("ReplicatedStorage").EventsFolder.ShopEvents.ShopEvent:FireServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Get Luck", function()
+
+local args = {
+    [1] = 9e9
+}
+
+game:GetService("ReplicatedStorage").EventsFolder:FindFirstChild("{a9a85bd3-748c-4f0e-987f-8fcddf809626}"):FireServer(unpack(args))
+
 end)
 
 local Tab = Window:NewSection("Player")
