@@ -8,7 +8,7 @@ Tab:CreateToggle("Auto Random [Fast]", function(value)
      Toggle = value;
 end)
 spawn(function()
-     while wait(0.1) do
+     while wait(0.00000001) do
                if Toggle then
                 game:GetService("ReplicatedStorage").EventsFolder.GenerateAttack:FireServer("Players","Random")
      end
