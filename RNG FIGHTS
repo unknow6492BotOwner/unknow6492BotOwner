@@ -25,7 +25,7 @@ RollCooldown.Value = 0.0000000000000000000000001
 
 end)
 
-Tab:CreateButton("Get Divine Power [1 coin for Work]", function()
+Tab:CreateButton("Get Divine Power[1 coin for Work]", function()
 
 local args = {
     [1] = 1,
@@ -36,14 +36,27 @@ game:GetService("ReplicatedStorage").EventsFolder.ShopEvents.ShopEvent:FireServe
 
 end)
 
-Tab:CreateButton("Get Luck", function()
-while wait() do
-local args = {
-    [1] = 1.5
-}
+local Tab = Window:NewSection("Teleport")
 
-game:GetService("ReplicatedStorage").EventsFolder:FindFirstChild("{a9a85bd3-748c-4f0e-987f-8fcddf809626}"):FireServer(unpack(args))
-end
+Tab:CreateButton("Safe Zone", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0.378860474, 39.5, 0.187259674, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+wait()
+
+end)
+
+Tab:CreateButton("Shop", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-106.473511, 2.5, -132.22612, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+wait()
+
+end)
+
+Tab:CreateButton("Accept the quest", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3.16045761, 0.5, 130.81633, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+wait()
+
 end)
 
 local Tab = Window:NewSection("Player")
