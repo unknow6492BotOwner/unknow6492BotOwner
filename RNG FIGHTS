@@ -26,11 +26,9 @@ RollCooldown.Value = 0.0000000000000000000000001
 end)
 
 Tab:CreateButton("Get 4.7 Luck", function()
-
 while wait() do
 game:GetService("ReplicatedStorage").EventsFolder.LuckIncrease:FireServer(1.5)
 end
-
 end)
 
 local Tab = Window:NewSection("Player")
