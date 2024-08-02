@@ -25,7 +25,7 @@ RollCooldown.Value = 0.0000000000000000000000001
 
 end)
 
-Tab:CreateButton("Get Divine Power [Requires 1 coin to Work]", function()
+Tab:CreateButton("Get Divine Power [1 coin for Work]", function()
 
 local args = {
     [1] = 1,
@@ -37,13 +37,13 @@ game:GetService("ReplicatedStorage").EventsFolder.ShopEvents.ShopEvent:FireServe
 end)
 
 Tab:CreateButton("Get Luck", function()
-
+while wait() do
 local args = {
-    [1] = 9e9
+    [1] = 1.5
 }
 
 game:GetService("ReplicatedStorage").EventsFolder:FindFirstChild("{a9a85bd3-748c-4f0e-987f-8fcddf809626}"):FireServer(unpack(args))
-
+end
 end)
 
 local Tab = Window:NewSection("Player")
