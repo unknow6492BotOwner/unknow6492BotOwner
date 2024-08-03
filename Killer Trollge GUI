@@ -49,6 +49,13 @@ Tab:CreateButton("Kill All Npc and Yourself", function()
     end
     
     killAllEntitiesExceptSelf()
+    
+    game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Script Loading";
+    Text = "Done!";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
 
 end)
 
