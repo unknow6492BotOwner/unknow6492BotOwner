@@ -1,5 +1,5 @@
 local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
-local Window = Library:NewWindow("trollge harmony")
+local Window = Library:NewWindow("trollge harmony [FIX]")
 
 local Tab = Window:NewSection("SpawnSkill (Chara)")
 
@@ -19,9 +19,9 @@ game:GetService("Players").LocalPlayer.Character:FindFirstChild("Rush Slash").Ba
 
 end)
 
-Tab:CreateButton("Triple Slash", function()
+Tab:CreateButton("Death Strike", function()
 
-game:GetService("Players").LocalPlayer.Character:FindFirstChild("Triple Slash").LocalScript.Slash2:FireServer()
+game:GetService("Players").LocalPlayer.Character:FindFirstChild("Death Strike").LocalScript.Slash1:FireServer()
 
 end)
 
