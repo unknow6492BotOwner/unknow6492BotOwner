@@ -1,0 +1,315 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local Window = Library:NewWindow("trollge harmony")
+
+local Tab = Window:NewSection("SpawnSkill (Chara)")
+
+Tab:CreateButton("Triple Slash", function()
+
+game:GetService("Players").LocalPlayer.Character:FindFirstChild("Triple Slash").LocalScript.Slash1:FireServer()
+wait(1)
+game:GetService("Players").LocalPlayer.Character:FindFirstChild("Triple Slash").LocalScript.Slash2:FireServer()
+wait(1)
+game:GetService("Players").LocalPlayer.Character:FindFirstChild("Triple Slash").LocalScript.Slash3:FireServer()
+
+end)
+
+Tab:CreateButton("Rush Slash", function()
+
+game:GetService("Players").LocalPlayer.Character:FindFirstChild("Rush Slash").Barrage.Event:FireServer()
+
+end)
+
+Tab:CreateButton("Triple Slash", function()
+
+game:GetService("Players").LocalPlayer.Character:FindFirstChild("Triple Slash").LocalScript.Slash2:FireServer()
+
+end)
+
+local Tab = Window:NewSection("How Get Chara")
+
+Tab:CreateButton("Buy Heart 800$ [1/2]", function()
+
+local args = {
+    [1] = "Heart",
+    [2] = "Buy",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Market:FireServer(unpack(args))
+
+end)
+
+Tab:CreateButton("Buy Strange Knife 25,000$ [2/2]", function()
+
+local args = {
+    [1] = "Strange Knife",
+    [2] = "Buy",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Market:FireServer(unpack(args))
+
+end)
+
+local Tab = Window:NewSection("Teleport [Ver1]")
+
+Tab:CreateButton("Safe Zone", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-683.680359, -68.2240829, 718.182556, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+wait()
+
+end)
+
+Tab:CreateButton("Craft Tool 1", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1290.20557, -66.0079422, -148.372971, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+wait()
+
+end)
+
+Tab:CreateButton("Craft Tool 2", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1194.54492, -67.6600189, -264.806122, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+wait()
+
+end)
+
+local Tab = Window:NewSection("KillerTrollge")
+
+Tab:CreateButton("Kill All NPC", function()
+
+sethiddenproperty(game.Players.LocalPlayer, "SimulationRadius", 112412400000)
+sethiddenproperty(game.Players.LocalPlayer, "MaxSimulationRadius", 112412400000)
+for i,d in pairs(game.Workspace:GetDescendants()) do
+    if d.ClassName == 'Humanoid' and d.Parent.Name ~= game.Players.LocalPlayer.Name then
+        d.Health = 0
+    end
+end
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Script Loading";
+    Text = "Done!";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+end)
+
+Tab:CreateButton("Kill All Npc and Yourself Ver2", function()
+
+    local function killAllEntitiesExceptSelf()
+
+        for _, p in ipairs(game.Players:GetPlayers()) do
+            if p ~= player then
+                local character = p.Character
+                if character then
+                    for _, part in ipairs(character:GetChildren()) do
+                        if part:IsA("Humanoid") then
+                            part.Health = 0
+                        end
+                    end
+                end
+            end
+        end
+        
+        for _, v in ipairs(workspace:GetDescendants()) do
+            if v:IsA("Model") and v:FindFirstChildOfClass("Humanoid") then
+                if v.Parent ~= player.Character then
+                    v.Humanoid.Health = 0
+                end
+            end
+        end
+    end
+    
+    killAllEntitiesExceptSelf()
+    
+    game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Script Loading";
+    Text = "Done!";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+end)
+
+local Tab = Window:NewSection("Player")
+
+Tab:CreateTextbox("WalkSpeed Set", function(text)
+
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (text)
+
+end)
+
+Tab:CreateTextbox("Jumppower Set", function(text)
+
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = (text)
+
+end)
+
+Tab:CreateTextbox("Gravity", function(text)
+
+        workspace.Gravity = (text)
+
+end)
+
+Tab:CreateButton("Reset Speed", function()
+
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+
+end)
+
+Tab:CreateButton("Reset Jumppower", function()
+
+game.Players.LocalPlayer.Character.Humanoid.JumpPower =  50
+
+end)
+
+Tab:CreateButton("Reset Gravity", function()
+
+workspace.Gravity = 196.2
+
+end)
+
+Tab:CreateButton("Reset Character", function()
+
+game.Players.LocalPlayer.Character.Head:Destroy()
+
+end)
+
+local Tab = Window:NewSection("Server[📊]")
+
+Tab:CreateButton("ReJoin[🔁]", function()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ReJoin[🔁]";
+    Text = "Loading...";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(2)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ReJoin[🔁]";
+    Text = "1/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ReJoin[🔁]";
+    Text = "2/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ReJoin[🔁]";
+    Text = "3/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ReJoin[🔁]";
+    Text = "Loading...[Finish]";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(2)
+
+game:GetService("TeleportService"):Teleport(game.PlaceId)
+
+end)
+
+Tab:CreateButton("ServerHop LowPlayer[⏩]", function()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ServerHop LowPlayer[⏩]";
+    Text = "Loading...";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(2)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ServerHop LowPlayer[⏩]";
+    Text = "1/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ServerHop LowPlayer[⏩]";
+    Text = "2/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "ServerHop LowPlayer[⏩]";
+    Text = "3/3";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1.5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "[ServerHop LowPlayer[⏩]]";
+    Text = "Loading...[Finish]";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(2)
+
+local Http = game:GetService("HttpService")
+local TPS = game:GetService("TeleportService")
+local Api = "https://games.roblox.com/v1/games/"
+ 
+local _place = game.PlaceId
+local _servers = Api.._place.."/servers/Public?sortOrder=Asc&limit=100"
+function ListServers(cursor)
+   local Raw = game:HttpGet(_servers .. ((cursor and "&cursor="..cursor) or ""))
+   return Http:JSONDecode(Raw)
+end
+ 
+local Server, Next; repeat
+   local Servers = ListServers(Next)
+   Server = Servers.data[1]
+   Next = Servers.nextPageCursor
+until Server
+ 
+TPS:TeleportToPlaceInstance(_place,Server.id,game:GetService('Players').LocalPlayer)
+
+end)
+
+Tab:CreateButton("Server Finder [💬]", function()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Finder Server Script";
+    Text = "Loading...";
+    Icon = "rbxassetid://2005276185";
+    Duration = 5;
+})
+
+wait(1)
+
+loadstring(game:HttpGet("https://www.scriptblox.com/raw/Server-Browser_80", true))();
+
+end)
+
+local Tab = Window:NewSection("YT: BaconScript#9172")
