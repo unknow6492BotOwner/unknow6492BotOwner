@@ -1,0 +1,20 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local Window = Library:NewWindow("UTMM")
+
+local Tab = Window:NewSection("Main")
+
+Tab:CreateButton("Infinity XP [Dummy]", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(190.669998, 3.79999924, 30.4150009, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+wait()
+
+end)
+
+Tab:CreateButton("infinity Gold [Dummy]", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(173.669998, 3.79999924, 30.4150009, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+wait()
+
+end)
+
+local Tab = Window:NewSection("YT: BaconScript")
