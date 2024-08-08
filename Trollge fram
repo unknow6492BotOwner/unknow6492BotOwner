@@ -373,6 +373,23 @@ AutoCollectDelay.BackgroundTransparency = .5
 AutoCollectDelay.PlaceholderText = "Collect Delay"
 AutoCollectDelay.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
 
+GotoShop.Name = "GotoShop"
+GotoShop.Parent = Frame2
+GotoShop.Size = UDim2.new(0, 125, 0, 25)
+GotoShop.Position = UDim2.new(0, 12.5, 0, 87.5)
+GotoShop.Text = "Anti AFK"
+GotoShop.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GotoShop.BorderColor3 = Color3.fromRGB(255, 255, 255)
+GotoShop.BorderSizePixel = 2
+GotoShop.TextColor3 = Color3.fromRGB(255, 255, 255)
+GotoShop.TextScaled = true
+GotoShop.TextSize = 20
+GotoShop.Visible = true
+GotoShop.BackgroundTransparency = .5
+GotoShop.MouseButton1Up:Connect(function()
+
+end)
+
 Fix.Name = "Fix"
 Fix.Parent = Frame2
 Fix.Size = UDim2.new(0, 125, 0, 25)
