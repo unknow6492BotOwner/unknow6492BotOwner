@@ -1,5 +1,3 @@
-Ability Wars Tower Defense (FYI: You should use the script quickly before it gets patched) Credits: ---
- 
 local screenGui = Instance.new("ScreenGui")
 screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
