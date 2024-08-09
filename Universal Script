@@ -137,7 +137,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Section = Tab:CreateSection("Ability Wars Tower Defense")
+local Tab = Window:CreateTab("Ability Wars Tower Defense", 4483362458) -- Title, Image
 
 local Section = Tab:CreateSection("Credit Zhen X")
 
