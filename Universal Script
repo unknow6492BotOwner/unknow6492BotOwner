@@ -31,7 +31,7 @@ local Label = CreditTab:CreateLabel("Hub Universal Script")
 local Label = CreditTab:CreateLabel("By Universal Script")
 local Label = CreditTab:CreateLabel("Pls Subscribe & Like & Share")
 
-local Section = Tab:CreateSection("Pass K For Off/On")
+local Section = CTab:CreateSection("Pass K For Off/On")
 
 local Button = Tab:CreateButton({
    Name = "KeyBoard",
