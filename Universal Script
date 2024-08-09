@@ -147,3 +147,50 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/HEe"))()
    end,
 })
+
+local Tab = Window:CreateTab("MM2", 4483362458) -- Title, Image
+
+local Section = Tab:CreateSection("Credit Roblox exploit zack gaming")
+
+local Button = Tab:CreateButton({
+   Name = "YARHM Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
+   end,
+})
+
+local Section = Tab:CreateSection("Credit PedritoExploiter")
+
+local Button = Tab:CreateButton({
+   Name = "Nx Crazy Dev [Key]",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/script-by/Nx-Crazy/main/Silent-Aim-MM2"))()
+   end,
+})
+
+local Section = Tab:CreateSection("Credit KINGbeez")
+
+local Button = Tab:CreateButton({
+   Name = "Trade Scam MM V2",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Xtnq/q/main/crs.lua"))()
+   end,
+})
+
+local Section = Tab:CreateSection("Credit ST'EF")
+
+local Button = Tab:CreateButton({
+   Name = "Trade Scam GUI V1.29",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/7cb4bS8XpqWqcVLTTAQp/g3XRLLAGCNuZFIL70ozo/main/pastebincode", true))()
+   end,
+})
+
+local Section = Tab:CreateSection("Credit ExploitWarrior")
+
+local Button = Tab:CreateButton({
+   Name = "Vynixu's Script Hub",
+   Callback = function()
+   loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+   end,
+})
