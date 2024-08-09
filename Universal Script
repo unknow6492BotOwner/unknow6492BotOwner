@@ -194,3 +194,43 @@ local Button = Tab:CreateButton({
    loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
    end,
 })
+
+local Tab = Window:CreateTab("Meme Sea", 4483362458) -- Title, Image
+
+local Section = Tab:CreateSection("Credit Elgato Hub")
+
+local Button = Tab:CreateButton({
+   Name = "Elgato Hub [Key]",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/TranVanBao1411/ElgatoHub/main/Loader.lua"))()
+   end,
+})
+
+local Section = Tab:CreateSection("Credit Omg Shit Hub")
+
+local Button = Tab:CreateButton({
+   Name = "Omg Shit Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
+   end,
+})
+
+local Section = Tab:CreateSection("Credit Xesonz Hub")
+
+local Button = Tab:CreateButton({
+   Name = "XESONZ Hub [Key Is: XESONZKEYTHAILAND]",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/TheXesonz/Xesonz-Hub/main/Kak"))()
+   end,
+})
+
+local Section = Tab:CreateSection("Credit Unknown")
+
+local Button = Tab:CreateButton({
+   Name = "Unknown",
+   Callback = function()
+   loadstring(game:HttpGet("https://pst.innomi.net/paste/ehzs6n2e5z265tq6mojjn4yr/raw"))()
+   end,
+})
+
+local Tab = Window:CreateTab("Coming Soon", 4483362458) -- Title, Image
