@@ -16,7 +16,7 @@ local title = Instance.new("TextLabel")
 title.Size = UDim2.new(1, 0, 0, 50)
 title.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 title.BorderSizePixel = 0
-title.Text = "Select a Tower"
+title.Text = "Admin Peanl"
 title.TextColor3 = Color3.fromRGB(255, 255, 255)
 title.Font = Enum.Font.SourceSansBold
 title.TextSize = 24
@@ -24,7 +24,7 @@ title.Parent = frame
 
 -- Ajouter un bouton pour réduire la taille
 local reduceButton = Instance.new("TextButton")
-reduceButton.Size = UDim2.new(0, 50, 0, 50)
+reduceButton.Size = UDim2.new(0, 30, 0, 30)
 reduceButton.Position = UDim2.new(1, -50, 0, 0)
 reduceButton.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
 reduceButton.BorderSizePixel = 0
