@@ -1,0 +1,149 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Window = Rayfield:CreateWindow({
+   Name = "Universal Script 🤑 | Beta Script",
+   LoadingTitle = "Loading...",
+   LoadingSubtitle = "By BaconScript OFFICIAL",
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Big Hub"
+   },
+   Discord = {
+      Enabled = false,
+      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+   KeySystem = true, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Universal Script",
+      Subtitle = "Key System",
+      Note = "Script Universal New[Beta 0.1]",
+      FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = false, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"Subscribe"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+   }
+})
+
+local CreditTab = Window:CreateTab("Credit Hub", 4483362458) -- Title, Image
+
+local Label = CreditTab:CreateLabel("Hub Universal Script")
+local Label = CreditTab:CreateLabel("By BaconScript")
+local Label = CreditTab:CreateLabel("Pls Subscribe & Like & Share")
+
+local Tab = Window:CreateTab("Slap Battles 👏", 4483362458) -- Title, Image
+
+local Section = Tab:CreateSection("Credit OMG Script")
+
+local Button = Tab:CreateButton({
+   Name = "FarmSlap | 10mins = 32K Slap [Need 5.5K Slap For Work]",
+   Callback = function()
+   getgenv().Setting = { 
+			Amount = 1000, -- from 100 to 1200 it's best
+			Time = 10 -- from 5 to 20 it's best (lower time decreases ban chance)
+		}
+		loadstring(game:HttpGet"https://raw.githubusercontent.com/OMOScripts/Share-Scripts/main/Sb%7C%20Bypass%20Anti%20cheat")() -- Bypass
+		loadstring(game:HttpGet"https://pastefy.app/2EIiKQ6h/raw")()
+   end,
+})
+
+local Section = Tab:CreateSection("Credit Gianplay Hub")
+
+local Button = Tab:CreateButton({
+   Name = "Slap Battles👏 Mobile",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Slap_Battles/main/Slap_Battles.lua",true))()
+   end,
+})
+
+local Section = Tab:CreateSection("Credit KykyryzoB Hub")
+
+local Button = Tab:CreateButton({
+   Name = "KykyryzoB Hub| Slap Battles👏",
+   Callback = function()
+   loadstring(game:HttpGet('https://rawscripts.net/raw/Slap-Battles-KykyryzoB-Hub-SB-9008'))()
+   end,
+})
+
+local Section = Tab:CreateSection("Credit OMG HUB")
+
+local Button = Tab:CreateButton({
+   Name = "Farm Bob",
+   Callback = function()
+   loadstring(game:HttpGet"https://pastefy.app/qybyKg6p/raw")()
+   end,
+})
+
+local Tab = Window:CreateTab("The Strongest BattleGrounds", 4483362458) -- Title, Image
+
+local Section = Tab:CreateSection("Credit Unknown")
+
+local Button = Tab:CreateButton({
+   Name = "Fake Gojo Moveset [Key] | Key is: Zenon12345",
+   Callback = function()
+   loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Gojo-Moveset-Script-FIX-16704"))()
+   end,
+})
+
+local Section = Tab:CreateSection("Credit Tariviste")
+
+local Button = Tab:CreateButton({
+   Name = "Fake KJ Moveset",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/Tariviste/Scripts/main/The%20Strongest%20Battlegrounds'))()
+   end,
+})
+
+local Section = Tab:CreateSection("Credit BatmanHub")
+
+local Button = Tab:CreateButton({
+   Name = "Auto Block Hub",
+   Callback = function()
+   if getgenv().BatmanHubLoaded ~= true then
+    getgenv().BatmanHubLoaded = true
+   loadstring(game:HttpGet("https://github.com/l0ckerV5/BatmanHub/raw/main/Sources/Lite"))()
+else
+    game.StarterGui:SetCore("SendNotification",  { Title = "BatmanHub Lite"; Text = "This script is already executed!"; Icon = "rbxassetid://18792200774"; Duration = 15; })
+end
+   end,
+})
+
+local Section = Tab:CreateSection("Credit Unknown")
+
+local Button = Tab:CreateButton({
+   Name = "Betless Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://rentry.org/betless-hub-x/raw"))()
+   end,
+})
+
+local Tab = Window:CreateTab("Ability Wars", 4483362458) -- Title, Image
+
+local Section = Tab:CreateSection("Credit OMGSCRIPT")
+
+local Button = Tab:CreateButton({
+   Name = "Admin Peanl | 🤑",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Donjosx/AWS/main/Win-TeamBattle.lua"))()
+   end,
+})
+
+local Section = Tab:CreateSection("Credit Syntax")
+
+local Button = Tab:CreateButton({
+   Name = "FarmPunch",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/zAuR0JUT"))()
+   end,
+})
+
+local Section = Tab:CreateSection("Ability Wars Tower Defense")
+
+local Section = Tab:CreateSection("Credit Zhen X")
+
+local Button = Tab:CreateButton({
+   Name = "Admin Peanl | SpawnAll Units",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/mdijdNhw"))()
+   end,
+})
