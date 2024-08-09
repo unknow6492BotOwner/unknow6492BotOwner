@@ -144,6 +144,6 @@ local Section = Tab:CreateSection("Credit Zhen X")
 local Button = Tab:CreateButton({
    Name = "Admin Peanl | SpawnAll Units",
    Callback = function()
-   loadstring(game:HttpGet("https://pastebin.com/raw/mdijdNhw"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/HEe"))()
    end,
 })
