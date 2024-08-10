@@ -35,8 +35,8 @@ local Label = CreditTab:CreateLabel("Special Script ↓↓↓")
 
 local Section = CreditTab:CreateSection("Credit Universal Script")
 
-local Button = CreditTab:CreateButton({
-   Name = "KillerNPC Anything",
+local Button = Tab:CreateButton({
+   Name = "Kill All Npc",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Killer%20All%20Npc"))()
    end,
