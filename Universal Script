@@ -31,6 +31,15 @@ local Label = CreditTab:CreateLabel("Hub Universal Script")
 local Label = CreditTab:CreateLabel("By Universal Script")
 local Label = CreditTab:CreateLabel("Pls Subscribe & Like & Share")
 
+local Label = CreditTab:CreateLabel("Special Script ↓↓↓")
+
+local Button = CreditTab:CreateButton({
+   Name = "Kill All Npc",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Killer%20All%20Npc"))()
+   end,
+})
+
 local Tab = Window:CreateTab("Slap Battles 👏", 4483362458) -- Title, Image
 
 local Section = Tab:CreateSection("Credit OMG Script")
