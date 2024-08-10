@@ -272,3 +272,23 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/Demonfall", true))()
    end,
 })
+
+local Tab = Window:CreateTab("FNF", 4483362458) -- Title, Image
+
+local Section = Tab:CreateSection("Credit Lixzs")
+
+local Button = Tab:CreateButton({
+   Name = "FNF AutoPlayer [Mobile &PC] [Small Ui]",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/RandomScript/main/FunkyFridayMobile"))()
+   end,
+})
+
+local Section = Tab:CreateSection("Credit Lixzs")
+
+local Button = Tab:CreateButton({
+   Name = "AutoPlayer [Mobile & PC] [BIG Ui]",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/uuuuuuu/main/Funky%20Friday/BotPlayer.lua"))();
+   end,
+})
