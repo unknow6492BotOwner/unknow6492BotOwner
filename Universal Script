@@ -31,6 +31,15 @@ local Label = CreditTab:CreateLabel("Hub Universal Script")
 local Label = CreditTab:CreateLabel("By Universal Script")
 local Label = CreditTab:CreateLabel("Pls Subscribe & Like & Share")
 
+local Section = CreditTab:CreateSection("Pass K For Off/On")
+
+local Button = CreditTab:CreateButton({
+   Name = "KeyBoard",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Xxtan31/Ata/main/deltakeyboardcrack.txt", true))()
+   end,
+})
+
 local Tab = Window:CreateTab("Slap Battles 👏", 4483362458) -- Title, Image
 
 local Section = Tab:CreateSection("Credit OMG Script")
