@@ -31,12 +31,12 @@ local Label = CreditTab:CreateLabel("Hub Universal Script")
 local Label = CreditTab:CreateLabel("By Universal Script")
 local Label = CreditTab:CreateLabel("Pls Subscribe & Like & Share")
 
-local Section = CreditTab:CreateSection("Pass K For Off/On")
+local Section = CreditTab:CreateSection("Credit Universal Script")
 
 local Button = CreditTab:CreateButton({
-   Name = "KeyBoard",
+   Name = "KillerNPC Anything",
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Xxtan31/Ata/main/deltakeyboardcrack.txt", true))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Killer%20All%20Npc", true))()
    end,
 })
 
