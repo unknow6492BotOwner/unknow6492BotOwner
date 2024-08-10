@@ -34,9 +34,9 @@ local Label = CreditTab:CreateLabel("Pls Subscribe & Like & Share")
 local Label = CreditTab:CreateLabel("Special Script ↓↓↓")
 
 local Button = CreditTab:CreateButton({
-   Name = "Kill All Npc",
+   Name = "Anti Cheat",
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/unknow6492BotOwner/unknow6492BotOwner/main/Killer%20All%20Npc"))()
+   loadstring(game:HttpGet"https://raw.githubusercontent.com/OMOScripts/Share-Scripts/main/Sb%7C%20Bypass%20Anti%20cheat")()
    end,
 })
 
@@ -80,6 +80,40 @@ local Button = Tab:CreateButton({
    Name = "Farm Bob",
    Callback = function()
    loadstring(game:HttpGet"https://pastefy.app/qybyKg6p/raw")()
+   end,
+})
+
+local Section = Tab:CreateSection("Credit OMGSCRIPT")
+
+local Button = Tab:CreateButton({
+   Name = "Bot [ON]",
+   Callback = function()
+   	loadstring(game:HttpGet"https://raw.githubusercontent.com/OMOScripts/Share-Scripts/main/Sb%7C%20Bypass%20Anti%20cheat")() -- Bypass
+	getgenv().BotSetting = {
+		BotLevel = 2, -- from 1 to 2
+		AutoAbility = true, -- Disable it if your glove not have any ability or only have passive ability 
+		Jump = true, 
+		Dodge = true, -- Make the bot act like player dodging 
+		AutoExec = true -- Turn off this and reset to stop the script 
+	}
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/OMOScripts/Share-Scripts/main/Sb%7CSmartBot-AutoFarm")()
+	
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Bot [OFF]",
+   Callback = function()
+   	loadstring(game:HttpGet"https://raw.githubusercontent.com/OMOScripts/Share-Scripts/main/Sb%7C%20Bypass%20Anti%20cheat")() -- Bypass
+	getgenv().BotSetting = {
+		BotLevel = 1, -- from 1 to 2
+		AutoAbility = true, -- Disable it if your glove not have any ability or only have passive ability 
+		Jump = true, 
+		Dodge = true, -- Make the bot act like player dodging 
+		AutoExec = true -- Turn off this and reset to stop the script 
+	}
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/OMOScripts/Share-Scripts/main/Sb%7CSmartBot-AutoFarm")()
+	
    end,
 })
 
