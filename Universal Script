@@ -1,6 +1,6 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
-   Name = "Universal Script 🤑 | Beta Script",
+   Name = "Universal Script | Version 1",
    LoadingTitle = "Loading...",
    LoadingSubtitle = "By BaconScript OFFICIAL",
    ConfigurationSaving = {
@@ -88,7 +88,7 @@ local Section = Tab:CreateSection("Credit OMGSCRIPT")
 local Button = Tab:CreateButton({
    Name = "Bot [ON]",
    Callback = function()
-   	loadstring(game:HttpGet"https://raw.githubusercontent.com/OMOScripts/Share-Scripts/main/Sb%7C%20Bypass%20Anti%20cheat")() -- Bypass
+   	
 	getgenv().BotSetting = {
 		BotLevel = 2, -- from 1 to 2
 		AutoAbility = true, -- Disable it if your glove not have any ability or only have passive ability 
@@ -104,9 +104,9 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
    Name = "Bot [OFF]",
    Callback = function()
-   	loadstring(game:HttpGet"https://raw.githubusercontent.com/OMOScripts/Share-Scripts/main/Sb%7C%20Bypass%20Anti%20cheat")() -- Bypass
+   	
 	getgenv().BotSetting = {
-		BotLevel = 1, -- from 1 to 2
+		BotLevel = 0, -- from 1 to 2
 		AutoAbility = true, -- Disable it if your glove not have any ability or only have passive ability 
 		Jump = true, 
 		Dodge = true, -- Make the bot act like player dodging 
