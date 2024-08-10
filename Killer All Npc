@@ -10,13 +10,12 @@ end)
 spawn(function()
      while wait(1) do
                if Toggle then
-               sethiddenproperty(game.Players.LocalPlayer, "SimulationRadius", 112412400000)
+sethiddenproperty(game.Players.LocalPlayer, "SimulationRadius", 112412400000)
 sethiddenproperty(game.Players.LocalPlayer, "MaxSimulationRadius", 112412400000)
 for i,d in pairs(game.Workspace:GetDescendants()) do
     if d.ClassName == 'Humanoid' and d.Parent.Name ~= game.Players.LocalPlayer.Name then
         d.Health = 0
     end
-end
 end
 
 end)
