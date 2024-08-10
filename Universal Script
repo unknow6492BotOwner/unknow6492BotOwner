@@ -261,3 +261,14 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://pastefy.app/z1asF1ni/raw"))()
    end,
 })
+
+local Tab = Window:CreateTab("Demonfall", 4483362458) -- Title, Image
+
+local Section = Tab:CreateSection("Credit Tora IsMe")
+
+local Button = Tab:CreateButton({
+   Name = "DemonFall Dupe Items",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/Demonfall", true))()
+   end,
+})
