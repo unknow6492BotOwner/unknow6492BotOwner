@@ -3,7 +3,7 @@ local Window = Library:NewWindow("Killer NPC")
 
 local Tab = Window:NewSection("Main")
 
-Tab:CreateToggle("Toggle", function(value)
+Tab:CreateToggle("Kill NPC", function(value)
 
 Toggle = value;
 end)
