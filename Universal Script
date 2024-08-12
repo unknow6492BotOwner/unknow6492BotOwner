@@ -17,11 +17,11 @@ local Window = Rayfield:CreateWindow({
    KeySettings = {
       Title = "Universal Script",
       Subtitle = "Key System",
-      Note = "Script Universal New[Beta 0.5]",
+      Note = "Script Universal Unlock Key And EnJoy!!!",
       FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
       SaveKey = false, -- The user's key will be saved, but if you change the key, they will be unable to use your script
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = {"Subscribe"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+      Key = {"2024"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
 
@@ -258,12 +258,12 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Section = Tab:CreateSection("Credit Xesonz Hub")
+local Section = Tab:CreateSection("Credit Redz Hub")
 
 local Button = Tab:CreateButton({
-   Name = "XESONZ Hub [Key Is: XESONZKEYTHAILAND]",
+   Name = "Red Hub | AutoFarm",
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/TheXesonz/Xesonz-Hub/main/Kak"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/MemeSea/main/Source.lua"))()
    end,
 })
 
@@ -324,5 +324,65 @@ local Button = Tab:CreateButton({
    Name = "AutoPlayer [Mobile & PC] [BIG Ui]",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/uuuuuuu/main/Funky%20Friday/BotPlayer.lua"))();
+   end,
+})
+
+local Tab = Window:CreateTab("Pet Simulator 99", 4483362458) -- Title, Image
+
+local Section = Tab:CreateSection("Credit PyroXHUB")
+
+local Button = Tab:CreateButton({
+   Name = "Dupe Pet",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/PyroXHUB/IceIgnite/main/NOKEY'))() 
+   end,
+})
+
+local Section = Tab:CreateSection("Credit HiddenScriptingHubsYR")
+
+local Button = Tab:CreateButton({
+   Name = "Dupe & AutoFarm",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptingHubs/HiddenScripts/main/Pet-Simulator99-HiddenScriptsHub"))()
+   end,
+})
+
+local Section = Tab:CreateSection("Credit Sr. LDS")
+
+local Button = Tab:CreateButton({
+   Name = "RNG Event",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/SenhorLDS/ProjectLDSHUB/main/OfficialScript'))()
+   end,
+})
+
+local Tab = Window:CreateTab("Brookhaven", 4483362458) -- Title, Image
+
+local Section = Tab:CreateSection("Credit Redz Hub")
+
+local Button = Tab:CreateButton({
+   Name = "Red Hub | Troll Player",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/REDzHUB/main/REDzHUB"))()
+   end,
+})
+
+local Tab = Window:CreateTab("Sol's RNG", 4483362458) -- Title, Image
+
+local Section = Tab:CreateSection("Credit Denim_Blox")
+
+local Button = Tab:CreateButton({
+   Name = "EruditeHub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/ThacG/EruditeHub/main/Sol's%20RNG/V2"))()
+   end,
+})
+
+local Section = Tab:CreateSection("Credit Yourlocalacripter")
+
+local Button = Tab:CreateButton({
+   Name = "NUTeplaVING Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/NUTellaVING/Survive/main/Loader.lua"))()
    end,
 })
