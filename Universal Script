@@ -1,6 +1,6 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
-   Name = "Universal Script | Version 1",
+   Name = "Universal Script | Version 2",
    LoadingTitle = "Loading...",
    LoadingSubtitle = "By BaconScript OFFICIAL",
    ConfigurationSaving = {
@@ -37,6 +37,46 @@ local Button = CreditTab:CreateButton({
    Name = "Anti Cheat",
    Callback = function()
    loadstring(game:HttpGet"https://raw.githubusercontent.com/OMOScripts/Share-Scripts/main/Sb%7C%20Bypass%20Anti%20cheat")()
+   end,
+})
+
+local Tab = Window:CreateTab("[FE] Script", 2005276185) -- Title, Image
+
+local Section = Tab:CreateSection("Credit Im Patrick")
+
+local Button = Tab:CreateButton({
+   Name = "Control NPC",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastefy.app/TQQLPh3J/raw"))()
+   end,
+})
+
+local Section = Tab:CreateSection("Credit Phillymademar")
+
+local Button = Tab:CreateButton({
+   Name = "FE Trolling GUI",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/FE%20Trolling%20GUI.luau"))()
+   end,
+})
+
+local Section = Tab:CreateSection("Credit Im Patrick")
+
+local Button = Tab:CreateButton({
+   Name = "Hunter | Fling Player",
+   Callback = function()
+   getgenv().chatgame = "play" --chat kill notification
+
+loadstring(game:HttpGet(('https://pastefy.app/KYs0sftX/raw'),true))()
+   end,
+})
+
+local Section = Tab:CreateSection("Credit Aduritian")
+
+local Button = Tab:CreateButton({
+   Name = "Car",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexCr4sh/FeScripts/main/FeCarScript.lua", true))()
    end,
 })
 
