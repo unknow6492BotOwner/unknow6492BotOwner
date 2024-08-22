@@ -1,6 +1,6 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
-   Name = "Universal Script | Version 2",
+   Name = "Universal Script | Version 2.1",
    LoadingTitle = "Loading...",
    LoadingSubtitle = "By BaconScript OFFICIAL",
    ConfigurationSaving = {
@@ -79,6 +79,44 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexCr4sh/FeScripts/main/FeCarScript.lua", true))()
    end,
 })
+
+
+local Section = Tab:CreateSection("Credit Phillymademar")
+
+local Button = Tab:CreateButton({
+   Name = "Ban Hammer",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Ban%20Hammer"))()
+   end,
+})
+
+local Section = Tab:CreateSection("Credit Phillymademar")
+
+local Button = Tab:CreateButton({
+   Name = "Invisible | R15",
+   Callback = function()
+   loadstring(game:HttpGet(https://scriptblox.com/raw/Universal-..."'))(
+   end,
+})
+
+local Section = Tab:CreateSection("Credit unknown")
+
+local Button = Tab:CreateButton({
+   Name = "Free Emote",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/eCpipCTH"))()
+   end,
+})
+
+local Section = Tab:CreateSection("Credit Phillymademar")
+
+local Button = Tab:CreateButton({
+   Name = "Sad Boys",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/hgPJbwF0"))()
+   end,
+})
+
 
 local Tab = Window:CreateTab("Slap Battles 👏", 4483362458) -- Title, Image
 
@@ -424,5 +462,28 @@ local Button = Tab:CreateButton({
    Name = "NUTeplaVING Hub",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/NUTellaVING/Survive/main/Loader.lua"))()
+   end,
+})
+
+local Tab = Window:CreateTab("Blade Ball", 4483362458) -- Title, Image
+
+local Section = Tab:CreateSection("Credit crackie :D")
+
+local Button = Tab:CreateButton({
+   Name = "Blade Ball - Key: GvhyCt6Bisj678BIsGNGer [",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/FriezGG/Scripts/main/Speed%20X%20BladeBall"))()
+   end,
+})
+
+local Tab = Window:CreateTab("Bedwars", 4483362458) -- Title, Image
+
+
+local Section = Tab:CreateSection("Credit unknown")
+
+local Button = Tab:CreateButton({
+   Name = "[Best] Bedwars Script",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
    end,
 })
