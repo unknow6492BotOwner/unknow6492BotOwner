@@ -16,22 +16,9 @@ end)
 
 end)
 
-Tab:CreateButton("Get God Sword and Inf Chicken", function()
+Tab:CreateButton("Inf Chicken", function()
 
-game:GetService("ReplicatedStorage").Events.purchaseWeapon:InvokeServer("God Sword",0)
-
-end)
-
-Tab:CreateButton("Buy All Free", function()
-
-Oldnamecall = hookmetamethod(game, "__namecall", function(self, ...)
-	local args = {...}
-
-	if getnamecallmethod() == "InvokeServer" and self.Name == "purchaseWeapon" or self.Name == "purchaseArmor" or self.Name == "purchaseBoats" then
-		args[2] = 0
-	end
-	return Oldnamecall(self, unpack(args))
-end)
+local name = "Pearl Armor" local value = -9e99 local replic = game:GetService("ReplicatedStorage") replic.Events.purchaseArmor:InvokeServer(name, value)
 
 end)
 
@@ -89,7 +76,7 @@ end)
 
 local Tab = Window:NewSection("Teleport")
 
-Tab:CreateButton("King", function()
+Tab:CreateButton("The King's Throne", function()
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-357.078064, 188.631989, -4.69655037, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 wait()
